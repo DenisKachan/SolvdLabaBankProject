@@ -1,12 +1,12 @@
-package BankStructure;
+package StructureOfTheBank;
 
-public class Accounting {
+public class BaseDepartment {
 
     private String address;
     private int numberOfEmployees;
     private int neededAmountOfEmployees;
 
-    public Accounting(String address, int numberOfEmployees, int neededAmountOfEmployees) {
+    public BaseDepartment(String address, int numberOfEmployees, int neededAmountOfEmployees) {
         this.address = address;
         this.numberOfEmployees = numberOfEmployees;
         this.neededAmountOfEmployees = neededAmountOfEmployees;

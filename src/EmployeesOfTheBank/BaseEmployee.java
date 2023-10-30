@@ -1,13 +1,13 @@
-package Employees;
+package EmployeesOfTheBank;
 
-public class Management {
+public class BaseEmployee {
 
     private String name;
     private String surname;
     private double amountOfSalary;
     private int workExperienceInMonth;
 
-    public Management(String name, String surname, double amountOfSalary, int workExperienceInMonth) {
+    public BaseEmployee(String name, String surname, double amountOfSalary, int workExperienceInMonth) {
         this.name = name;
         this.surname = surname;
         this.amountOfSalary = amountOfSalary;
@@ -45,5 +45,4 @@ public class Management {
     public void setWorkExperienceInMonth(int workExperienceInMonth) {
         this.workExperienceInMonth = workExperienceInMonth;
     }
-
 }

@@ -1,4 +1,4 @@
-package BankStructure;
+package StructureOfTheBank;
 
 public class ATM {
 

@@ -1,18 +1,19 @@
-package Clients;
+package ClientsOfTheBank;
 
-public class Companies {
+public class BaseClient {
 
     private String name;
-    private int tinNumber;
+    private int accountIdNumber;
     private double totalAccountBalance;
     private double amountOfMoneyForOperation;
     private int termsOfCooperationInMonth;
 
-    public Companies(String name, int tinNumber, double totalAccountBalance,
-                     int termsOfCooperationInMonth) {
+    public BaseClient(String name, int accountIdNumber, double totalAccountBalance,
+                      double amountOfMoneyForOperation, int termsOfCooperationInMonth) {
         this.name = name;
-        this.tinNumber = tinNumber;
+        this.accountIdNumber = accountIdNumber;
         this.totalAccountBalance = totalAccountBalance;
+        this.amountOfMoneyForOperation = amountOfMoneyForOperation;
         this.termsOfCooperationInMonth = termsOfCooperationInMonth;
     }
 
@@ -24,12 +25,12 @@ public class Companies {
         this.name = name;
     }
 
-    public int getTinNumber() {
-        return tinNumber;
+    public int getAccountIdNumber() {
+        return accountIdNumber;
     }
 
-    public void setTinNumber(int tinNumber) {
-        this.tinNumber = tinNumber;
+    public void setAccountIdNumber(int accountIdNumber) {
+        this.accountIdNumber = accountIdNumber;
     }
 
     public double getTotalAccountBalance() {
