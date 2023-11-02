@@ -1,15 +1,27 @@
 package StructureOfTheBank;
 
+import BankAccount.CurrentAccountOfTheBank;
+
+import java.util.Scanner;
+
 public class ATM {
 
     private String address;
-    private int currentBalance;
-    private int incomingCash;
-    private int outgoingCash;
+    private double currentBalance;
 
-    public ATM(String address, int currentBalance) {
-        this.address = address;
-        this.currentBalance = currentBalance;
+    public ATM() {
+        Scanner addressOfTheATM = new Scanner(System.in);
+        System.out.println("Enter the address of the ATM");
+        String atmAddress = addressOfTheATM.nextLine();
+        Scanner currentBalanceOfTheATM = new Scanner(System.in);
+        System.out.println("Enter the balance of the ATM");
+        double atmBalance = currentBalanceOfTheATM.nextDouble();
+        if (atmBalance <= CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()) {
+            this.address = atmAddress;
+            this.currentBalance = atmBalance;
+        } else {
+            System.out.println("The start balance of the ATM can not be larger than the balance of the bank");
+        }
     }
 
     public String getAddress() {
@@ -20,27 +32,20 @@ public class ATM {
         this.address = address;
     }
 
-    public int getCurrentBalance() {
+    public double getCurrentBalance() {
         return currentBalance;
     }
 
-    public void setCurrentBalance(int currentBalance) {
+    public void setCurrentBalance(double currentBalance) {
         this.currentBalance = currentBalance;
     }
 
-    public int getIncomingCash() {
-        return incomingCash;
+    public boolean checkTheAbilityToWithdrawMoney(double moneyForOperation) {
+        return currentBalance >= moneyForOperation;
     }
 
-    public void setIncomingCash(int incomingCash) {
-        this.incomingCash = incomingCash;
-    }
-
-    public int getOutgoingCash() {
-        return outgoingCash;
-    }
-
-    public void setOutgoingCash(int outgoingCash) {
-        this.outgoingCash = outgoingCash;
+    public void callTheCollectionService(double moneyForOperation) {
+        CollectionService collectionService = new CollectionService(moneyForOperation);
+        setCurrentBalance(getCurrentBalance() + collectionService.convertNonCashIntoCash(moneyForOperation));
     }
 }
