@@ -1,6 +1,7 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import StructureOfTheBank.ATM;
 
 import java.util.Objects;
 import java.util.Scanner;

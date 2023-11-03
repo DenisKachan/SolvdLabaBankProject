@@ -59,15 +59,4 @@ public class ClientsIndividuals extends BaseClient {
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
         System.out.println("Your current balance is " + getTotalAccountBalance());
     }
-
-    public void toTopUpBalanceThroughATM(ATM atm) {
-        Scanner amountOfMoney = new Scanner(System.in);
-        System.out.println("Enter the amount of money to top up through ATM");
-        double amountOfMoneyForOperation = amountOfMoney.nextDouble();
-        setTotalAccountBalance(getTotalAccountBalance() + amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
-        atm.setCurrentBalance(atm.getCurrentBalance() + amountOfMoneyForOperation);
-        System.out.println("Your current balance is " + getTotalAccountBalance()
-                + ", The current balance of the ATM is " + atm.getCurrentBalance());
-    }
 }
