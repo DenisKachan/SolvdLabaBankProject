@@ -43,6 +43,22 @@ public abstract class BaseClient {
         this.name = name;
     }
 
+    public int getAccountIdNumber() {
+        return accountIdNumber;
+    }
+
+    public void setAccountIdNumber(int accountIdNumber) {
+        this.accountIdNumber = accountIdNumber;
+    }
+
+    public double getCommissionFee() {
+        return commissionFee;
+    }
+
+    public void setCommissionFee(double commissionFee) {
+        this.commissionFee = commissionFee;
+    }
+
     protected double getTotalAccountBalance() {
         return totalAccountBalance;
     }
