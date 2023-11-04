@@ -55,6 +55,7 @@ public abstract class BaseClient {
         return commissionFee;
     }
 
+
     public void setCommissionFee(double commissionFee) {
         this.commissionFee = commissionFee;
     }
