@@ -1,7 +1,7 @@
 package BankAccount;
 
 
-import interfaces.IStartBalance;
+import Interfaces.IStartBalance;
 
 public final class CurrentAccountOfTheBank implements IStartBalance {
 

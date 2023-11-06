@@ -2,10 +2,10 @@ package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
 import ClientsOfTheBank.BaseClient;
-import interfaces.Countable;
-import interfaces.ICurrency;
-import interfaces.IStartBalance;
-import interfaces.Showing;
+import Interfaces.Countable;
+import Interfaces.ICurrency;
+import Interfaces.IStartBalance;
+import Interfaces.Showing;
 
 public class ManagementDepartment implements IStartBalance, Countable, ICurrency, Showing {
 

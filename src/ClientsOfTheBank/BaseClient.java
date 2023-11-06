@@ -2,9 +2,9 @@ package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
 import StructureOfTheBank.ATM;
-import interfaces.ICurrency;
-import interfaces.Resettable;
-import interfaces.Showing;
+import Interfaces.ICurrency;
+import Interfaces.Resettable;
+import Interfaces.Showing;
 
 import java.util.Objects;
 import java.util.Scanner;

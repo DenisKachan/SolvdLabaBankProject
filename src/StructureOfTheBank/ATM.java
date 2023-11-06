@@ -1,9 +1,9 @@
 package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
-import interfaces.Countable;
-import interfaces.Resettable;
-import interfaces.Showing;
+import Interfaces.Countable;
+import Interfaces.Resettable;
+import Interfaces.Showing;
 
 public class ATM implements Showing, Resettable, Countable {
 
