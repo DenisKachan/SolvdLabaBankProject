@@ -1,7 +1,7 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
-import StructureOfTheBank.ATM;
+import StructureOfTheBank.CreditDepartment;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -12,9 +12,7 @@ public class ClientsIndividuals extends BaseClient {
 
     public ClientsIndividuals() {
         super();
-        Scanner ageOfTheClient = new Scanner(System.in);
-        System.out.println("Enter the age of the client");
-        this.age = ageOfTheClient.nextInt();
+        this.age = 0;
     }
 
     public int getAge() {
@@ -58,5 +56,17 @@ public class ClientsIndividuals extends BaseClient {
         setTotalAccountBalance(getTotalAccountBalance() + amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
         System.out.println("Your current balance is " + getTotalAccountBalance());
+    }
+
+    @Override
+    public void toAskForACredit() {
+        CreditDepartment creditDepartment = new CreditDepartment();
+        creditDepartment.toApproveCredit(this);
+    }
+
+    @Override
+    public void resetToDefaultValues() {
+        super.resetToDefaultValues();
+        this.age = 0;
     }
 }

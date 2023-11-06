@@ -18,7 +18,7 @@ public class CollectionService {
         this.amountOfTheTransportedCash = amountOfTheTransportedCash;
     }
 
-    public double convertNonCashIntoCash(double neededAmountOfMoney) {
+    public double convertMoney(double neededAmountOfMoney) {
         if (neededAmountOfMoney <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()) {
             CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(neededAmountOfMoney);
             CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(neededAmountOfMoney);

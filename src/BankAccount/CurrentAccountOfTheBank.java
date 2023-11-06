@@ -1,12 +1,12 @@
 package BankAccount;
 
 
-public class CurrentAccountOfTheBank {
+import interfaces.IStartBalance;
+
+public final class CurrentAccountOfTheBank implements IStartBalance {
 
     private static double currentCashBalance;
     private static double currentNonCashBalance;
-    private static double startCashBalance = 50000;
-    private static double startNonCashBalance = 50100;
 
     private CurrentAccountOfTheBank(double cash, double nonCash) {
         currentCashBalance = cash;
@@ -17,8 +17,8 @@ public class CurrentAccountOfTheBank {
 
     public static CurrentAccountOfTheBank getInstance() {
         if (instance == null) {
-            currentCashBalance = startCashBalance;
-            currentNonCashBalance = startNonCashBalance;
+            currentCashBalance = START_CASH_BALANCE;
+            currentNonCashBalance = START_NON_CASH_BALANCE;
             instance = new CurrentAccountOfTheBank(currentCashBalance, currentNonCashBalance);
         }
         return instance;
@@ -36,26 +36,10 @@ public class CurrentAccountOfTheBank {
 
     @Override
     public String toString() {
-        return "Cash Balance='" + instance.getCurrentCashBalance() + '\'' +
+        return "Cash Balance='" + getCurrentCashBalance() + '\'' +
                 ", Non Cash Balance=" + instance.getCurrentNonCashBalance() +
                 ", Current Account Balance=" + getCurrentBankBalance() +
                 '}';
-    }
-
-    public static double getStartCashBalance() {
-        return startCashBalance;
-    }
-
-    public static void setStartCashBalance(double startCashBalance) {
-        CurrentAccountOfTheBank.startCashBalance = startCashBalance;
-    }
-
-    public static double getStartNonCashBalance() {
-        return startNonCashBalance;
-    }
-
-    public static void setStartNonCashBalance(double startNonCashBalance) {
-        CurrentAccountOfTheBank.startNonCashBalance = startNonCashBalance;
     }
 
     public double getCurrentCashBalance() {

@@ -1,27 +1,62 @@
 package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ClientsOfTheBank.BaseClient;
+import interfaces.Countable;
+import interfaces.ICurrency;
+import interfaces.IStartBalance;
+import interfaces.Showing;
 
-public class ManagementDepartment {
+public class ManagementDepartment implements IStartBalance, Countable, ICurrency, Showing {
 
-    private boolean riskOfBankruptcyOfTheBank;
+    private static boolean riskOfBankruptcyOfTheBank;
 
     public boolean isRiskOfBankruptcy() {
         return riskOfBankruptcyOfTheBank;
     }
 
     public void setRiskOfBankruptcy(boolean riskOfBankruptcy) {
-        this.riskOfBankruptcyOfTheBank = riskOfBankruptcy;
+        riskOfBankruptcyOfTheBank = riskOfBankruptcy;
     }
 
-    public boolean checkTheRiskOfBankruptcyOfTheBank() {
+    public static boolean checkTheRiskOfBankruptcyOfTheBank() {
+        CurrentAccountOfTheBank.getInstance();
         if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()
-                <= (CurrentAccountOfTheBank.getStartCashBalance() + CurrentAccountOfTheBank.getStartNonCashBalance()) / 2) {
+                <= (START_CASH_BALANCE + START_NON_CASH_BALANCE) / 2) {
             System.out.println("There is a risk of bankruptcy - the current bank funds are less than they should be!");
+            riskOfBankruptcyOfTheBank = true;
             return true;
         } else {
             System.out.println("There is no risk of bankruptcy!");
+            riskOfBankruptcyOfTheBank = false;
             return false;
         }
+    }
+
+    @Override
+    public void amountOfCreatedEntities() {
+        System.out.println(BaseClient.getAmountOfClients());
+    }
+
+    @Override
+    public void amountOfFinancialFlows() {
+        System.out.println(BaseClient.getFinancialFlows());
+    }
+
+    public static void showCurrentBalanceInDifferentCurrency() {
+        System.out.println("The current balance in dollars is "
+                + CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / DOLLAR_CURRENCY);
+        System.out.println("The current balance in euro is "
+                + CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / EURO_CURRENCY);
+    }
+
+    @Override
+    public void showBalance() {
+        System.out.println(CurrentAccountOfTheBank.getInstance().getCurrentBankBalance());
+    }
+
+    @Override
+    public void showFullInformation() {
+        System.out.println(CurrentAccountOfTheBank.getInstance());
     }
 }

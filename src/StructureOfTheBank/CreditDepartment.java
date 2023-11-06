@@ -1,6 +1,5 @@
 package StructureOfTheBank;
 
-import ClientsOfTheBank.BaseClient;
 import ClientsOfTheBank.ClientsIndividuals;
 import ClientsOfTheBank.Companies;
 
@@ -21,23 +20,23 @@ public class CreditDepartment {
         this.abilityOfCreditDepartmentToProvideACredit = abilityToProvideALoan;
     }
 
-    public void toApproveACredit(BaseClient baseClient) {
-        if ((baseClient.getClass() == ClientsIndividuals.class)) {
-            if (((ClientsIndividuals) baseClient).getAge() <= 25 || baseClient.getCreditDelays() >= 2
-                    || baseClient.getAmountOfMonthlyIncome() <= 1000
-                    || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
-                System.out.println("Credit for a client individual can't be approved!");
-            } else {
-                System.out.println("Credit for the client individual is approved!");
-            }
+    public final void toApproveCredit(ClientsIndividuals clientsIndividuals) {
+        if (clientsIndividuals.getAge() <= 25 || clientsIndividuals.getCreditDelays() >= 2
+                || clientsIndividuals.getAmountOfMonthlyIncome() <= 1000
+                || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
+            System.out.println("Credit for a client individual can't be approved!");
         } else {
-            if (Year.now().getValue() - ((Companies) baseClient).getYearOfFoundation() < 5
-                    || baseClient.getCreditDelays() > 0 || baseClient.getAmountOfMonthlyIncome() <= 5000
-                    || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
-                System.out.println("Credit for a company can't be approved!");
-            } else {
-                System.out.println("Credit for the company is approved!");
-            }
+            System.out.println("Credit for the client individual is approved!");
+        }
+    }
+
+    public final void toApproveCredit(Companies companies) {
+        if (Year.now().getValue() - companies.getYearOfFoundation() < 5
+                || companies.getCreditDelays() > 0 || companies.getAmountOfMonthlyIncome() <= 5000
+                || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
+            System.out.println("Credit for a company can't be approved!");
+        } else {
+            System.out.println("Credit for the company is approved!");
         }
     }
 }

@@ -1,7 +1,7 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
-import StructureOfTheBank.ATM;
+import StructureOfTheBank.CreditDepartment;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -12,9 +12,7 @@ public class Companies extends BaseClient {
 
     public Companies() {
         super();
-        Scanner yearOfFoundationOfTheCompany = new Scanner(System.in);
-        System.out.println("Enter the year of foundation of the company");
-        this.yearOfFoundation = yearOfFoundationOfTheCompany.nextInt();
+        this.yearOfFoundation = 0;
     }
 
     public int getYearOfFoundation() {
@@ -58,5 +56,17 @@ public class Companies extends BaseClient {
         setTotalAccountBalance(getTotalAccountBalance() + amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
         System.out.println("Your current balance is " + getTotalAccountBalance());
+    }
+
+    @Override
+    public void toAskForACredit() {
+        CreditDepartment creditDepartment = new CreditDepartment();
+        creditDepartment.toApproveCredit(this);
+    }
+
+    @Override
+    public void resetToDefaultValues() {
+        super.resetToDefaultValues();
+        this.yearOfFoundation = 0;
     }
 }
