@@ -230,10 +230,10 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         Scanner currencyName = new Scanner(System.in);
         System.out.println("Enter the name of the currency you want to get");
         String currency = currencyName.nextLine();
-        currency.toLowerCase();
+        String wantedCurrency = currency.toLowerCase();
         double foreignCurrency;
         if (amountOfMoney <= getTotalAccountBalance()) {
-            switch (currency) {
+            switch (wantedCurrency) {
                 case "euro" -> {
                     foreignCurrency = amountOfMoney / EURO_CURRENCY;
                     System.out.println("You will get " + foreignCurrency + " euro");
