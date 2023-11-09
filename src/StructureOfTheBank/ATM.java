@@ -1,6 +1,9 @@
 package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import Exceptions.AddressException;
+import Exceptions.LackOfNonCashAfterConvertingException;
+import Exceptions.TotalAccountBalanceException;
 import Interfaces.Countable;
 import Interfaces.Resettable;
 import Interfaces.Showing;
@@ -14,21 +17,17 @@ public class ATM implements Showing, Resettable, Countable {
 
 
     public ATM() {
-        CurrentAccountOfTheBank.getInstance();
-        if (currentBalance <= CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()) {
             this.address = "Unknown";
             this.currentBalance = 0;
-        } else {
-            System.out.println("The start balance of the ATM can not be larger than the balance of the bank");
-        }
     }
 
     public String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setAddress(String address) throws AddressException {
+        if (address.equals("")){throw new AddressException("The address is wrong");
+        } else {this.address = address;}
     }
 
     public double getCurrentBalance() {
@@ -51,12 +50,12 @@ public class ATM implements Showing, Resettable, Countable {
         ATM.financialFlowsThroughTheATM = financialFlowsThroughTheATM;
     }
 
-    public void setCurrentBalance(double currentBalance) {
+    public void setCurrentBalance(double currentBalance) throws TotalAccountBalanceException {
         CurrentAccountOfTheBank.getInstance();
         if (currentBalance <= CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()) {
-            this.currentBalance = currentBalance;
+            throw new TotalAccountBalanceException("Something wrong with balance of the ATM");
         } else {
-            System.out.println("The start balance of the ATM can not be larger than the balance of the bank");
+            this.currentBalance = currentBalance;
         }
     }
 
@@ -82,7 +81,7 @@ public class ATM implements Showing, Resettable, Countable {
 
     public final void callTheCollectionService(double moneyForOperation) {
         CollectionService collectionService = new CollectionService(moneyForOperation);
-        setCurrentBalance(getCurrentBalance() + collectionService.convertMoney(moneyForOperation));
+        currentBalance += collectionService.convertMoney(moneyForOperation);
     }
 
     @Override

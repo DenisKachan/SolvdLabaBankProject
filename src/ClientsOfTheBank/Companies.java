@@ -1,10 +1,12 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ConsoleScanner.CreationObjectsFromConsole;
+import Exceptions.YearOfFoundationException;
 import StructureOfTheBank.CreditDepartment;
 
+import java.time.Year;
 import java.util.Objects;
-import java.util.Scanner;
 
 public class Companies extends BaseClient {
 
@@ -12,15 +14,16 @@ public class Companies extends BaseClient {
 
     public Companies() {
         super();
-        this.yearOfFoundation = 0;
+        this.yearOfFoundation = Year.now().getValue();
     }
 
     public int getYearOfFoundation() {
         return yearOfFoundation;
     }
 
-    public void setYearOfFoundation(int yearOfFoundation) {
-        this.yearOfFoundation = yearOfFoundation;
+    public void setYearOfFoundation(int yearOfFoundation) throws YearOfFoundationException {
+        if (yearOfFoundation> Year.now().getValue()){throw new YearOfFoundationException("The year of foundation is not appropriate");}
+        else {this.yearOfFoundation = yearOfFoundation;}
     }
 
     @Override
@@ -49,13 +52,12 @@ public class Companies extends BaseClient {
     }
 
     @Override
-    public void toTopUpBalance() {
-        Scanner amountOfMoney = new Scanner(System.in);
-        System.out.println("Enter the amount of money to top the balance of the company");
-        double amountOfMoneyForOperation = amountOfMoney.nextDouble();
-        setTotalAccountBalance(getTotalAccountBalance() + amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
-        System.out.println("Your current balance is " + getTotalAccountBalance());
+    public void toTopUpBalance(){
+            System.out.println("Enter the amount of money to top the balance of the company");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            totalAccountBalance += amountOfMoneyForOperation;
+            CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
+            System.out.println("Your current balance is " + getTotalAccountBalance());
     }
 
     @Override

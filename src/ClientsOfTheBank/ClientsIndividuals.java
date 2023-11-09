@@ -1,10 +1,11 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ConsoleScanner.CreationObjectsFromConsole;
+import Exceptions.AgeException;
 import StructureOfTheBank.CreditDepartment;
 
 import java.util.Objects;
-import java.util.Scanner;
 
 public class ClientsIndividuals extends BaseClient {
 
@@ -12,15 +13,16 @@ public class ClientsIndividuals extends BaseClient {
 
     public ClientsIndividuals() {
         super();
-        this.age = 0;
+        this.age = 1;
     }
 
     public int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age) throws AgeException {
+        if (age<=0){throw new AgeException("The age number is wrong");}
+        else {this.age = age;}
     }
 
     @Override
@@ -49,11 +51,10 @@ public class ClientsIndividuals extends BaseClient {
     }
 
     @Override
-    public void toTopUpBalance() {
-        Scanner amountOfMoney = new Scanner(System.in);
+    public void toTopUpBalance(){
         System.out.println("Enter the amount of money to top up the balance");
-        double amountOfMoneyForOperation = amountOfMoney.nextDouble();
-        setTotalAccountBalance(getTotalAccountBalance() + amountOfMoneyForOperation);
+        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+        totalAccountBalance+=amountOfMoneyForOperation;
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
         System.out.println("Your current balance is " + getTotalAccountBalance());
     }
