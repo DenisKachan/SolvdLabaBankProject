@@ -1,0 +1,91 @@
+
+01:37:34.709 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:37:34.712 [main] INFO  LoggerInstance.Loggers - sss
+01:38:03.728 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 2.5
+01:38:03.729 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 333.0
+01:50:14.378 [main] INFO  LoggerInstance.Loggers - Default client name is established - Unknown
+01:50:14.381 [main] INFO  LoggerInstance.Loggers - Default ID number is established - 1
+01:50:14.381 [main] INFO  LoggerInstance.Loggers - Default account balance is established - 0
+01:50:14.381 [main] INFO  LoggerInstance.Loggers - Default number of credit delays is established - 0
+01:50:14.381 [main] INFO  LoggerInstance.Loggers - Default amount of monthly income is established - 0
+01:50:14.381 [main] INFO  LoggerInstance.Loggers - Total amount of clients is increased by one
+01:50:14.392 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:50:14.392 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:50:14.392 [main] INFO  LoggerInstance.Loggers - sss
+01:50:48.231 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 2.5
+01:50:48.232 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 2.5
+01:50:48.237 [main] INFO  LoggerInstance.Loggers - Default client name is established - Unknown
+01:50:48.238 [main] INFO  LoggerInstance.Loggers - Default ID number is established - 1
+01:50:48.238 [main] INFO  LoggerInstance.Loggers - Default account balance is established - 0
+01:50:48.239 [main] INFO  LoggerInstance.Loggers - Default number of credit delays is established - 0
+01:50:48.241 [main] INFO  LoggerInstance.Loggers - Default amount of monthly income is established - 0
+01:50:48.241 [main] INFO  LoggerInstance.Loggers - Total amount of clients is increased by one
+01:50:48.242 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:50:48.242 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:03:06.215 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:03:06.217 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:03:06.227 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:03:06.227 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:03:21.915 [main] INFO  LoggerInstance.Loggers - Name got a value of jk
+03:03:26.341 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 9
+03:03:28.762 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 90.0
+03:03:30.866 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 0
+03:03:34.561 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 90.0
+03:03:41.648 [main] INFO  LoggerInstance.Loggers - Age got a value of 9
+03:03:41.649 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 45.0
+03:03:41.649 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 45.0
+03:03:41.657 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 1
+03:03:41.658 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:03:41.658 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:03:41.658 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:03:41.659 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:03:41.660 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 2
+03:07:39.058 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:07:39.059 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:07:39.068 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:07:39.068 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:07:52.389 [main] INFO  LoggerInstance.Loggers - Name got a value of 9
+03:08:08.975 [main] ERROR LoggerInstance.Loggers - Your account ID number is wrong
+03:08:15.695 [main] ERROR LoggerInstance.Loggers - Something wrong with the amount of balance
+03:08:18.745 [main] ERROR LoggerInstance.Loggers - The number of credit delays is wrong
+03:08:22.529 [main] ERROR LoggerInstance.Loggers - The amount of monthly income is wrong
+03:08:25.488 [main] ERROR LoggerInstance.Loggers - The age number is wrong
+03:08:25.490 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:08:25.491 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:08:25.496 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 1
+03:08:25.498 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:08:25.498 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:08:25.499 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:08:25.499 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:08:25.499 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 2
+03:09:40.501 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:09:40.503 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:09:40.513 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:09:40.514 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:09:52.127 [main] INFO  LoggerInstance.Loggers - Name got a value of 9
+03:14:56.505 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:14:56.507 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:14:56.516 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:14:56.517 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:14:59.173 [main] INFO  LoggerInstance.Loggers - Name got a value of p
+03:15:03.426 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 90
+03:15:04.876 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 90.0
+03:15:06.276 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 90
+03:15:30.113 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:15:30.115 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:15:30.125 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:15:30.125 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:15:32.460 [main] INFO  LoggerInstance.Loggers - Name got a value of jk
+03:15:35.475 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 88
+03:15:36.557 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 88.0
+03:15:37.674 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 88
+03:15:38.783 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 88.0
+03:15:39.906 [main] INFO  LoggerInstance.Loggers - Age got a value of 88
+03:15:39.907 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 44.0
+03:15:39.907 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 44.0
+03:15:39.913 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 1
+03:15:39.915 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:15:39.915 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:15:39.916 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:15:39.916 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:15:39.918 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 2
