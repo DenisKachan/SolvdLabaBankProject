@@ -6,6 +6,7 @@ import Interfaces.Countable;
 import Interfaces.ICurrency;
 import Interfaces.IStartBalance;
 import Interfaces.Showing;
+import LoggerInstance.Loggers;
 
 public class ManagementDepartment implements IStartBalance, Countable, ICurrency, Showing {
 
@@ -20,14 +21,15 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
     }
 
     public static boolean checkTheRiskOfBankruptcyOfTheBank() {
+        Loggers.LOGGER.info("The management department is checking the risk of bankruptcy of the bank");
         CurrentAccountOfTheBank.getInstance();
         if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()
                 <= (START_CASH_BALANCE + START_NON_CASH_BALANCE) / 2) {
-            System.out.println("There is a risk of bankruptcy - the current bank funds are less than they should be!");
+            Loggers.LOGGER.info("There is a risk of bankruptcy - the current bank funds are less than they should be!");
             riskOfBankruptcyOfTheBank = true;
             return true;
         } else {
-            System.out.println("There is no risk of bankruptcy!");
+            Loggers.LOGGER.info("There is no risk of bankruptcy!");
             riskOfBankruptcyOfTheBank = false;
             return false;
         }
@@ -35,7 +37,7 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
 
     @Override
     public void amountOfCreatedEntities() {
-        System.out.println(BaseClient.getAmountOfClients());
+        Loggers.LOGGER.info("The total amount of Clients is {}", BaseClient.getAmountOfClients());
     }
 
     @Override
@@ -57,6 +59,6 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
 
     @Override
     public void showFullInformation() {
-        System.out.println(CurrentAccountOfTheBank.getInstance());
+        Loggers.LOGGER.info("Total amount of financial flows for this ATM is {}", BaseClient.getFinancialFlows());
     }
 }

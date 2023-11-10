@@ -3,6 +3,7 @@ package ClientsOfTheBank;
 import BankAccount.CurrentAccountOfTheBank;
 import ConsoleScanner.CreationObjectsFromConsole;
 import Exceptions.YearOfFoundationException;
+import LoggerInstance.Loggers;
 import StructureOfTheBank.CreditDepartment;
 
 import java.time.Year;
@@ -22,8 +23,12 @@ public class Companies extends BaseClient {
     }
 
     public void setYearOfFoundation(int yearOfFoundation) throws YearOfFoundationException {
-        if (yearOfFoundation> Year.now().getValue()){throw new YearOfFoundationException("The year of foundation is not appropriate");}
-        else {this.yearOfFoundation = yearOfFoundation;}
+        if (yearOfFoundation > Year.now().getValue()) {
+            throw new YearOfFoundationException("The year of foundation is not appropriate");
+        } else {
+            this.yearOfFoundation = yearOfFoundation;
+            Loggers.LOGGER.info("Year of foundation got a value of {}", yearOfFoundation);
+        }
     }
 
     @Override
@@ -52,16 +57,18 @@ public class Companies extends BaseClient {
     }
 
     @Override
-    public void toTopUpBalance(){
-            System.out.println("Enter the amount of money to top the balance of the company");
-            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-            totalAccountBalance += amountOfMoneyForOperation;
-            CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
-            System.out.println("Your current balance is " + getTotalAccountBalance());
+    public void toTopUpBalance() {
+        System.out.println("Enter the amount of money to top the balance of the company");
+        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+        Loggers.LOGGER.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
+        totalAccountBalance += amountOfMoneyForOperation;
+        CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
+        Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
     }
 
     @Override
     public void toAskForACredit() {
+        Loggers.LOGGER.info("Try to ask for a credit");
         CreditDepartment creditDepartment = new CreditDepartment();
         creditDepartment.toApproveCredit(this);
     }

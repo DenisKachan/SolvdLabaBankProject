@@ -2,6 +2,7 @@ package BankAccount;
 
 
 import Interfaces.IStartBalance;
+import LoggerInstance.Loggers;
 
 public final class CurrentAccountOfTheBank implements IStartBalance {
 
@@ -48,10 +49,12 @@ public final class CurrentAccountOfTheBank implements IStartBalance {
 
     public void increaseCurrentCashBalance(double moneyForOperation) {
         currentCashBalance += moneyForOperation;
+        Loggers.LOGGER.info("Cash balance is increased in {}", moneyForOperation);
     }
 
     public void decreaseCurrentCashBalance(double moneyForOperation) {
         currentCashBalance -= moneyForOperation;
+        Loggers.LOGGER.info("Cash balance is decreased in {}", moneyForOperation);
     }
 
     public double getCurrentNonCashBalance() {
@@ -60,10 +63,12 @@ public final class CurrentAccountOfTheBank implements IStartBalance {
 
     public void increaseCurrentNonCashBalance(double moneyForOperation) {
         currentNonCashBalance += moneyForOperation;
+        Loggers.LOGGER.info("Non cash balance is increased in {}", moneyForOperation);
     }
 
     public void decreaseCurrentNonCashBalance(double moneyForOperation) {
         currentNonCashBalance -= moneyForOperation;
+        Loggers.LOGGER.info("Non cash balance is decreased in {}", moneyForOperation);
     }
 
     public double getCurrentBankBalance() {

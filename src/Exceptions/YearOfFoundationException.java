@@ -1,8 +1,8 @@
 package Exceptions;
 
-public class YearOfFoundationException extends Exception{
+public class YearOfFoundationException extends Exception {
 
-    public YearOfFoundationException(String message){
+    public YearOfFoundationException(String message) {
         super(message);
     }
 }

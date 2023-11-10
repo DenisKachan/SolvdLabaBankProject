@@ -1,8 +1,8 @@
 package Exceptions;
 
-public class TotalAccountBalanceException extends Exception{
+public class TotalAccountBalanceException extends Exception {
 
-    public TotalAccountBalanceException(String message){
+    public TotalAccountBalanceException(String message) {
         super(message);
     }
 }

@@ -2,6 +2,7 @@ package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
 import Exceptions.LackOfNonCashAfterConvertingException;
+import LoggerInstance.Loggers;
 
 public class CollectionService {
 
@@ -9,6 +10,7 @@ public class CollectionService {
 
     public CollectionService(double amountOfTheTransportedCash) {
         this.amountOfTheTransportedCash = amountOfTheTransportedCash;
+        Loggers.LOGGER.info("Collection service is crated with the amount of transported cash of {}", amountOfTheTransportedCash);
     }
 
     public double getAmountOfTheTransportedCash() {
@@ -20,20 +22,21 @@ public class CollectionService {
     }
 
     public double convertMoney(double neededAmountOfMoney) {
+        Loggers.LOGGER.info("The collection service is trying to convert non cash into cash");
         if (neededAmountOfMoney <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()) {
             CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(neededAmountOfMoney);
-            if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()==0){
+            if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() == 0) {
                 try {
                     throw new LackOfNonCashAfterConvertingException("The amount of non cash is critically low");
-                } catch (LackOfNonCashAfterConvertingException e){
-                    System.out.println("Bank balance must be popped up");
+                } catch (LackOfNonCashAfterConvertingException e) {
+                    Loggers.LOGGER.error(e);
                 }
             }
             CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(neededAmountOfMoney);
             amountOfTheTransportedCash = neededAmountOfMoney;
-            System.out.println("The balance of the ATM will be increased soon. Try again!");
+            Loggers.LOGGER.info("The balance of the ATM will be increased soon. Try again!");
         } else {
-            System.out.println("The amount of money is to large to withdraw");
+            Loggers.LOGGER.info("The amount of money is to large to withdra");
         }
         return 0;
     }

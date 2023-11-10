@@ -1,8 +1,8 @@
 package Exceptions;
 
-public class LackOfNonCashAfterConvertingException extends Exception{
+public class LackOfNonCashAfterConvertingException extends Exception {
 
-    public LackOfNonCashAfterConvertingException(String message){
+    public LackOfNonCashAfterConvertingException(String message) {
         super(message);
     }
 }

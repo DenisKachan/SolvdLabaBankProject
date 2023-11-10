@@ -3,6 +3,7 @@ package ClientsOfTheBank;
 import BankAccount.CurrentAccountOfTheBank;
 import ConsoleScanner.CreationObjectsFromConsole;
 import Exceptions.AgeException;
+import LoggerInstance.Loggers;
 import StructureOfTheBank.CreditDepartment;
 
 import java.util.Objects;
@@ -21,8 +22,12 @@ public class ClientsIndividuals extends BaseClient {
     }
 
     public void setAge(int age) throws AgeException {
-        if (age<=0){throw new AgeException("The age number is wrong");}
-        else {this.age = age;}
+        if (age <= 0) {
+            throw new AgeException("The age number is wrong");
+        } else {
+            this.age = age;
+            Loggers.LOGGER.info("Age got a value of {}", age);
+        }
     }
 
     @Override
@@ -51,16 +56,18 @@ public class ClientsIndividuals extends BaseClient {
     }
 
     @Override
-    public void toTopUpBalance(){
+    public void toTopUpBalance() {
         System.out.println("Enter the amount of money to top up the balance");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        totalAccountBalance+=amountOfMoneyForOperation;
+        Loggers.LOGGER.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
+        totalAccountBalance += amountOfMoneyForOperation;
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
-        System.out.println("Your current balance is " + getTotalAccountBalance());
+        Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
     }
 
     @Override
     public void toAskForACredit() {
+        Loggers.LOGGER.info("Try to ask for a credit");
         CreditDepartment creditDepartment = new CreditDepartment();
         creditDepartment.toApproveCredit(this);
     }

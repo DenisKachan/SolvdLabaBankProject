@@ -1,33 +1,36 @@
 package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
-import Exceptions.AddressException;
-import Exceptions.LackOfNonCashAfterConvertingException;
 import Exceptions.TotalAccountBalanceException;
 import Interfaces.Countable;
 import Interfaces.Resettable;
 import Interfaces.Showing;
+import LoggerInstance.Loggers;
 
 public class ATM implements Showing, Resettable, Countable {
 
     private String address;
     private double currentBalance;
     private static int amountOfCreatedATMs;
-    private static double financialFlowsThroughTheATM;
+    private double financialFlowsThroughTheATM;
 
 
     public ATM() {
-            this.address = "Unknown";
-            this.currentBalance = 0;
+        this.address = "Unknown";
+        this.currentBalance = 0;
+        amountOfCreatedATMs++;
+        Loggers.LOGGER.info("ATM with default values was created");
+        Loggers.LOGGER.info("Total amount of ATMs was increased by one");
     }
 
     public String getAddress() {
         return address;
     }
 
-    public void setAddress(String address) throws AddressException {
-        if (address.equals("")){throw new AddressException("The address is wrong");
-        } else {this.address = address;}
+    public void setAddress(String address) {
+        this.address = address;
+        Loggers.LOGGER.info("Address got a value of {}", address);
+
     }
 
     public double getCurrentBalance() {
@@ -42,12 +45,12 @@ public class ATM implements Showing, Resettable, Countable {
         ATM.amountOfCreatedATMs = amountOfCreatedATMs;
     }
 
-    public static double getFinancialFlowsThroughTheATM() {
+    public double getFinancialFlowsThroughTheATM() {
         return financialFlowsThroughTheATM;
     }
 
-    public static void setFinancialFlowsThroughTheATM(double financialFlowsThroughTheATM) {
-        ATM.financialFlowsThroughTheATM = financialFlowsThroughTheATM;
+    public void setFinancialFlowsThroughTheATM(double financialFlowsThroughTheATM) {
+        this.financialFlowsThroughTheATM = financialFlowsThroughTheATM;
     }
 
     public void setCurrentBalance(double currentBalance) throws TotalAccountBalanceException {
@@ -56,23 +59,25 @@ public class ATM implements Showing, Resettable, Countable {
             throw new TotalAccountBalanceException("Something wrong with balance of the ATM");
         } else {
             this.currentBalance = currentBalance;
+            Loggers.LOGGER.info("Current balance of the ATM got a value of {}", currentBalance);
         }
     }
 
     @Override
     public void showBalance() {
-        System.out.println(this.currentBalance);
+        Loggers.LOGGER.info("Total balance of the ATM is {}", this.currentBalance);
     }
 
     @Override
     public void showFullInformation() {
-        System.out.println(this);
+        Loggers.LOGGER.info("Full information about the ATM is the following {}", this);
     }
 
     @Override
     public void resetToDefaultValues() {
         this.address = "Unknown";
         this.currentBalance = 0;
+        Loggers.LOGGER.info("All data of the ATM was reset to default values");
     }
 
     public boolean checkTheAbilityToWithdrawMoney(double moneyForOperation) {
@@ -82,16 +87,16 @@ public class ATM implements Showing, Resettable, Countable {
     public final void callTheCollectionService(double moneyForOperation) {
         CollectionService collectionService = new CollectionService(moneyForOperation);
         currentBalance += collectionService.convertMoney(moneyForOperation);
+        Loggers.LOGGER.info("Call the collection service for the amount of money of {}", moneyForOperation);
     }
 
     @Override
     public void amountOfCreatedEntities() {
-        System.out.println(amountOfCreatedATMs);
-
+        Loggers.LOGGER.info("The total amount of ATMs is {}", amountOfCreatedATMs);
     }
 
     @Override
     public void amountOfFinancialFlows() {
-        System.out.println(financialFlowsThroughTheATM);
+        Loggers.LOGGER.info("Total amount of financial flows for this ATM is {}", financialFlowsThroughTheATM);
     }
 }
