@@ -58,7 +58,7 @@ public class Companies extends BaseClient {
 
     @Override
     public void toTopUpBalance() {
-        System.out.println("Enter the amount of money to top the balance of the company");
+        Loggers.LOGGER.info("Enter the amount of money to top the balance of the company");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
         totalAccountBalance += amountOfMoneyForOperation;

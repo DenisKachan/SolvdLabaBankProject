@@ -57,7 +57,7 @@ public class ClientsIndividuals extends BaseClient {
 
     @Override
     public void toTopUpBalance() {
-        System.out.println("Enter the amount of money to top up the balance");
+        Loggers.LOGGER.info("Enter the amount of money to top up the balance");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
         totalAccountBalance += amountOfMoneyForOperation;

@@ -46,15 +46,15 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
     }
 
     public static void showCurrentBalanceInDifferentCurrency() {
-        System.out.println("The current balance in dollars is "
-                + CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / DOLLAR_CURRENCY);
-        System.out.println("The current balance in euro is "
-                + CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / EURO_CURRENCY);
+        Loggers.LOGGER.info("The current balance in dollars is {}",
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / DOLLAR_CURRENCY);
+        Loggers.LOGGER.info("The current balance in euro is {}",
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / EURO_CURRENCY);
     }
 
     @Override
     public void showBalance() {
-        System.out.println(CurrentAccountOfTheBank.getInstance().getCurrentBankBalance());
+        Loggers.LOGGER.info("Total bank balance is {}",CurrentAccountOfTheBank.getInstance().getCurrentBankBalance());
     }
 
     @Override

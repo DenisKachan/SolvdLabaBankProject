@@ -16,9 +16,9 @@ public final class CreationObjectsFromConsole {
 
     public ATM createATMFromConsole() {
         ATM atm = new ATM();
-        System.out.println("Enter the address of the ATM");
+        Loggers.LOGGER.info("Enter the address of the ATM");
         atm.setAddress(scanner.next());
-        System.out.println("Enter the balance of the ATM");
+        Loggers.LOGGER.info("Enter the balance of the ATM");
         try {
             atm.setCurrentBalance(scanner.nextDouble());
         } catch (TotalAccountBalanceException e) {
@@ -29,15 +29,15 @@ public final class CreationObjectsFromConsole {
 
     public ClientsIndividuals createClientIndividualFromConsole() {
         ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
-        System.out.println("Enter the name of the client");
+        Loggers.LOGGER.info("Enter the name of the client");
         clientsIndividuals.setName(scanner.next());
-        System.out.println("Enter the ID number of the client");
+        Loggers.LOGGER.info("Enter the ID number of the client");
         try {
             clientsIndividuals.setAccountIdNumber(scanner.nextInt());
         } catch (AccountIdNumberException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the balance of the client");
+        Loggers.LOGGER.info("Enter the balance of the client");
         double balance = scanner.nextDouble();
         try {
             clientsIndividuals.setTotalAccountBalance(balance);
@@ -45,19 +45,19 @@ public final class CreationObjectsFromConsole {
             Loggers.LOGGER.error(e.getMessage());
             balance = 0;
         }
-        System.out.println("How many credit delays are in the history of the client?");
+        Loggers.LOGGER.info("How many credit delays are in the history of the client?");
         try {
             clientsIndividuals.setCreditDelays(scanner.nextInt());
         } catch (CreditDelaysException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the amount of monthly income of the client");
+        Loggers.LOGGER.info("Enter the amount of monthly income of the client");
         try {
             clientsIndividuals.setAmountOfMonthlyIncome(scanner.nextDouble());
         } catch (AmountOfMonthlyIncomeException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the age of the client");
+        Loggers.LOGGER.info("Enter the age of the client");
         try {
             clientsIndividuals.setAge(scanner.nextInt());
         } catch (AgeException e) {
@@ -70,15 +70,15 @@ public final class CreationObjectsFromConsole {
 
     public Companies createCompanyFromConsole() {
         Companies companies = new Companies();
-        System.out.println("Enter the name of the client");
+        Loggers.LOGGER.info("Enter the name of the clien");
         companies.setName(scanner.next());
-        System.out.println("Enter the ID number of the client");
+        Loggers.LOGGER.info("Enter the ID number of the client");
         try {
             companies.setAccountIdNumber(scanner.nextInt());
         } catch (AccountIdNumberException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the balance of the client");
+        Loggers.LOGGER.info("Enter the balance of the client");
         double balance = scanner.nextDouble();
         try {
             companies.setTotalAccountBalance(balance);
@@ -86,19 +86,19 @@ public final class CreationObjectsFromConsole {
             Loggers.LOGGER.error(e.getMessage());
             balance = 0;
         }
-        System.out.println("How many credit delays are in the history of the client?");
+        Loggers.LOGGER.info("How many credit delays are in the history of the client?");
         try {
             companies.setCreditDelays(scanner.nextInt());
         } catch (CreditDelaysException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the amount of monthly income of the client");
+        Loggers.LOGGER.info("Enter the amount of monthly income of the client");
         try {
             companies.setAmountOfMonthlyIncome(scanner.nextDouble());
         } catch (AmountOfMonthlyIncomeException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
-        System.out.println("Enter the year of foundation od the company");
+        Loggers.LOGGER.info("Enter the year of foundation od the company");
         try {
             companies.setYearOfFoundation(scanner.nextInt());
         } catch (YearOfFoundationException e) {

@@ -2,7 +2,10 @@ package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
 import ConsoleScanner.CreationObjectsFromConsole;
-import Exceptions.*;
+import Exceptions.AccountIdNumberException;
+import Exceptions.AmountOfMonthlyIncomeException;
+import Exceptions.CreditDelaysException;
+import Exceptions.TotalAccountBalanceException;
 import Interfaces.ICurrency;
 import Interfaces.Resettable;
 import Interfaces.Showing;
@@ -10,7 +13,6 @@ import LoggerInstance.Loggers;
 import StructureOfTheBank.ATM;
 
 import java.util.Objects;
-import java.util.Scanner;
 
 public abstract class BaseClient implements Showing, Resettable, ICurrency {
 
@@ -146,7 +148,7 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     }
 
     public void withdrawCash() {
-        System.out.println("Confirm the amount of money to withdraw from the balance");
+        Loggers.LOGGER.info("Confirm the amount of money to withdraw from the balance");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Withdraw cash from bank account in the amount of {}", amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance();
@@ -167,7 +169,7 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     }
 
     public void withdrawCash(ATM atm) throws TotalAccountBalanceException {
-        System.out.println("Enter the amount of money to withdraw from the balance in the ATM");
+        Loggers.LOGGER.info("Enter the amount of money to withdraw from the balance in the ATM");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Try to withdraw cash from the ATM");
         if (atm.checkTheAbilityToWithdrawMoney(amountOfMoneyForOperation)) {
@@ -181,7 +183,7 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     }
 
     public void transferMoney(BaseClient newClient) throws TotalAccountBalanceException {
-        System.out.println("Enter the amount of money to transfer to the other client of the bank");
+        Loggers.LOGGER.info("Enter the amount of money to transfer to the other client of the bank");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Transfer money in the amount of {} to the {}", amountOfMoneyForOperation, newClient);
         if (amountOfMoneyForOperation <= totalAccountBalance) {
@@ -195,7 +197,7 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     }
 
     public void transferMoney() {
-        System.out.println("Enter the amount of money to transfer to the client of the other bank");
+        Loggers.LOGGER.info("Enter the amount of money to transfer to the client of the other bank");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         Loggers.LOGGER.info("Transfer money in the amount of {} with the commission}", amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance();
@@ -217,9 +219,9 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     }
 
     public void toTopUpBalanceThroughATM(ATM atm) throws TotalAccountBalanceException {
-        System.out.println("Enter the amount of money to top up through ATM");
+        Loggers.LOGGER.info("Enter the amount of money to top up through ATM");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        Loggers.LOGGER.info("Top up the balance of the client in the amount of {} throught the ATM - {}",
+        Loggers.LOGGER.info("Top up the balance of the client in the amount of {} through the ATM - {}",
                 amountOfMoneyForOperation, atm);
         totalAccountBalance += amountOfMoneyForOperation;
         CurrentAccountOfTheBank.getInstance();
@@ -243,14 +245,13 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         Loggers.LOGGER.info("All data of the client was reset to default values");
     }
 
-    public double exchangeMoney() {
-        System.out.println("Enter the amount of rubles you want to exchange");
+    public void exchangeMoney() {
+        Loggers.LOGGER.info("Enter the amount of rubles you want to exchange");
         double amountOfMoney = CreationObjectsFromConsole.scanner.nextDouble();
-        Scanner currencyName = new Scanner(System.in);
-        System.out.println("Enter the name of the currency you want to get");
-        Loggers.LOGGER.info("Try to exchange {} rubles to the {}", amountOfMoney, currencyName);
-        String currency = currencyName.nextLine();
+        Loggers.LOGGER.info("Enter the name of the currency you want to get");
+        String currency = CreationObjectsFromConsole.scanner.next();
         String wantedCurrency = currency.toLowerCase();
+        Loggers.LOGGER.info("Try to exchange {} rubles to the {}", amountOfMoney, wantedCurrency);
         double foreignCurrency;
         if (amountOfMoney <= getTotalAccountBalance()) {
             switch (wantedCurrency) {
@@ -270,6 +271,5 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         } else {
             Loggers.LOGGER.info("You have no so much money in your account");
         }
-        return amountOfMoney;
     }
 }
