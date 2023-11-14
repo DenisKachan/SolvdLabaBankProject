@@ -1,11 +1,16 @@
 package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ClientsOfTheBank.BaseClient;
 import Exceptions.TotalAccountBalanceException;
 import Interfaces.Countable;
 import Interfaces.Resettable;
 import Interfaces.Showing;
 import LoggerInstance.Loggers;
+
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
 
 public class ATM implements Showing, Resettable, Countable {
 
@@ -14,13 +19,25 @@ public class ATM implements Showing, Resettable, Countable {
     private static int amountOfCreatedATMs;
     private double financialFlowsThroughTheATM;
 
+    public static Set<ATM> atms = new HashSet<>();
+
 
     public ATM() {
         this.address = "Unknown";
         this.currentBalance = 0;
         amountOfCreatedATMs++;
+        atms.add(this);
         Loggers.LOGGER.info("ATM with default values was created");
         Loggers.LOGGER.info("Total amount of ATMs was increased by one");
+        Loggers.LOGGER.info("The set of ATMs got a new entity");
+    }
+
+    public Set<ATM> getAtms() {
+        return atms;
+    }
+
+    public void setAtms(Set<ATM> atms) {
+        ATM.atms = atms;
     }
 
     public String getAddress() {
@@ -53,9 +70,32 @@ public class ATM implements Showing, Resettable, Countable {
         this.financialFlowsThroughTheATM = financialFlowsThroughTheATM;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof ATM atm)) return false;
+        return Double.compare(getCurrentBalance(), atm.getCurrentBalance()) == 0
+                && Double.compare(getFinancialFlowsThroughTheATM(), atm.getFinancialFlowsThroughTheATM()) == 0
+                && Objects.equals(getAddress(), atm.getAddress());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getAddress(), getCurrentBalance(), getFinancialFlowsThroughTheATM());
+    }
+
+    @Override
+    public String toString() {
+        return "ATM{" +
+                "address='" + address + '\'' +
+                ", currentBalance=" + currentBalance +
+                ", financialFlowsThroughTheATM=" + financialFlowsThroughTheATM +
+                '}';
+    }
+
     public void setCurrentBalance(double currentBalance) throws TotalAccountBalanceException {
         CurrentAccountOfTheBank.getInstance();
-        if (currentBalance <= CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()) {
+        if (currentBalance >= CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()) {
             throw new TotalAccountBalanceException("Something wrong with balance of the ATM");
         } else {
             this.currentBalance = currentBalance;
@@ -98,5 +138,9 @@ public class ATM implements Showing, Resettable, Countable {
     @Override
     public void amountOfFinancialFlows() {
         Loggers.LOGGER.info("Total amount of financial flows for this ATM is {}", financialFlowsThroughTheATM);
+    }
+
+    public void showAllATMsOfTheBank(){
+        Loggers.LOGGER.info("The set of ATMs is the following - {}", atms);
     }
 }

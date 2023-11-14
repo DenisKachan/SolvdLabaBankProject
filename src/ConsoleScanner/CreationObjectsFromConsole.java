@@ -63,6 +63,9 @@ public final class CreationObjectsFromConsole {
         } catch (AgeException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
+        clientsIndividuals.setCreditCardData(clientsIndividuals.getAccountIdNumber(),
+                clientsIndividuals.getTotalAccountBalance());
+        Loggers.LOGGER.info("Client got a credit card - {}",clientsIndividuals.getCreditCard());
         CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(balance / 2);
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(balance / 2);
         return clientsIndividuals;
@@ -104,6 +107,9 @@ public final class CreationObjectsFromConsole {
         } catch (YearOfFoundationException e) {
             Loggers.LOGGER.error(e.getMessage());
         }
+        companies.setCreditCardData(companies.getAccountIdNumber(),
+                companies.getTotalAccountBalance());
+        Loggers.LOGGER.info("Client got a credit card - {}",companies.getCreditCard());
         CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(balance / 2);
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(balance / 2);
         return companies;

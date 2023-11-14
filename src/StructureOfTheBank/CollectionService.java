@@ -4,13 +4,18 @@ import BankAccount.CurrentAccountOfTheBank;
 import Exceptions.LackOfNonCashAfterConvertingException;
 import LoggerInstance.Loggers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CollectionService {
 
     private double amountOfTheTransportedCash;
 
     public CollectionService(double amountOfTheTransportedCash) {
         this.amountOfTheTransportedCash = amountOfTheTransportedCash;
-        Loggers.LOGGER.info("Collection service is crated with the amount of transported cash of {}", amountOfTheTransportedCash);
+        ManagementDepartment.collectionServiceCalls.add(amountOfTheTransportedCash);
+        Loggers.LOGGER.info("Collection service is crated with the amount of transported cash of {}",
+                amountOfTheTransportedCash);
     }
 
     public double getAmountOfTheTransportedCash() {
@@ -36,7 +41,7 @@ public class CollectionService {
             amountOfTheTransportedCash = neededAmountOfMoney;
             Loggers.LOGGER.info("The balance of the ATM will be increased soon. Try again!");
         } else {
-            Loggers.LOGGER.info("The amount of money is to large to withdra");
+            Loggers.LOGGER.info("The amount of money is to large to withdraw");
         }
         return 0;
     }

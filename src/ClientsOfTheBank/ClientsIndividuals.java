@@ -1,6 +1,7 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ClientsPropertyAndHistory.OperationsWithMoneyHistory;
 import ConsoleScanner.CreationObjectsFromConsole;
 import Exceptions.AgeException;
 import LoggerInstance.Loggers;
@@ -62,6 +63,10 @@ public class ClientsIndividuals extends BaseClient {
         Loggers.LOGGER.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
         totalAccountBalance += amountOfMoneyForOperation;
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
+        getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()+amountOfMoneyForOperation);
+        OperationsWithMoneyHistory operations = new OperationsWithMoneyHistory("Top up balance in the amount of ",
+                amountOfMoneyForOperation);
+        clientsOperations.add(operations);
         Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
     }
 

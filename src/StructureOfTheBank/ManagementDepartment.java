@@ -2,11 +2,15 @@ package StructureOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
 import ClientsOfTheBank.BaseClient;
+import ClientsPropertyAndHistory.CreditCard;
+import ConsoleScanner.CreationObjectsFromConsole;
 import Interfaces.Countable;
 import Interfaces.ICurrency;
 import Interfaces.IStartBalance;
 import Interfaces.Showing;
 import LoggerInstance.Loggers;
+
+import java.util.*;
 
 public class ManagementDepartment implements IStartBalance, Countable, ICurrency, Showing {
 
@@ -19,6 +23,11 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
     public void setRiskOfBankruptcy(boolean riskOfBankruptcy) {
         riskOfBankruptcyOfTheBank = riskOfBankruptcy;
     }
+
+    public static Map<CreditCard, BaseClient> cardClientsIndividuals = new HashMap<>();
+
+    public static List<Double> collectionServiceCalls = new ArrayList<>();
+
 
     public static boolean checkTheRiskOfBankruptcyOfTheBank() {
         Loggers.LOGGER.info("The management department is checking the risk of bankruptcy of the bank");
@@ -59,6 +68,28 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
 
     @Override
     public void showFullInformation() {
-        Loggers.LOGGER.info("Total amount of financial flows for this ATM is {}", BaseClient.getFinancialFlows());
+        Loggers.LOGGER.info("Total amount of financial flows of the bank is {}", BaseClient.getFinancialFlows());
+    }
+
+    public void findAHolderOfACard(){
+        Loggers.LOGGER.info("Enter the Credit card number");
+        int cardNumber = CreationObjectsFromConsole.scanner.nextInt();
+        for (Map.Entry<CreditCard, BaseClient> entry : cardClientsIndividuals.entrySet()) {
+            CreditCard key = entry.getKey();
+            BaseClient value = entry.getValue();
+            if (key.getCreditCardNumber() == cardNumber){
+                Loggers.LOGGER.info("The holder of the card is - {}",value);
+                break;
+            }
+            else {Loggers.LOGGER.info("There is no client with this card number");}
+        }
+    }
+
+    public void showAverageAmountOfTransportedCash(){
+        double a = 0;
+        for (Double collectionServiceCall : collectionServiceCalls) {
+            a += collectionServiceCall;
+        }
+        Loggers.LOGGER.info("Average amount of transported cash is - {}",a/collectionServiceCalls.size());
     }
 }

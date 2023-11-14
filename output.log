@@ -164,3 +164,1855 @@
 16:56:02.321 [main] INFO  LoggerInstance.Loggers - Try to exchange 600.0 rubles to the euro
 16:56:02.322 [main] INFO  LoggerInstance.Loggers - You will get 171.42857142857142 euro
 16:56:02.322 [main] INFO  LoggerInstance.Loggers - Cash balance is decreased in 600.0
+17:41:17.137 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+17:41:17.139 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+17:41:17.150 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+17:41:17.151 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+17:41:17.151 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+17:41:23.804 [main] INFO  LoggerInstance.Loggers - Name got a value of 0
+17:41:23.805 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+17:41:29.743 [main] ERROR LoggerInstance.Loggers - Your account ID number is wrong
+17:41:29.743 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+17:42:22.840 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+17:42:22.842 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+17:42:22.858 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+17:42:22.858 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+17:42:22.858 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+17:42:25.762 [main] INFO  LoggerInstance.Loggers - Name got a value of ij
+17:42:25.762 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+17:42:32.589 [main] ERROR LoggerInstance.Loggers - null
+17:42:32.590 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+17:53:26.581 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+17:53:26.583 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+17:53:26.594 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+17:53:26.594 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+17:53:26.594 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+17:53:29.697 [main] INFO  LoggerInstance.Loggers - Name got a value of kk
+17:53:29.698 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+17:54:17.649 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+17:54:17.651 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+17:54:17.663 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+17:54:17.663 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+17:54:17.663 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+17:54:21.850 [main] INFO  LoggerInstance.Loggers - Name got a value of kmkm
+17:54:21.851 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+17:54:25.614 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 899
+17:54:25.614 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+17:54:28.684 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 8909.0
+17:54:28.684 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+17:54:33.348 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 90
+17:54:33.350 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+17:54:38.073 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 9000.0
+17:54:38.075 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+17:54:42.381 [main] ERROR LoggerInstance.Loggers - The age number is wrong
+17:54:42.382 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 4454.5
+17:54:42.383 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 4454.5
+17:54:42.389 [main] INFO  LoggerInstance.Loggers - Total bank balance is 109009.0
+17:54:42.389 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 1
+17:54:42.389 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+17:54:42.389 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+17:54:42.390 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+17:54:42.391 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+17:54:42.391 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 2
+17:54:42.392 [main] INFO  LoggerInstance.Loggers - Total bank balance is 109009.0
+17:54:42.393 [main] INFO  LoggerInstance.Loggers - Enter the amount of rubles you want to exchange
+17:54:45.407 [main] INFO  LoggerInstance.Loggers - Enter the name of the currency you want to get
+17:54:51.371 [main] INFO  LoggerInstance.Loggers - Try to exchange 80.0 rubles to the dollar
+17:54:51.372 [main] INFO  LoggerInstance.Loggers - You will get 25.0 dollars
+17:54:51.372 [main] INFO  LoggerInstance.Loggers - Cash balance is decreased in 80.0
+18:05:25.098 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+18:05:25.100 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+18:05:25.112 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+18:05:25.112 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+18:05:25.112 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+18:05:27.995 [main] INFO  LoggerInstance.Loggers - Name got a value of j
+18:05:27.995 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+18:05:34.303 [main] ERROR LoggerInstance.Loggers - Your account ID number is wrong
+18:05:34.303 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+18:06:54.402 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+18:06:54.404 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+18:06:54.415 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+18:06:54.416 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+18:06:54.416 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+18:06:58.907 [main] INFO  LoggerInstance.Loggers - Name got a value of jk
+18:06:58.908 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+18:07:05.228 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+18:07:05.229 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+18:07:09.343 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 89.0
+18:07:09.343 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+18:07:21.130 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 89
+18:07:21.131 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+18:07:28.240 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 9099.0
+18:07:28.242 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+18:07:33.329 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+18:07:33.331 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 44.5
+18:07:33.331 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 44.5
+18:07:33.337 [main] INFO  LoggerInstance.Loggers - Total bank balance is 100189.0
+18:07:33.338 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 1
+18:07:33.338 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+18:07:33.338 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+18:07:33.338 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+18:07:33.338 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+18:07:33.340 [main] INFO  LoggerInstance.Loggers - The total amount of Clients is 2
+18:07:33.340 [main] INFO  LoggerInstance.Loggers - Total bank balance is 100189.0
+18:07:33.341 [main] INFO  LoggerInstance.Loggers - Enter the amount of rubles you want to exchange
+18:07:40.289 [main] INFO  LoggerInstance.Loggers - Enter the name of the currency you want to get
+18:07:45.603 [main] INFO  LoggerInstance.Loggers - Try to exchange 789.0 rubles to the euro
+18:07:45.603 [main] INFO  LoggerInstance.Loggers - You have no so much money in your account
+00:27:30.285 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:27:30.287 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:27:30.287 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:27:30.287 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:27:37.926 [main] INFO  LoggerInstance.Loggers - Address got a value of jkjk
+00:27:37.927 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:27:41.482 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:27:41.482 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:27:41.482 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:27:41.483 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:27:41.483 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:27:45.636 [main] INFO  LoggerInstance.Loggers - Address got a value of jhjkh
+00:27:45.637 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:27:48.185 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:27:48.187 [main] INFO  LoggerInstance.Loggers - The set of the bank ATMs is the following: [StructureOfTheBank.ATM@37858383]
+00:29:21.642 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:29:21.644 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:29:21.644 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:29:21.644 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:29:25.258 [main] INFO  LoggerInstance.Loggers - Address got a value of hjj
+00:29:25.258 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:29:28.193 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:29:28.193 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:29:28.193 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:29:28.194 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:29:28.194 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:29:32.385 [main] INFO  LoggerInstance.Loggers - Address got a value of hkk
+00:29:32.386 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:29:34.536 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:29:34.604 [main] INFO  LoggerInstance.Loggers - The set of the bank ATMs is the following: [[!!!StructureOfTheBank.ATM@3315d2d7=>java.lang.StackOverflowError:null!!!]]
+00:31:44.228 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:31:44.230 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:31:44.230 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:31:44.230 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:31:44.240 [main] INFO  LoggerInstance.Loggers - Address got a value of hjhj
+00:31:44.240 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:31:50.567 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:31:50.568 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:31:50.568 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:31:50.568 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:31:50.569 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:31:53.211 [main] INFO  LoggerInstance.Loggers - Address got a value of ftf
+00:31:53.213 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:31:56.323 [main] ERROR LoggerInstance.Loggers - Something wrong with balance of the ATM
+00:31:56.380 [main] INFO  LoggerInstance.Loggers - ATM - [!!!StructureOfTheBank.ATM@29647f75=>java.lang.StackOverflowError:null!!!]
+00:39:53.312 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:39:53.314 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:39:53.314 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:39:53.314 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:39:56.387 [main] INFO  LoggerInstance.Loggers - Address got a value of jkj
+00:39:56.387 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:39:59.503 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 909.0
+00:39:59.503 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:39:59.504 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:39:59.504 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:39:59.504 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:40:04.629 [main] INFO  LoggerInstance.Loggers - Address got a value of jkjk
+00:40:04.630 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:40:07.647 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 900.0
+00:40:07.721 [main] INFO  LoggerInstance.Loggers - ATM - [!!!StructureOfTheBank.ATM@355ce81c=>java.lang.StackOverflowError:null!!!]
+00:42:29.216 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:42:29.218 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:42:29.218 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:42:29.219 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:42:31.429 [main] INFO  LoggerInstance.Loggers - Address got a value of ро
+00:42:31.431 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:42:33.079 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 678.0
+00:42:33.080 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:42:33.080 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:42:33.080 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:42:33.081 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:42:35.490 [main] INFO  LoggerInstance.Loggers - Address got a value of порп
+00:42:35.491 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:42:37.242 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 678.0
+00:42:37.309 [main] INFO  LoggerInstance.Loggers - ATM - [!!!StructureOfTheBank.ATM@355ce81c=>java.lang.StackOverflowError:null!!!]
+00:44:36.233 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:44:36.235 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:44:36.235 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:44:36.235 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:44:37.898 [main] INFO  LoggerInstance.Loggers - Address got a value of hj
+00:44:37.899 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:44:39.173 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 98.0
+00:44:39.174 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:44:39.174 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:44:39.174 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:44:39.174 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:44:40.570 [main] INFO  LoggerInstance.Loggers - Address got a value of bhjb
+00:44:40.571 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:44:42.280 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 679.0
+00:47:04.762 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:47:04.764 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:47:04.764 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:47:04.764 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:47:07.927 [main] INFO  LoggerInstance.Loggers - Address got a value of hj
+00:47:07.928 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:47:09.417 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 789.0
+00:47:09.418 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:47:09.418 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:47:09.418 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:47:09.419 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:47:10.638 [main] INFO  LoggerInstance.Loggers - Address got a value of ghj
+00:47:10.640 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:47:12.267 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 798.0
+00:52:48.148 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:52:48.150 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:52:48.150 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:52:48.150 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:52:50.612 [main] INFO  LoggerInstance.Loggers - Address got a value of fhg
+00:52:50.612 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:52:52.634 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 65.0
+00:53:48.540 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:53:48.542 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:53:48.542 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:53:48.543 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:53:52.436 [main] INFO  LoggerInstance.Loggers - Address got a value of jkjk
+00:53:52.436 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:53:54.860 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 89.0
+00:53:54.860 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:53:54.861 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:53:54.861 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:53:54.861 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:53:57.854 [main] INFO  LoggerInstance.Loggers - Address got a value of hjh
+00:53:57.856 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:53:59.826 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 898.0
+00:55:43.951 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:55:43.953 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:55:43.953 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:55:43.953 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:55:47.164 [main] INFO  LoggerInstance.Loggers - Address got a value of jkjk
+00:55:47.165 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:55:49.701 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 890.0
+00:55:49.702 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:55:49.702 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:55:49.702 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:55:49.703 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:55:51.726 [main] INFO  LoggerInstance.Loggers - Address got a value of hj
+00:55:51.727 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:55:53.423 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 890.0
+00:56:44.752 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:56:44.754 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:56:44.754 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:56:44.754 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:56:47.468 [main] INFO  LoggerInstance.Loggers - Address got a value of jkj
+00:56:47.468 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:56:51.005 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 789.0
+00:56:51.006 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+00:56:51.006 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+00:56:51.006 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+00:56:51.007 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+00:56:53.033 [main] INFO  LoggerInstance.Loggers - Address got a value of bbhbhj
+00:56:53.034 [main] INFO  LoggerInstance.Loggers - Enter the balance of the ATM
+00:56:57.756 [main] INFO  LoggerInstance.Loggers - Current balance of the ATM got a value of 678.0
+01:22:59.894 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+01:22:59.896 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+01:22:59.896 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+01:22:59.896 [main] INFO  LoggerInstance.Loggers - Enter the address of the ATM
+01:23:21.918 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:23:21.919 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:23:21.929 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:23:21.929 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:23:21.930 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:23:25.006 [main] INFO  LoggerInstance.Loggers - Name got a value of gdtg
+01:23:25.007 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:23:26.678 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 54
+01:23:26.678 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:23:53.370 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:23:53.372 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:23:53.382 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:23:53.382 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:23:53.383 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:23:55.023 [main] INFO  LoggerInstance.Loggers - Name got a value of dfg
+01:23:55.024 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:23:56.144 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 43
+01:23:56.144 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:23:57.559 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 435.0
+01:23:57.559 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:24:02.588 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+01:24:02.589 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:24:03.537 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 345.0
+01:24:03.539 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:24:04.619 [main] INFO  LoggerInstance.Loggers - Age got a value of 345
+01:24:04.620 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 217.5
+01:24:04.620 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 217.5
+01:24:30.250 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:24:30.255 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:24:30.266 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:24:30.266 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:24:30.267 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:24:33.778 [main] INFO  LoggerInstance.Loggers - Name got a value of hgjk
+01:24:33.779 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:24:41.737 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 456
+01:24:41.737 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:24:42.837 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 456.0
+01:24:42.838 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:24:44.197 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 46
+01:24:44.198 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:24:45.560 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 456.0
+01:24:45.562 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:24:47.864 [main] INFO  LoggerInstance.Loggers - Age got a value of 456
+01:24:47.865 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 228.0
+01:24:47.866 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 228.0
+01:27:09.310 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:27:09.313 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:27:09.322 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:27:09.322 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:27:09.323 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:29:42.816 [main] INFO  LoggerInstance.Loggers - Name got a value of hj
+01:29:42.817 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:29:44.951 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+01:29:44.952 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:29:47.574 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 890.0
+01:29:47.574 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:29:51.839 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 89
+01:29:51.841 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:29:53.786 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 78.0
+01:29:53.788 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:29:55.369 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+01:29:55.370 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 445.0
+01:29:55.370 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 445.0
+01:43:19.167 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:43:19.168 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:43:19.178 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:43:19.178 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:43:19.179 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1474
+01:43:19.179 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+01:43:19.179 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+01:43:19.179 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:43:27.827 [main] INFO  LoggerInstance.Loggers - Name got a value of jk
+01:43:27.830 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:43:30.156 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 435
+01:43:30.158 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:43:33.347 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 43.0
+01:43:33.349 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:43:35.279 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 43
+01:43:35.280 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:43:36.614 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 54.0
+01:43:36.615 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:43:37.857 [main] INFO  LoggerInstance.Loggers - Age got a value of 45
+01:43:37.857 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 925
+01:43:37.857 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 435
+01:43:37.858 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 43.0
+01:43:37.858 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 21.5
+01:43:37.859 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 21.5
+01:46:16.953 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:46:16.955 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:46:16.969 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:46:16.969 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:46:16.970 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7169
+01:46:16.970 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+01:46:16.970 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+01:46:16.970 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:46:21.336 [main] INFO  LoggerInstance.Loggers - Name got a value of hj
+01:46:21.337 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:46:22.634 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+01:46:22.635 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:46:24.179 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 89.0
+01:46:24.181 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:46:26.166 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 890
+01:46:26.167 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:46:30.152 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 78.0
+01:46:30.153 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:46:31.654 [main] INFO  LoggerInstance.Loggers - Age got a value of 7
+01:46:31.655 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 4775
+01:46:31.655 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 89
+01:46:31.655 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 89.0
+01:46:31.656 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 44.5
+01:46:31.656 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 44.5
+01:51:51.886 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:51:51.887 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:51:51.897 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:51:51.897 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:51:51.897 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 846
+01:51:51.898 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+01:51:51.898 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+01:51:51.898 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+01:51:54.624 [main] INFO  LoggerInstance.Loggers - Name got a value of jkj
+01:51:54.625 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+01:51:56.601 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+01:51:56.602 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+01:51:58.781 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 56.0
+01:51:58.783 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+01:52:01.010 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 78
+01:52:01.011 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+01:52:03.218 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 567.0
+01:52:03.219 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+01:52:05.224 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+01:52:05.224 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 28.0
+01:52:05.225 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 28.0
+01:53:36.694 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+01:53:36.696 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+01:53:36.707 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+01:53:36.707 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+01:53:36.708 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 213
+01:53:36.708 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+01:53:36.708 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+01:53:36.709 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:05:06.359 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+02:05:06.361 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+02:05:06.371 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+02:05:06.372 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+02:05:06.372 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1911
+02:05:06.372 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+02:05:06.372 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+02:05:06.373 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:05:11.279 [main] INFO  LoggerInstance.Loggers - Name got a value of wef
+02:05:11.280 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+02:05:15.947 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 234
+02:05:15.948 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+02:05:17.736 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 323.0
+02:05:17.738 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+02:05:20.972 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 323
+02:05:20.972 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+02:05:22.690 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 323.0
+02:05:22.691 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+02:05:24.749 [main] INFO  LoggerInstance.Loggers - Age got a value of 32
+02:05:24.750 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 161.5
+02:05:24.751 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 161.5
+02:05:24.784 [main] INFO  LoggerInstance.Loggers - Enter the Credit card number
+02:05:38.234 [main] INFO  LoggerInstance.Loggers - The holder of the card is - ClientsIndividuals{Name='wef', Account ID Number=234, Total Account Balance=323.0, Credit Delays=323, Amount Of Monthly Income=323.0, Age=32}
+02:06:54.722 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+02:06:54.724 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+02:06:54.734 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+02:06:54.734 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+02:06:54.735 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1760
+02:06:54.735 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+02:06:54.735 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+02:06:54.736 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:06:58.752 [main] INFO  LoggerInstance.Loggers - Name got a value of huk
+02:06:58.753 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+02:07:00.868 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 890
+02:07:00.870 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+02:07:02.334 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 80.0
+02:07:02.336 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+02:07:03.850 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 890
+02:07:03.850 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+02:07:05.620 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+02:07:05.621 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+02:07:06.928 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+02:07:06.929 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 40.0
+02:07:06.929 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 40.0
+02:07:06.960 [main] INFO  LoggerInstance.Loggers - Enter the Credit card number
+02:07:29.317 [main] INFO  LoggerInstance.Loggers - There is no client with this card number
+02:11:24.886 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+02:11:24.892 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+02:11:24.902 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+02:11:24.902 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+02:11:24.902 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 2624
+02:11:24.902 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+02:11:24.902 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+02:11:24.903 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:11:28.584 [main] INFO  LoggerInstance.Loggers - Name got a value of jkj
+02:11:28.585 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+02:11:30.776 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+02:11:30.778 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+02:11:32.205 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 678.0
+02:11:32.207 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+02:11:33.480 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 78
+02:11:33.481 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+02:11:35.023 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 89.0
+02:11:35.024 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+02:11:37.030 [main] INFO  LoggerInstance.Loggers - Age got a value of 78
+02:11:37.030 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 339.0
+02:11:37.031 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 339.0
+02:11:37.065 [main] INFO  LoggerInstance.Loggers - Enter the Credit card number
+02:18:47.054 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+02:18:47.056 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+02:18:47.066 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+02:18:47.066 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+02:18:47.067 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 60
+02:18:47.067 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+02:18:47.067 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+02:18:47.068 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:18:52.188 [main] INFO  LoggerInstance.Loggers - Name got a value of jl
+02:18:52.189 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+02:18:54.216 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+02:18:54.217 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+02:18:58.210 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 7698.0
+02:18:58.212 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+02:19:00.962 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 576
+02:19:00.963 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+02:19:03.017 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 687.0
+02:19:03.018 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+02:19:04.634 [main] INFO  LoggerInstance.Loggers - Age got a value of 678
+02:19:04.635 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 3849.0
+02:19:04.635 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 3849.0
+02:19:04.666 [main] INFO  LoggerInstance.Loggers - Enter the Credit card number
+02:19:15.400 [main] INFO  LoggerInstance.Loggers - The holder of the card is - ClientsIndividuals{Name='jl', Account ID Number=89, Total Account Balance=7698.0, Credit Delays=576, Amount Of Monthly Income=687.0, Age=678}
+02:34:06.415 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5349
+02:34:06.417 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+02:34:06.417 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+02:34:06.419 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+02:34:06.419 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+02:34:06.420 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+02:34:06.420 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+02:34:06.420 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+02:34:10.131 [main] INFO  LoggerInstance.Loggers - Name got a value of jk
+02:34:10.132 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+02:34:11.329 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 78
+02:34:11.330 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+02:34:13.244 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 567.0
+02:34:13.246 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+02:34:14.821 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+02:34:14.822 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+02:34:16.907 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+02:34:16.908 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+02:34:22.665 [main] INFO  LoggerInstance.Loggers - Age got a value of 456
+02:34:22.665 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 283.5
+02:34:22.666 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 283.5
+02:34:22.699 [main] INFO  LoggerInstance.Loggers - Enter the Credit card number
+02:34:29.867 [main] INFO  LoggerInstance.Loggers - The holder of the card is - ClientsIndividuals{Name='jk', Account ID Number=78, Total Account Balance=567.0, Credit Delays=678, Amount Of Monthly Income=789.0, Age=456}
+03:00:41.431 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6789
+03:00:41.432 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:00:41.433 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:00:41.435 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:00:41.435 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:00:41.435 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:00:41.436 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:00:41.436 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:00:44.003 [main] INFO  LoggerInstance.Loggers - Name got a value of rgdf
+03:00:44.004 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:00:45.118 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 54
+03:00:45.119 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:00:46.084 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 54.0
+03:00:46.086 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:00:47.047 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+03:00:47.048 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:00:48.014 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 43.0
+03:00:48.015 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:00:49.227 [main] INFO  LoggerInstance.Loggers - Age got a value of 43
+03:00:49.227 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 27.0
+03:00:49.228 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 27.0
+03:00:49.260 [main] INFO  LoggerInstance.Loggers - Confirm the amount of money to withdraw from the balance
+03:00:58.081 [main] INFO  LoggerInstance.Loggers - Withdraw cash from bank account in the amount of 3.0
+03:00:58.081 [main] INFO  LoggerInstance.Loggers - Cash balance is decreased in 3.0
+03:00:58.083 [main] INFO  LoggerInstance.Loggers - Your current balance is 51.0
+03:00:58.084 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to top up the balance
+03:01:00.878 [main] INFO  LoggerInstance.Loggers - Try to top up balance in the amount of 5454.0
+03:01:00.879 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 5454.0
+03:01:00.880 [main] INFO  LoggerInstance.Loggers - Your current balance is 5505.0
+03:01:00.907 [main] INFO  LoggerInstance.Loggers - [Operations{nameOfTheOperation='Withdraw cash from department in the amount of', amountOfMoney=3.0}, Operations{nameOfTheOperation='Top up balance in the amount of ', amountOfMoney=5454.0}]
+03:03:33.416 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7056
+03:03:33.418 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:03:33.418 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:03:33.420 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:03:33.420 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:03:33.420 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:03:33.421 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:03:33.421 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:03:36.695 [main] INFO  LoggerInstance.Loggers - Name got a value of ghj
+03:03:36.696 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:03:38.387 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 678
+03:03:38.388 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:03:40.060 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 78.0
+03:03:40.062 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:03:41.486 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 687
+03:03:41.487 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:03:43.498 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 678.0
+03:03:43.499 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:03:45.395 [main] INFO  LoggerInstance.Loggers - Age got a value of 687
+03:03:45.396 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 39.0
+03:03:45.396 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 39.0
+03:03:45.423 [main] INFO  LoggerInstance.Loggers - Confirm the amount of money to withdraw from the balance
+03:03:48.361 [main] INFO  LoggerInstance.Loggers - Withdraw cash from bank account in the amount of 9.0
+03:03:48.362 [main] INFO  LoggerInstance.Loggers - Cash balance is decreased in 9.0
+03:03:48.366 [main] INFO  LoggerInstance.Loggers - Your current balance is 69.0
+03:03:48.367 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to top up the balance
+03:03:54.459 [main] INFO  LoggerInstance.Loggers - Try to top up balance in the amount of 90.0
+03:03:54.460 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 90.0
+03:03:54.460 [main] INFO  LoggerInstance.Loggers - Your current balance is 159.0
+03:03:54.484 [main] INFO  LoggerInstance.Loggers - [Operations{nameOfTheOperation='Withdraw cash from department in the amount of', amountOfMoney=9.0}, Operations{nameOfTheOperation='Top up balance in the amount of ', amountOfMoney=90.0}]
+03:03:54.485 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 4237
+03:03:54.485 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:03:54.485 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:03:54.485 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:03:54.486 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:03:54.486 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:03:54.486 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:03:54.486 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:04:12.121 [main] INFO  LoggerInstance.Loggers - Name got a value of uhj
+03:04:12.122 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:04:15.442 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 980
+03:04:15.442 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:04:17.299 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+03:04:17.300 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:04:21.356 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+03:04:21.358 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:04:23.458 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 687.0
+03:04:23.459 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:04:25.910 [main] INFO  LoggerInstance.Loggers - Age got a value of 8
+03:04:25.911 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+03:04:25.911 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+03:04:25.911 [main] INFO  LoggerInstance.Loggers - []
+03:15:12.752 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9339
+03:15:12.754 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:15:12.754 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:15:12.756 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:15:12.756 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:15:12.757 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:15:12.757 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:15:12.757 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:15:16.012 [main] INFO  LoggerInstance.Loggers - Name got a value of dfg
+03:15:16.013 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:15:17.417 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 34
+03:15:17.419 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:15:18.389 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 34.0
+03:15:18.391 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:15:19.837 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+03:15:19.838 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:15:20.813 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 43.0
+03:15:20.814 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:15:22.036 [main] INFO  LoggerInstance.Loggers - Age got a value of 3
+03:15:22.037 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 17.0
+03:15:22.037 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 17.0
+03:15:22.071 [main] INFO  LoggerInstance.Loggers - Confirm the amount of money to withdraw from the balance
+03:15:25.603 [main] INFO  LoggerInstance.Loggers - Withdraw cash from bank account in the amount of 34.0
+03:15:25.604 [main] INFO  LoggerInstance.Loggers - Cash balance is decreased in 34.0
+03:15:25.608 [main] INFO  LoggerInstance.Loggers - Your current balance is 0.0
+03:15:25.609 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to top up the balance
+03:15:26.504 [main] INFO  LoggerInstance.Loggers - Try to top up balance in the amount of 34.0
+03:15:26.505 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 34.0
+03:15:26.506 [main] INFO  LoggerInstance.Loggers - Your current balance is 34.0
+03:15:26.530 [main] INFO  LoggerInstance.Loggers - [Operations{nameOfTheOperation='Withdraw cash from department in the amount of', amountOfMoney=34.0}, Operations{nameOfTheOperation='Top up balance in the amount of ', amountOfMoney=34.0}]
+03:15:26.530 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7798
+03:15:26.531 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:15:26.531 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:15:26.531 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:15:26.532 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:15:26.532 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:15:26.532 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:15:26.532 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:15:28.809 [main] INFO  LoggerInstance.Loggers - Name got a value of df
+03:15:28.810 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:15:30.839 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 34
+03:15:30.839 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:15:31.833 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 34.0
+03:15:31.835 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:15:32.750 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+03:15:32.750 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:15:33.636 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 43.0
+03:15:33.637 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:15:34.671 [main] INFO  LoggerInstance.Loggers - Age got a value of 43
+03:15:34.672 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 17.0
+03:15:34.672 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 17.0
+03:15:34.672 [main] INFO  LoggerInstance.Loggers - []
+03:36:58.059 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 4657
+03:36:58.060 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:36:58.061 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:36:58.063 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:36:58.063 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:36:58.063 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:36:58.063 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:36:58.064 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:37:01.218 [main] INFO  LoggerInstance.Loggers - Name got a value of hkj
+03:37:01.219 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:37:03.258 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 67
+03:37:03.260 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:37:04.811 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+03:37:04.814 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:37:06.440 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+03:37:06.441 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:37:08.843 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 67.0
+03:37:08.844 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:37:13.942 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+03:37:13.942 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+03:37:13.943 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+03:37:13.978 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:37:13.980 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:37:13.981 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:37:13.982 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:37:13.982 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:37:13.982 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:37:13.984 [main] INFO  LoggerInstance.Loggers - []
+03:37:13.985 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6495
+03:37:13.985 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:37:13.985 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:37:13.985 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:37:13.986 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:37:13.986 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:37:13.986 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:37:13.987 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:42:45.367 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9617
+03:42:45.369 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:42:45.369 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:42:45.371 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:42:45.371 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:42:45.371 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:42:45.372 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:42:45.372 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:42:48.798 [main] INFO  LoggerInstance.Loggers - Name got a value of sdfg
+03:42:48.799 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:42:49.923 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 345
+03:42:49.924 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:42:51.273 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 435.0
+03:42:51.275 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:42:52.751 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 345
+03:42:52.752 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:42:54.481 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 34554.0
+03:42:54.481 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:42:56.049 [main] INFO  LoggerInstance.Loggers - Age got a value of 345
+03:42:56.049 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 217.5
+03:42:56.050 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 217.5
+03:42:56.082 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:42:56.084 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:42:56.086 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:42:56.087 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:42:56.087 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:42:56.088 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:42:56.096 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=0}, CreditRequestsHistory{Status='failed', Serial Number=0}]
+03:42:56.097 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7742
+03:42:56.097 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:42:56.097 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:42:56.097 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:42:56.097 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:42:56.098 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:42:56.098 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:42:56.098 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:44:25.634 [main] INFO  LoggerInstance.Loggers - Name got a value of hkj
+03:44:25.635 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:44:31.948 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+03:44:31.948 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:44:36.108 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 9000.0
+03:44:36.109 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:44:38.382 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 0
+03:44:38.382 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:44:43.457 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 9000.0
+03:44:43.458 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:44:47.098 [main] INFO  LoggerInstance.Loggers - Age got a value of 45
+03:44:47.099 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 4500.0
+03:44:47.099 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 4500.0
+03:44:47.099 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:44:47.101 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:44:47.103 [main] INFO  LoggerInstance.Loggers - Random percentage of the of the credit department to provide a credit is established in the amount of 6
+03:44:47.104 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:44:47.104 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=0}]
+03:46:38.398 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9275
+03:46:38.400 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:46:38.400 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:46:38.403 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:46:38.403 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:46:38.403 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:46:38.403 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:46:38.403 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:46:41.221 [main] INFO  LoggerInstance.Loggers - Name got a value of jnju
+03:46:41.222 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:46:44.765 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+03:46:44.767 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:46:46.212 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 678.0
+03:46:46.215 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:46:47.655 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 798
+03:46:47.656 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:46:49.026 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 798.0
+03:46:49.027 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:46:50.346 [main] INFO  LoggerInstance.Loggers - Age got a value of 6789
+03:46:50.347 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 339.0
+03:46:50.347 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 339.0
+03:46:50.383 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:46:50.386 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:46:50.387 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:46:50.388 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:46:50.388 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:46:50.388 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:46:50.396 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+03:46:50.396 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3161
+03:46:50.396 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:46:50.396 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:46:50.397 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:46:50.397 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:46:50.397 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:46:50.398 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:46:50.398 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:48:52.643 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6858
+03:48:52.645 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:48:52.645 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:48:52.648 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:48:52.648 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:48:52.648 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:48:52.648 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:48:52.648 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:48:59.226 [main] INFO  LoggerInstance.Loggers - Name got a value of jhkh
+03:48:59.227 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:49:00.901 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+03:49:00.902 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:49:02.259 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 6789.0
+03:49:02.261 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:49:03.461 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 798
+03:49:03.462 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:49:04.633 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+03:49:04.634 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:49:05.991 [main] INFO  LoggerInstance.Loggers - Age got a value of 67
+03:49:05.992 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 3394.5
+03:49:05.992 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 3394.5
+03:49:06.024 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:49:06.026 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:49:06.027 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:49:06.028 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:49:06.028 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:49:06.028 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:49:06.037 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=2}, CreditRequestsHistory{Status='failed', Serial Number=2}]
+03:49:06.037 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 405
+03:49:06.038 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:49:06.038 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:49:06.038 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:49:06.038 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:49:06.039 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:49:06.039 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:49:06.039 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:51:04.264 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7896
+03:51:04.266 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:51:04.266 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:51:04.268 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:51:04.268 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:51:04.269 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:51:04.269 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:51:04.269 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:51:07.172 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+03:51:07.172 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:51:08.035 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 23
+03:51:08.036 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:51:09.086 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 234.0
+03:51:09.089 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:51:10.082 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+03:51:10.083 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:51:11.360 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 43.0
+03:51:11.360 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:51:12.515 [main] INFO  LoggerInstance.Loggers - Age got a value of 43
+03:51:12.515 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 117.0
+03:51:12.516 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 117.0
+03:51:12.551 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:51:12.553 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:51:12.554 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:51:12.555 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:51:12.555 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:51:12.555 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:51:12.564 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+03:51:12.564 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9154
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:51:12.565 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:53:55.349 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6247
+03:53:55.352 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:53:55.352 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:53:55.355 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:53:55.355 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:53:55.355 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:53:55.355 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:53:55.355 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:53:58.180 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+03:53:58.181 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:54:21.444 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9290
+03:54:21.445 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:54:21.446 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:54:21.448 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:54:21.448 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:54:21.448 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:54:21.448 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:54:21.448 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:54:24.236 [main] INFO  LoggerInstance.Loggers - Name got a value of fdg
+03:54:24.236 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:54:25.708 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 65
+03:54:25.709 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:54:26.916 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 65.0
+03:54:26.917 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:54:28.035 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 65
+03:54:28.036 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:54:31.913 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 54.0
+03:54:31.914 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:54:33.325 [main] INFO  LoggerInstance.Loggers - Age got a value of 54
+03:54:33.326 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 32.5
+03:54:33.326 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 32.5
+03:54:33.361 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:54:33.363 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:54:33.365 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:54:33.365 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:54:33.365 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:54:33.365 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6419
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:54:33.374 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:54:33.375 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:54:33.375 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:54:33.375 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:56:28.276 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5537
+03:56:28.278 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:56:28.278 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:56:28.280 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:56:28.281 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:56:28.281 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:56:28.281 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:56:28.281 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+03:56:40.726 [main] INFO  LoggerInstance.Loggers - Name got a value of dffdg
+03:56:40.726 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+03:56:42.443 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 43
+03:56:42.445 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+03:56:44.892 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 6356.0
+03:56:44.895 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+03:56:45.929 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 345
+03:56:45.930 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+03:56:47.701 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 345.0
+03:56:47.702 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+03:56:48.986 [main] INFO  LoggerInstance.Loggers - Age got a value of 345
+03:56:48.986 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 3178.0
+03:56:48.986 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 3178.0
+03:56:49.021 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:56:49.023 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:56:49.025 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:56:49.026 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+03:56:49.026 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+03:56:49.026 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+03:56:49.034 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+03:56:49.034 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 197
+03:56:49.034 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+03:56:49.035 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+03:56:49.035 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+03:56:49.035 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+03:56:49.035 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+03:56:49.035 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+03:56:49.036 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:00:46.061 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7700
+04:00:46.062 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:00:46.063 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:00:46.067 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:00:46.067 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:00:46.067 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:00:46.067 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:00:46.067 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:00:49.536 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+04:00:49.536 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:00:50.429 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 34
+04:00:50.430 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:00:51.522 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 34.0
+04:00:51.524 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:00:52.707 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 234
+04:00:52.707 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:00:53.768 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 423.0
+04:00:53.768 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:00:55.062 [main] INFO  LoggerInstance.Loggers - Age got a value of 423
+04:00:55.063 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 17.0
+04:00:55.063 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 17.0
+04:00:55.098 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:00:55.100 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:00:55.101 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:00:55.101 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:00:55.102 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:00:55.102 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:00:55.111 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9560
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:00:55.112 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:02:35.648 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9651
+04:02:35.650 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:02:35.650 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:02:35.652 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:02:35.652 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:02:35.653 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:02:35.653 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:02:35.653 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:02:37.948 [main] INFO  LoggerInstance.Loggers - Name got a value of ert
+04:02:37.949 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:02:40.760 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 43
+04:02:40.761 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:02:41.865 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 434.0
+04:02:41.867 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:02:42.935 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 234
+04:02:42.936 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:02:44.104 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 325.0
+04:02:44.105 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:02:45.571 [main] INFO  LoggerInstance.Loggers - Age got a value of 235
+04:02:45.572 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 217.0
+04:02:45.572 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 217.0
+04:02:45.603 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:02:45.606 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:02:45.607 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:02:45.607 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:02:45.607 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:02:45.607 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:02:45.616 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:02:45.617 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7346
+04:02:45.617 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:02:45.617 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:02:45.617 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:02:45.617 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:02:45.618 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:02:45.618 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:02:45.618 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:04:42.010 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9832
+04:04:42.012 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:04:42.012 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:04:42.014 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:04:42.015 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:04:42.015 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:04:42.015 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:04:42.015 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:04:44.641 [main] INFO  LoggerInstance.Loggers - Name got a value of dfg
+04:04:44.642 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:04:45.515 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 345
+04:04:45.516 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:04:46.447 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 435.0
+04:04:46.449 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:04:47.533 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 234
+04:04:47.534 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:04:48.682 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 423.0
+04:04:48.683 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:04:50.076 [main] INFO  LoggerInstance.Loggers - Age got a value of 4356
+04:04:50.077 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 217.5
+04:04:50.077 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 217.5
+04:04:50.110 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:04:50.114 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:04:50.115 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:04:50.115 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:04:50.115 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:04:50.115 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:04:50.122 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:04:50.123 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 432
+04:04:50.123 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:04:50.123 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:04:50.123 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:04:50.123 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:04:50.124 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:04:50.124 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:04:50.124 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:07:10.872 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6085
+04:07:10.874 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:07:10.874 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:07:10.877 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:07:10.877 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:07:10.877 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:07:10.877 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:07:10.877 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:07:13.367 [main] INFO  LoggerInstance.Loggers - Name got a value of jkl
+04:07:13.368 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:07:14.485 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+04:07:14.486 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:07:15.587 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 678.0
+04:07:15.589 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:07:16.744 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 687
+04:07:16.745 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:07:18.494 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 678.0
+04:07:18.495 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:07:20.116 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+04:07:20.117 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 339.0
+04:07:20.117 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 339.0
+04:07:20.150 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:07:20.154 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:07:20.154 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:07:20.154 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:07:20.154 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:07:20.154 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:07:20.163 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6076
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:07:20.164 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:07:20.165 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:07:20.165 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:08:42.965 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5157
+04:08:42.971 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:08:42.972 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:08:42.974 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:08:42.974 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:08:42.975 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:08:42.975 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:08:42.975 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:08:45.880 [main] INFO  LoggerInstance.Loggers - Name got a value of hj
+04:08:45.881 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:08:47.048 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+04:08:47.050 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:08:48.135 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+04:08:48.137 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:08:49.251 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:08:49.252 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:08:50.304 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+04:08:50.305 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:08:51.320 [main] INFO  LoggerInstance.Loggers - Age got a value of 78
+04:08:51.320 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+04:08:51.321 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+04:08:51.355 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:08:51.358 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:08:51.359 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:08:51.359 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:08:51.359 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:08:51.360 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:08:51.369 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:08:51.369 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1620
+04:08:51.369 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:08:51.369 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:08:51.369 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:08:51.370 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:08:51.370 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:08:51.370 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:08:51.370 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:08:58.315 [main] INFO  LoggerInstance.Loggers - Name got a value of hj
+04:08:58.316 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:09:00.108 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 67
+04:09:00.109 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:09:02.910 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 89999.0
+04:09:02.910 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:09:05.523 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 0
+04:09:05.524 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:09:07.981 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 7888.0
+04:09:07.982 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:09:14.497 [main] INFO  LoggerInstance.Loggers - Age got a value of 45
+04:09:14.497 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 44999.5
+04:09:14.498 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 44999.5
+04:09:14.498 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:09:14.499 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:09:14.502 [main] INFO  LoggerInstance.Loggers - Random percentage of the of the credit department to provide a credit is established in the amount of 66
+04:09:14.502 [main] INFO  LoggerInstance.Loggers - Credit for the client individual is approved!
+04:09:14.503 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='approved', Serial Number=1}]
+04:10:07.800 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6903
+04:10:07.802 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:10:07.803 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:10:07.805 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:10:07.806 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:10:07.806 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:10:07.806 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:10:07.806 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:10:10.460 [main] INFO  LoggerInstance.Loggers - Name got a value of hkj
+04:10:10.461 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:10:11.593 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 678
+04:10:11.594 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:10:13.692 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 78.0
+04:10:13.695 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:10:14.723 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+04:10:14.723 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:10:15.751 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 78.0
+04:10:15.752 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:10:16.913 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+04:10:16.914 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 39.0
+04:10:16.914 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 39.0
+04:10:16.948 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:10:16.953 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:10:16.953 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:10:16.953 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:10:16.954 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:10:16.954 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:10:16.961 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=2}, CreditRequestsHistory{Status='failed', Serial Number=2}]
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6292
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:10:16.962 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:10:16.963 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:10:16.963 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:10:27.935 [main] INFO  LoggerInstance.Loggers - Name got a value of hjk
+04:10:27.935 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:10:28.978 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+04:10:28.978 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:10:29.910 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 79.0
+04:10:29.911 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:10:30.996 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 78
+04:10:30.996 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:10:32.718 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+04:10:32.719 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:10:33.896 [main] INFO  LoggerInstance.Loggers - Age got a value of 678
+04:10:33.897 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 39.5
+04:10:33.897 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 39.5
+04:10:33.897 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:10:33.899 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:10:33.900 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:10:33.901 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=3}]
+04:11:25.755 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1586
+04:11:25.757 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:11:25.758 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:11:25.760 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:11:25.760 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:11:25.760 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:11:25.760 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:11:25.760 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:11:28.485 [main] INFO  LoggerInstance.Loggers - Name got a value of gjh
+04:11:28.486 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:11:29.618 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 798
+04:11:29.619 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:11:30.750 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 89.0
+04:11:30.753 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:11:31.813 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:11:31.814 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:11:33.192 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 798.0
+04:11:33.192 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:11:34.761 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+04:11:34.761 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 44.5
+04:11:34.762 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 44.5
+04:11:34.794 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:11:34.799 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:11:34.800 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:11:34.800 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:11:34.800 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:11:34.800 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:11:34.809 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=0}, CreditRequestsHistory{Status='failed', Serial Number=0}]
+04:11:34.809 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 4709
+04:11:34.809 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:11:34.809 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:11:34.810 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:11:34.810 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:11:34.810 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:11:34.810 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:11:34.810 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:12:26.925 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1315
+04:12:26.927 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:12:26.927 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:12:26.930 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:12:26.930 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:12:26.930 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:12:26.930 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:12:26.930 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:12:30.620 [main] INFO  LoggerInstance.Loggers - Name got a value of kjnj
+04:12:30.621 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:12:32.274 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 809
+04:12:32.275 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:12:34.648 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 800.0
+04:12:34.650 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:12:35.697 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 890
+04:12:35.697 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:12:36.695 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 890.0
+04:12:36.696 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:12:37.825 [main] INFO  LoggerInstance.Loggers - Age got a value of 890
+04:12:37.827 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 400.0
+04:12:37.827 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 400.0
+04:12:37.858 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:12:37.862 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:12:37.863 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:12:37.863 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:12:37.863 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:12:37.864 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:12:37.871 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=0}, CreditRequestsHistory{Status='failed', Serial Number=0}]
+04:12:37.871 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3815
+04:12:37.871 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:12:37.872 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:12:37.872 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:12:37.872 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:12:37.872 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:12:37.873 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:12:37.873 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:14:06.398 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3395
+04:14:06.399 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:14:06.400 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:14:06.402 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:14:06.402 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:14:06.403 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:14:06.403 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:14:06.403 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:14:10.050 [main] INFO  LoggerInstance.Loggers - Name got a value of ghjghj
+04:14:10.051 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:14:12.448 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 678
+04:14:12.449 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:14:14.445 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+04:14:14.447 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:14:19.549 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 7897
+04:14:19.550 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:14:23.614 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 768.0
+04:14:23.614 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:14:25.910 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+04:14:25.911 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+04:14:25.911 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+04:14:25.948 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:14:25.952 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:14:25.953 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:14:25.953 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:14:25.953 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:14:25.953 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:14:25.961 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=2}, CreditRequestsHistory{Status='failed', Serial Number=2}]
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7803
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:14:25.962 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:14:47.050 [main] INFO  LoggerInstance.Loggers - Name got a value of ghj
+04:14:47.050 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:14:48.506 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+04:14:48.507 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:14:49.539 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+04:14:49.540 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:14:50.571 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:14:50.571 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:14:51.577 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 6789.0
+04:14:51.578 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Age got a value of 77
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:14:53.876 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:14:53.877 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=3}]
+04:16:34.974 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3968
+04:16:34.976 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:16:34.976 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:16:34.982 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:16:34.982 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:16:34.983 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:16:34.983 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:16:34.983 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:16:37.818 [main] INFO  LoggerInstance.Loggers - Name got a value of hjk
+04:16:37.818 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:16:39.729 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 78
+04:16:39.730 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:16:41.881 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 798.0
+04:16:41.883 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:16:43.299 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:16:43.300 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:16:44.896 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 678.0
+04:16:44.896 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:16:46.181 [main] INFO  LoggerInstance.Loggers - Age got a value of 687
+04:16:46.182 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 399.0
+04:16:46.182 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 399.0
+04:16:46.218 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:16:46.222 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:16:46.222 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:16:46.222 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:16:46.222 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:16:46.223 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:16:46.231 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=2}, CreditRequestsHistory{Status='failed', Serial Number=2}]
+04:16:46.232 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6783
+04:16:46.232 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:16:46.232 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:16:46.232 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:16:46.232 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:16:46.233 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:16:46.233 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:16:46.233 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:19:05.178 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 4690
+04:19:05.181 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:19:05.181 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:19:05.183 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:19:05.183 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:19:05.184 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:19:05.184 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:19:05.184 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:19:09.503 [main] INFO  LoggerInstance.Loggers - Name got a value of jbhj
+04:19:09.504 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:19:11.633 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 79
+04:19:11.634 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:19:13.164 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 890.0
+04:19:13.166 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:19:14.708 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:19:14.709 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:19:15.735 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+04:19:15.735 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:19:17.045 [main] INFO  LoggerInstance.Loggers - Age got a value of 789
+04:19:17.045 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 445.0
+04:19:17.045 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 445.0
+04:19:17.078 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:19:17.082 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:19:17.082 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:19:17.082 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:19:17.082 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:19:17.082 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:19:17.091 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5675
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:19:17.092 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:19:17.093 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:19:17.093 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:19:25.378 [main] INFO  LoggerInstance.Loggers - Name got a value of hjk
+04:19:25.379 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:19:26.891 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 890
+04:19:26.891 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:19:28.120 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 890.0
+04:19:28.120 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:19:29.412 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 890
+04:19:29.413 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:19:30.403 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 89.0
+04:19:30.404 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:19:31.682 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+04:19:31.683 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 445.0
+04:19:31.683 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 445.0
+04:19:31.684 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:19:31.684 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:19:31.686 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:19:31.688 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:20:08.411 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6695
+04:20:08.413 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:20:08.413 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:20:08.415 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:20:08.416 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:20:08.416 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:20:08.416 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:20:08.416 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:20:10.541 [main] INFO  LoggerInstance.Loggers - Name got a value of hjkhkj
+04:20:10.542 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:20:11.844 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 890
+04:20:11.845 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:20:12.862 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+04:20:12.864 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:20:14.077 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 89
+04:20:14.078 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:20:15.183 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+04:20:15.184 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:20:16.484 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+04:20:16.485 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+04:20:16.485 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+04:20:16.514 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:20:16.518 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:20:16.519 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:20:16.519 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:20:16.519 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:20:16.519 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:20:16.528 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}, CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:20:16.529 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 9138
+04:20:16.529 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:20:16.530 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:20:16.530 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:20:16.530 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:20:16.530 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:20:16.530 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:20:16.531 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:20:21.013 [main] INFO  LoggerInstance.Loggers - Name got a value of hjk
+04:20:21.014 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:20:22.542 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 789
+04:20:22.542 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:20:23.774 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+04:20:23.774 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:20:24.981 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 789
+04:20:24.982 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:20:26.273 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+04:20:26.275 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:20:27.301 [main] INFO  LoggerInstance.Loggers - Age got a value of 89
+04:20:27.302 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+04:20:27.303 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+04:20:27.303 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:20:27.303 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:20:27.303 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:20:27.304 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1}]
+04:24:42.195 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 155
+04:24:42.197 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:24:42.197 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:24:42.200 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:24:42.200 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:24:42.200 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:24:42.201 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:24:42.201 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:24:45.138 [main] INFO  LoggerInstance.Loggers - Name got a value of dcv
+04:24:45.138 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:24:46.075 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 43
+04:24:46.077 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:24:46.880 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 345.0
+04:24:46.882 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:24:47.691 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 345
+04:24:47.692 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:24:48.596 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 345.0
+04:24:48.597 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:24:49.662 [main] INFO  LoggerInstance.Loggers - Age got a value of 534
+04:24:49.663 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 172.5
+04:24:49.663 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 172.5
+04:24:49.698 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:24:49.702 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:24:49.702 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:24:49.702 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:24:49.703 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:24:49.703 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:24:49.712 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=2}, CreditRequestsHistory{Status='failed', Serial Number=2}]
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7922
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:24:49.713 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:29:03.671 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6131
+04:29:03.673 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:29:03.673 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:29:03.675 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:29:03.676 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:29:03.676 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:29:03.676 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:29:03.676 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:29:06.234 [main] INFO  LoggerInstance.Loggers - Name got a value of eer
+04:29:06.234 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:29:07.013 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 43
+04:29:07.015 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:29:07.753 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 34.0
+04:29:07.755 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:29:08.564 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 34
+04:29:08.564 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:29:09.359 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 53.0
+04:29:09.360 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:29:10.327 [main] INFO  LoggerInstance.Loggers - Age got a value of 34
+04:29:10.328 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 17.0
+04:29:10.328 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 17.0
+04:29:10.362 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:29:10.364 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:29:10.366 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:29:10.366 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:29:10.367 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:29:10.367 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:29:10.376 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=7137}, CreditRequestsHistory{Status='failed', Serial Number=566}]
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7648
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:29:10.377 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:29:10.378 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+04:29:18.532 [main] INFO  LoggerInstance.Loggers - Name got a value of 34
+04:29:18.534 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+04:29:20.724 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 345
+04:29:20.725 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+04:29:21.462 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 345.0
+04:29:21.462 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+04:29:22.206 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 345
+04:29:22.207 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+04:29:22.944 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 345.0
+04:29:22.945 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+04:29:23.730 [main] INFO  LoggerInstance.Loggers - Age got a value of 235
+04:29:23.730 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 172.5
+04:29:23.731 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 172.5
+04:29:23.731 [main] INFO  LoggerInstance.Loggers - Try to ask for a credit
+04:29:23.731 [main] INFO  LoggerInstance.Loggers - Credit department is checking the client's data
+04:29:23.731 [main] INFO  LoggerInstance.Loggers - Credit for a client individual can't be approved!
+04:29:23.732 [main] INFO  LoggerInstance.Loggers - [CreditRequestsHistory{Status='failed', Serial Number=1700}]
+04:51:40.790 [main] INFO  LoggerInstance.Loggers - Average amount of transported cash is - NaN
+04:55:17.302 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3498
+04:55:17.304 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:55:17.304 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:55:17.305 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:55:17.305 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:55:17.306 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:55:17.306 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:55:17.307 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 3465345.0
+04:55:17.307 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+04:55:17.307 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+04:55:17.308 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+04:55:17.308 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to withdraw from the balance in the ATM
+04:55:25.001 [main] INFO  LoggerInstance.Loggers - Try to withdraw cash from the ATM
+04:55:25.002 [main] INFO  LoggerInstance.Loggers - This operation can not be performed, please wait for the collection service
+04:55:25.008 [main] INFO  LoggerInstance.Loggers - Collection service is crated with the amount of transported cash of 6000.0
+04:55:25.009 [main] INFO  LoggerInstance.Loggers - The collection service is trying to convert non cash into cash
+04:55:25.010 [main] INFO  LoggerInstance.Loggers - Non cash balance is decreased in 6000.0
+04:55:25.010 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 6000.0
+04:55:25.010 [main] INFO  LoggerInstance.Loggers - The balance of the ATM will be increased soon. Try again!
+04:55:25.010 [main] INFO  LoggerInstance.Loggers - Call the collection service for the amount of money of 6000.0
+04:55:25.011 [main] INFO  LoggerInstance.Loggers - Average amount of transported cash is - 6000.0
+04:56:00.808 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7217
+04:56:00.810 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+04:56:00.810 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+04:56:00.811 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+04:56:00.811 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+04:56:00.813 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+04:56:00.813 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+04:56:00.813 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 3465345.0
+04:56:00.814 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+04:56:00.814 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+04:56:00.815 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+04:56:00.815 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to withdraw from the balance in the ATM
+04:56:05.861 [main] INFO  LoggerInstance.Loggers - Try to withdraw cash from the ATM
+04:56:05.863 [main] INFO  LoggerInstance.Loggers - This operation can not be performed, please wait for the collection service
+04:56:05.869 [main] INFO  LoggerInstance.Loggers - Collection service is crated with the amount of transported cash of 6000.0
+04:56:05.870 [main] INFO  LoggerInstance.Loggers - The collection service is trying to convert non cash into cash
+04:56:05.870 [main] INFO  LoggerInstance.Loggers - Non cash balance is decreased in 6000.0
+04:56:05.872 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 6000.0
+04:56:05.872 [main] INFO  LoggerInstance.Loggers - The balance of the ATM will be increased soon. Try again!
+04:56:05.872 [main] INFO  LoggerInstance.Loggers - Call the collection service for the amount of money of 6000.0
+04:56:05.873 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+04:56:05.873 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+04:56:05.873 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+04:56:05.873 [main] INFO  LoggerInstance.Loggers - Enter the amount of money to withdraw from the balance in the ATM
+04:56:09.899 [main] INFO  LoggerInstance.Loggers - Try to withdraw cash from the ATM
+04:56:09.900 [main] INFO  LoggerInstance.Loggers - This operation can not be performed, please wait for the collection service
+04:56:09.900 [main] INFO  LoggerInstance.Loggers - Collection service is crated with the amount of transported cash of 4000.0
+04:56:09.901 [main] INFO  LoggerInstance.Loggers - The collection service is trying to convert non cash into cash
+04:56:09.901 [main] INFO  LoggerInstance.Loggers - Non cash balance is decreased in 4000.0
+04:56:09.902 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 4000.0
+04:56:09.902 [main] INFO  LoggerInstance.Loggers - The balance of the ATM will be increased soon. Try again!
+04:56:09.903 [main] INFO  LoggerInstance.Loggers - Call the collection service for the amount of money of 4000.0
+04:56:09.903 [main] INFO  LoggerInstance.Loggers - Average amount of transported cash is - 5000.0
+05:56:24.001 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3295
+05:56:24.003 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+05:56:24.004 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+05:56:24.006 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+05:56:24.006 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+05:56:24.006 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+05:56:24.007 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+05:56:24.007 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+05:56:24.007 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+05:56:24.007 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+05:58:44.814 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6950
+05:58:44.815 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+05:58:44.816 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+05:58:44.818 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+05:58:44.818 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+05:58:44.818 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+05:58:44.818 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+05:58:44.819 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+05:58:44.819 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+05:58:44.819 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+05:58:44.819 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+05:58:44.819 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+05:59:27.591 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 1049
+05:59:27.593 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+05:59:27.593 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+05:59:27.596 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+05:59:27.596 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+05:59:27.596 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+05:59:27.596 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+05:59:27.596 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+05:59:27.597 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+05:59:27.597 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+05:59:27.597 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+05:59:27.597 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+05:59:27.597 [main] INFO  LoggerInstance.Loggers - The list of all entities is the following: []
+06:00:32.011 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 6695
+06:00:32.013 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:00:32.014 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:00:32.016 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:00:32.016 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:00:32.016 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:00:32.016 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:00:32.016 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:00:32.017 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:00:32.017 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:00:32.017 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:00:32.017 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:00:32.018 [main] INFO  LoggerInstance.Loggers - The list of all entities is the following: []
+06:02:25.293 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 3644
+06:02:25.295 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:02:25.295 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:02:25.298 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:02:25.298 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:02:25.298 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:02:25.299 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:02:25.300 [main] INFO  LoggerInstance.Loggers - The list of all entities is the following: []
+06:03:07.091 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5969
+06:03:07.093 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:03:07.094 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:03:07.096 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:03:07.096 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:03:07.096 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:03:07.096 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:03:07.097 [main] INFO  LoggerInstance.Loggers - The list of all entities is the following: []
+06:03:46.960 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 2972
+06:03:46.962 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:03:46.962 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:03:46.964 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:03:46.964 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:03:46.964 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:03:46.965 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:03:46.966 [main] INFO  LoggerInstance.Loggers - The list of all entities is the following: []
+06:07:47.711 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7648
+06:07:47.713 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:07:47.713 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:07:47.715 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:07:47.716 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:07:47.716 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:07:47.716 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:07:47.716 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:07:47.717 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:07:47.717 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:07:47.717 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:07:47.717 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:09:14.307 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 7809
+06:09:14.308 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:09:14.309 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:09:14.311 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:09:14.311 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:09:14.311 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:09:14.311 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:09:14.312 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:09:14.312 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:09:18.581 [main] INFO  LoggerInstance.Loggers - Name got a value of jkh
+06:09:18.582 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:09:20.693 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 8908
+06:09:20.694 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:09:22.214 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+06:09:22.217 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:09:23.496 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+06:09:23.497 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:09:24.794 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 678.0
+06:09:24.795 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:09:26.101 [main] INFO  LoggerInstance.Loggers - Age got a value of 687
+06:09:26.102 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+06:09:26.102 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+06:09:26.102 [main] INFO  LoggerInstance.Loggers - Client got a credit card with a number - 5053
+06:09:26.103 [main] INFO  LoggerInstance.Loggers - ID number of the holder of the card - 1
+06:09:26.104 [main] INFO  LoggerInstance.Loggers - Current credit card balance - 0.0
+06:09:26.105 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:09:26.105 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:09:26.106 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:09:26.106 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:09:26.107 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:09:26.110 [main] INFO  LoggerInstance.Loggers - Bank entities were increased by one
+06:09:26.111 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:09:26.111 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:09:26.111 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:15:12.151 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:15:12.152 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:15:12.162 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:15:12.162 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:15:12.162 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:15:14.768 [main] INFO  LoggerInstance.Loggers - Name got a value of njkn
+06:15:14.769 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:15:16.627 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 98
+06:15:16.628 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:15:18.494 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 798.0
+06:15:18.494 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:15:19.866 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 78
+06:15:19.867 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:15:21.042 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+06:15:21.044 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:15:23.661 [main] INFO  LoggerInstance.Loggers - Age got a value of 78
+06:15:23.692 [main] INFO  LoggerInstance.Loggers - Client got a credit card - CreditCard{ID Number=98, Credit card balance=798.0, Credit card number=9492}
+06:15:23.693 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 399.0
+06:15:23.693 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 399.0
+06:15:23.693 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:15:23.693 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:15:23.694 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:15:23.694 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:15:23.696 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:15:23.697 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:15:23.697 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:18:54.818 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:18:54.820 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:18:54.820 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:18:54.831 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:18:54.831 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:18:54.831 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:18:57.050 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+06:18:57.050 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:18:58.033 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 345
+06:18:58.034 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:18:59.090 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 435.0
+06:18:59.091 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:18:59.936 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 345
+06:18:59.938 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:19:00.868 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 245.0
+06:19:00.869 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:19:01.736 [main] INFO  LoggerInstance.Loggers - Age got a value of 234
+06:19:01.769 [main] INFO  LoggerInstance.Loggers - Client got a credit card - CreditCard{ID Number=345, Credit card balance=435.0, Credit card number=8208}
+06:19:01.770 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 217.5
+06:19:01.770 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 217.5
+06:19:01.770 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:19:01.771 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:19:01.771 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:19:01.771 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:19:01.771 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:19:01.774 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:19:01.775 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:19:01.775 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:20:53.199 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:20:53.201 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:20:53.201 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:20:53.210 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:20:53.211 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:20:53.211 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:20:56.651 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+06:20:56.651 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:21:06.671 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 32
+06:21:06.672 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:21:08.179 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 42.0
+06:21:08.181 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:21:09.224 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 243
+06:21:09.226 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:21:10.173 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 423.0
+06:21:10.174 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:21:11.331 [main] INFO  LoggerInstance.Loggers - Age got a value of 423
+06:21:11.362 [main] INFO  LoggerInstance.Loggers - Client got a credit card - CreditCard{ID Number=32, Credit card balance=42.0, Credit card number=4679}
+06:21:11.363 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 21.0
+06:21:11.363 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 21.0
+06:21:11.363 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:21:11.364 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:21:11.364 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:21:11.364 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:21:11.364 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:21:11.367 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:21:11.368 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:21:11.368 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:21:49.350 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:21:49.351 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:21:49.351 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:21:49.361 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:21:49.361 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:21:49.361 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:21:52.498 [main] INFO  LoggerInstance.Loggers - Name got a value of sdf
+06:21:52.499 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:21:53.500 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 434
+06:21:53.501 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:21:54.652 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 423.0
+06:21:54.654 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:21:55.882 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 245
+06:21:55.884 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:21:57.086 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 5234.0
+06:21:57.087 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:21:58.231 [main] INFO  LoggerInstance.Loggers - Age got a value of 234
+06:21:58.259 [main] INFO  LoggerInstance.Loggers - Client got a credit card - CreditCard{ID Number=434, Credit card balance=423.0, Credit card number=4514}
+06:21:58.260 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 211.5
+06:21:58.260 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 211.5
+06:21:58.260 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:21:58.260 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:21:58.261 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:21:58.261 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:21:58.261 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:21:58.263 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:21:58.263 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:21:58.264 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity
+06:50:06.323 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:50:06.325 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:50:06.325 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:50:06.336 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:50:06.336 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:50:06.336 [main] INFO  LoggerInstance.Loggers - Enter the name of the client
+06:50:09.284 [main] INFO  LoggerInstance.Loggers - Name got a value of bj
+06:50:09.284 [main] INFO  LoggerInstance.Loggers - Enter the ID number of the client
+06:50:11.340 [main] INFO  LoggerInstance.Loggers - Account ID number got a value of 89
+06:50:11.340 [main] INFO  LoggerInstance.Loggers - Enter the balance of the client
+06:50:12.937 [main] INFO  LoggerInstance.Loggers - Account balance got a value of 789.0
+06:50:12.938 [main] INFO  LoggerInstance.Loggers - How many credit delays are in the history of the client?
+06:50:14.413 [main] INFO  LoggerInstance.Loggers - Number of credit delays got a value of 678
+06:50:14.415 [main] INFO  LoggerInstance.Loggers - Enter the amount of monthly income of the client
+06:50:15.753 [main] INFO  LoggerInstance.Loggers - Amount of monthly income got a value of 789.0
+06:50:15.753 [main] INFO  LoggerInstance.Loggers - Enter the age of the client
+06:50:17.070 [main] INFO  LoggerInstance.Loggers - Age got a value of 79
+06:50:17.098 [main] INFO  LoggerInstance.Loggers - Client got a credit card - CreditCard{ID Number=89, Credit card balance=789.0, Credit card number=3778}
+06:50:17.099 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 394.5
+06:50:17.099 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 394.5
+06:50:17.099 [main] INFO  LoggerInstance.Loggers - Client with default values was created
+06:50:17.099 [main] INFO  LoggerInstance.Loggers - Total amount of clients was increased by one
+06:50:17.099 [main] INFO  LoggerInstance.Loggers - Client got a new credit card
+06:50:17.100 [main] INFO  LoggerInstance.Loggers - Non cash balance is increased in 0.0
+06:50:17.100 [main] INFO  LoggerInstance.Loggers - Cash balance is increased in 0.0
+06:50:17.103 [main] INFO  LoggerInstance.Loggers - ATM with default values was created
+06:50:17.103 [main] INFO  LoggerInstance.Loggers - Total amount of ATMs was increased by one
+06:50:17.103 [main] INFO  LoggerInstance.Loggers - The set of ATMs got a new entity

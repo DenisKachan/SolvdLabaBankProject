@@ -1,5 +1,9 @@
+import ClientsOfTheBank.BaseClient;
 import ClientsOfTheBank.ClientsIndividuals;
 import ConsoleScanner.CreationObjectsFromConsole;
+import Exceptions.TotalAccountBalanceException;
+import StructureOfTheBank.ATM;
+import StructureOfTheBank.CollectionService;
 import StructureOfTheBank.ManagementDepartment;
 
 public class Main {
@@ -7,14 +11,10 @@ public class Main {
     public static void main(String[] args) {
         try (CreationObjectsFromConsole.scanner) {
             CreationObjectsFromConsole creationObjectsFromConsole = new CreationObjectsFromConsole();
-            ClientsIndividuals clientsIndividuals = creationObjectsFromConsole.createClientIndividualFromConsole();
-            ManagementDepartment managementDepartment = new ManagementDepartment();
-            managementDepartment.showBalance();
-            managementDepartment.amountOfCreatedEntities();
-            ClientsIndividuals clientsIndividuals1 = new ClientsIndividuals();
-            managementDepartment.amountOfCreatedEntities();
-            managementDepartment.showBalance();
-            clientsIndividuals.exchangeMoney();
+            ClientsIndividuals clientsIndividuals1 = creationObjectsFromConsole.createClientIndividualFromConsole();
+            ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
+            ATM atm = new ATM();
+
         }
     }
 }

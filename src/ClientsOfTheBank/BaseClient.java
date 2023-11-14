@@ -1,6 +1,9 @@
 package ClientsOfTheBank;
 
 import BankAccount.CurrentAccountOfTheBank;
+import ClientsPropertyAndHistory.CreditCard;
+import ClientsPropertyAndHistory.CreditRequestsHistory;
+import ClientsPropertyAndHistory.OperationsWithMoneyHistory;
 import ConsoleScanner.CreationObjectsFromConsole;
 import Exceptions.AccountIdNumberException;
 import Exceptions.AmountOfMonthlyIncomeException;
@@ -11,7 +14,11 @@ import Interfaces.Resettable;
 import Interfaces.Showing;
 import LoggerInstance.Loggers;
 import StructureOfTheBank.ATM;
+import StructureOfTheBank.ManagementDepartment;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Objects;
 
 public abstract class BaseClient implements Showing, Resettable, ICurrency {
@@ -25,6 +32,12 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     private static int amountOfClients;
     private static double financialFlows;
 
+    public List<OperationsWithMoneyHistory> clientsOperations = new ArrayList<>();
+    public List<CreditRequestsHistory> creditRequestsHistories = new LinkedList<>();
+
+
+    private CreditCard creditCard;
+
     static {
         commissionFee = 0.01;
     }
@@ -36,8 +49,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         this.creditDelays = 0;
         this.amountOfMonthlyIncome = 0;
         amountOfClients++;
+        creditCard = new CreditCard(getAccountIdNumber(),getTotalAccountBalance());
+        ManagementDepartment.cardClientsIndividuals.put(this.creditCard,this);
         Loggers.LOGGER.info("Client with default values was created");
         Loggers.LOGGER.info("Total amount of clients was increased by one");
+        Loggers.LOGGER.info("Client got a new credit card");
         CurrentAccountOfTheBank.getInstance();
         CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(totalAccountBalance / 2);
         CurrentAccountOfTheBank.getInstance();
@@ -133,6 +149,23 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         return financialFlows;
     }
 
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    public void setCreditCardData(int idNumber, double creditCardBalance) {
+        creditCard.setIdNumber(idNumber);
+        creditCard.setCreditCardBalance(creditCardBalance);
+    }
+
+    public List<CreditRequestsHistory> getCreditRequestsHistories() {
+        return creditRequestsHistories;
+    }
+
+    public void setCreditRequestsHistories(List<CreditRequestsHistory> creditRequestsHistories) {
+        this.creditRequestsHistories = creditRequestsHistories;
+    }
+
     public abstract void toTopUpBalance() throws TotalAccountBalanceException;
 
     public abstract void toAskForACredit();
@@ -157,7 +190,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
             totalAccountBalance -= amountOfMoneyForOperation;
             CurrentAccountOfTheBank.getInstance();
             CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoneyForOperation);
+            getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoneyForOperation);
             financialFlows += amountOfMoneyForOperation;
+            OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory("Withdraw cash from department in the amount of",
+                    amountOfMoneyForOperation);
+            clientsOperations.add(operationsWithMoneyHistory);
             Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
         } else {
             if (amountOfMoneyForOperation > totalAccountBalance) {
@@ -175,7 +212,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         if (atm.checkTheAbilityToWithdrawMoney(amountOfMoneyForOperation)) {
             withdrawCash();
             atm.setCurrentBalance(atm.getCurrentBalance() - amountOfMoneyForOperation);
+            getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoneyForOperation);
             financialFlows += amountOfMoneyForOperation;
+            OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory("Withdraw cash from ATM in the amount of",
+                    amountOfMoneyForOperation);
+            clientsOperations.add(operationsWithMoneyHistory);
         } else {
             Loggers.LOGGER.info("This operation can not be performed, please wait for the collection service");
             atm.callTheCollectionService(amountOfMoneyForOperation);
@@ -189,7 +230,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         if (amountOfMoneyForOperation <= totalAccountBalance) {
             totalAccountBalance -= amountOfMoneyForOperation;
             newClient.setTotalAccountBalance(newClient.getTotalAccountBalance() + amountOfMoneyForOperation);
+            getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoneyForOperation);
             financialFlows += amountOfMoneyForOperation;
+            OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory("Transfer money to the other client in the amount of ",
+                    amountOfMoneyForOperation);
+            clientsOperations.add(operationsWithMoneyHistory);
             Loggers.LOGGER.info("Successful! Your current balance is {}", totalAccountBalance);
         } else {
             Loggers.LOGGER.info("This operation can not be performed");
@@ -208,7 +253,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
             CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(amountOfMoneyForOperation
                     * (1 - commissionFee));
             Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
+            getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoneyForOperation);
             financialFlows += amountOfMoneyForOperation;
+            OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory("Transfer money to a non bank client in the amount of ",
+                    amountOfMoneyForOperation);
+            clientsOperations.add(operationsWithMoneyHistory);
         } else {
             if (amountOfMoneyForOperation > totalAccountBalance) {
                 Loggers.LOGGER.info("This operation can not be performed - not enough money in your account");
@@ -227,7 +276,11 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
         CurrentAccountOfTheBank.getInstance();
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
         atm.setCurrentBalance(atm.getCurrentBalance() + amountOfMoneyForOperation);
+        getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()+amountOfMoneyForOperation);
         financialFlows += amountOfMoneyForOperation;
+        OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory("Top up money through the ATM in the amount of ",
+                amountOfMoneyForOperation);
+        clientsOperations.add(operationsWithMoneyHistory);
         Loggers.LOGGER.info("Your current balance is {}", totalAccountBalance);
     }
 
@@ -259,17 +312,27 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
                     foreignCurrency = amountOfMoney / EURO_CURRENCY;
                     Loggers.LOGGER.info("You will get {} euro", foreignCurrency);
                     totalAccountBalance -= amountOfMoney;
+                    getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoney);
                     CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
                 }
                 case "dollar" -> {
                     foreignCurrency = amountOfMoney / DOLLAR_CURRENCY;
                     Loggers.LOGGER.info("You will get {} dollars", foreignCurrency);
                     totalAccountBalance -= amountOfMoney;
+                    getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance()-amountOfMoney);
                     CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
                 }
             }
         } else {
             Loggers.LOGGER.info("You have no so much money in your account");
         }
+    }
+
+    public void showOperationsHistory(){
+        Loggers.LOGGER.info(clientsOperations);
+    }
+
+    public void showCreditRequestsHistory(){
+        Loggers.LOGGER.info(creditRequestsHistories);
     }
 }
