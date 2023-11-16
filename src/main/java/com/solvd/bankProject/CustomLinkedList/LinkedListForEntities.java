@@ -186,14 +186,14 @@ public class LinkedListForEntities<T> {
 
     public String toString() {
         StringBuilder S = new StringBuilder("{ ");
-        Nodes<T> X = instance;
-        if (X == null)
+        Nodes<T> nodes = instance;
+        if (nodes == null)
             return S + " }";
-        while (X.next != null) {
-            S.append(String.valueOf(X.value)).append(" -> ");
-            X = X.next;
+        while (nodes.next != null) {
+            S.append(String.valueOf(nodes.value)).append(" -> ");
+            nodes = nodes.next;
         }
-        S.append(String.valueOf(X.value));
+        S.append(String.valueOf(nodes.value));
         return S + " }";
     }
 }
