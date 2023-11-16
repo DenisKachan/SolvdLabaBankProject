@@ -8,35 +8,35 @@ import java.util.Objects;
 @Log4j2
 public class LinkedListForEntities<T> {
 
-    Nodes<T> head;
+    Nodes<T> instance;
     private int length = 0;
 
     public LinkedListForEntities() {
-        this.head = null;
+        this.instance = null;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof LinkedListForEntities<?> that)) return false;
-        return length == that.length && Objects.equals(head, that.head);
+        return length == that.length && Objects.equals(instance, that.instance);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(head, length);
+        return Objects.hash(instance, length);
     }
 
     public T getByIndex(int index) {
         T data = null;
-        Nodes<T> temp = head;
+        Nodes<T> temp = instance;
         int nodeFinder = 0;
-        if (head == null)
+        if (instance == null)
             log.info("This list is empty");
         if (index > length)
             log.info("There is no such position in the list");
         if (index == 0)
-            data = head.getValue();
+            data = instance.getValue();
         else {
             while (temp != null) {
                 if (nodeFinder == index) {
@@ -52,10 +52,10 @@ public class LinkedListForEntities<T> {
 
     public void addToTheEndOfTheList(T value) {
         Nodes<T> temp = new Nodes<>(value);
-        if (this.head == null) {
-            head = temp;
+        if (this.instance == null) {
+            instance = temp;
         } else {
-            Nodes<T> node = head;
+            Nodes<T> node = instance;
             while (node.next != null) {
                 node = node.next;
             }
@@ -70,13 +70,13 @@ public class LinkedListForEntities<T> {
             return;
         }
         if (index == 0) {
-            Nodes<T> temp = head;
-            head = new Nodes<>(data);
-            head.next = temp;
+            Nodes<T> temp = instance;
+            instance = new Nodes<>(data);
+            instance.next = temp;
             return;
         }
 
-        Nodes<T> temp = head;
+        Nodes<T> temp = instance;
         Nodes<T> prev = new Nodes<>(null);
         while (index > 0) {
             prev = temp;
@@ -93,11 +93,11 @@ public class LinkedListForEntities<T> {
             return;
         }
         if (index == 0) {
-            Nodes<T> temp = head;
-            head = new Nodes<>(data);
-            head.next = temp.next;
+            Nodes<T> temp = instance;
+            instance = new Nodes<>(data);
+            instance.next = temp.next;
         }
-        Nodes<T> temp = head;
+        Nodes<T> temp = instance;
         Nodes<T> prev = new Nodes<>(null);
         while (index > 0) {
             prev = temp;
@@ -110,12 +110,12 @@ public class LinkedListForEntities<T> {
 
     public void removeACertainValue(T object) {
         Nodes<T> prev = new Nodes<>(null);
-        prev.next = head;
-        Nodes<T> next = head.next;
-        Nodes<T> temp = head;
+        prev.next = instance;
+        Nodes<T> next = instance.next;
+        Nodes<T> temp = instance;
         boolean exists = false;
-        if (head.value == object) {
-            head = head.next;
+        if (instance.value == object) {
+            instance = instance.next;
             exists = true;
         }
         while (temp.next != null) {
@@ -148,12 +148,12 @@ public class LinkedListForEntities<T> {
             return;
         }
         Nodes<T> prev = new Nodes<>(null);
-        prev.next = head;
-        Nodes<T> next = head.next;
-        Nodes<T> temp = head;
+        prev.next = instance;
+        Nodes<T> next = instance.next;
+        Nodes<T> temp = instance;
         boolean exists = false;
         if (index == 0) {
-            head = next;
+            instance = next;
             exists = true;
         }
         if (index > 0) {
@@ -174,12 +174,12 @@ public class LinkedListForEntities<T> {
     }
 
     public void clear() {
-        head = null;
+        instance = null;
         length = 0;
     }
 
     public boolean isEmpty() {
-        return head == null;
+        return instance == null;
     }
 
     public int size() {
@@ -188,7 +188,7 @@ public class LinkedListForEntities<T> {
 
     public String toString() {
         StringBuilder S = new StringBuilder("{ ");
-        Nodes<T> X = head;
+        Nodes<T> X = instance;
         if (X == null)
             return S + " }";
         while (X.next != null) {
