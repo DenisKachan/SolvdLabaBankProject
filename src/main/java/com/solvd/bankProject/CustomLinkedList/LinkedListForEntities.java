@@ -75,7 +75,6 @@ public class LinkedListForEntities<T> {
             instance.next = temp;
             return;
         }
-
         Nodes<T> temp = instance;
         Nodes<T> prev = new Nodes<>(null);
         while (index > 0) {
@@ -164,7 +163,6 @@ public class LinkedListForEntities<T> {
             }
             exists = true;
             prev.next = temp.next;
-
         }
         if (exists) {
             length--;
