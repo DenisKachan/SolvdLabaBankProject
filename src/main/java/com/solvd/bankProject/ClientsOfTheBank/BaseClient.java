@@ -87,7 +87,6 @@ public abstract class BaseClient implements Showing, Resettable, ICurrency {
     public void setName(String name) {
         this.name = name;
         log.info("Name got a value of {}", name);
-        // Loggers.LOGGER.info("Name got a value of {}", name);
     }
 
 
