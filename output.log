@@ -2154,3 +2154,839 @@
 16:43:41.839 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=564, Credit card balance=457.0, Credit card number=8859}
 16:43:41.839 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 228.5
 16:43:41.839 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 228.5
+11:37:37.924 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+11:37:37.927 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+11:37:37.927 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+11:37:37.940 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+11:37:37.940 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+11:37:37.940 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+11:37:44.321 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdnjsdfn
+11:37:44.321 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+11:37:46.337 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 23242
+11:37:46.338 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+11:37:47.840 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 2.4534634E7
+11:37:47.841 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+11:37:49.340 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34534
+11:37:49.343 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+11:37:51.234 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 3.5345345345E10
+11:37:51.235 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+11:37:54.306 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 555
+11:37:54.361 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=23242, Credit card balance=2.4534634E7, Credit card number=181}
+11:37:54.362 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1.2267317E7
+11:37:54.362 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1.2267317E7
+11:38:20.870 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+11:38:20.873 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+11:38:20.873 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+11:38:20.886 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+11:38:20.886 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+11:38:20.887 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+11:38:48.497 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+11:38:48.499 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+11:38:48.499 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+11:38:48.511 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+11:38:48.511 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+11:38:48.512 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+11:38:51.569 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsdf
+11:38:51.569 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+11:38:53.971 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 448484
+11:38:53.971 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+11:38:56.827 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 90000.0
+11:38:56.829 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+11:39:07.057 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34
+11:39:07.060 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+11:39:09.175 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 333333.0
+11:39:09.177 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+11:39:11.818 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 90
+11:39:11.871 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=448484, Credit card balance=90000.0, Credit card number=8312}
+11:39:11.871 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 45000.0
+11:39:11.871 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 45000.0
+11:39:11.876 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+11:39:11.877 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+11:39:11.877 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+11:39:11.877 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+11:39:11.877 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+11:39:11.878 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsdf
+11:39:11.878 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 448484
+11:39:11.879 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 2023
+11:39:11.879 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34
+11:39:11.880 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 333333.0
+11:39:11.880 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 90000.0
+12:16:55.682 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:16:55.685 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:16:55.685 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:16:55.696 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:16:55.697 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:16:55.697 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:17:00.531 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsdf
+12:17:00.532 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:17:02.148 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 3934
+12:17:02.149 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:17:03.486 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 3409.0
+12:17:03.487 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:17:04.786 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34950
+12:17:04.788 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:17:06.447 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 34590.0
+12:17:06.447 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+12:17:07.848 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 83
+12:17:07.903 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=3934, Credit card balance=3409.0, Credit card number=4090}
+12:17:07.904 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1704.5
+12:17:07.904 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1704.5
+12:26:37.061 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:26:37.063 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:26:37.063 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:26:37.077 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:26:37.077 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:26:37.078 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:26:42.838 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of dfg
+12:26:42.839 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:26:43.768 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+12:26:43.768 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:26:44.759 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 435654.0
+12:26:44.760 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:26:45.884 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 45664
+12:26:45.886 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:26:47.199 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 345.0
+12:26:47.200 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+12:26:48.751 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 345
+12:26:48.809 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=435654.0, Credit card number=5813}
+12:26:48.810 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 217827.0
+12:26:48.810 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 217827.0
+12:26:48.810 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of rubles you want to exchange
+12:26:50.888 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the name of the currency you want to get
+12:26:55.178 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Try to exchange 34.0 rubles to the euro
+12:26:55.181 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - You will get 9.714285714285714 euro
+12:26:55.181 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 34.0
+12:28:39.719 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:28:39.722 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:28:39.723 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:28:39.738 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:28:39.739 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:28:39.740 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:28:42.230 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+12:28:42.231 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:28:43.600 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 2323
+12:28:43.601 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:28:45.255 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 3.2423432E7
+12:28:45.255 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:28:47.115 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 44
+12:28:47.117 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:28:48.100 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 33.0
+12:28:48.100 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+12:28:49.310 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 2
+12:28:49.366 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=2323, Credit card balance=3.2423432E7, Credit card number=302}
+12:28:49.367 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1.6211716E7
+12:28:49.367 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1.6211716E7
+12:28:49.367 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of rubles you want to exchange
+12:28:57.970 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the name of the currency you want to get
+12:29:00.999 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Try to exchange 300.0 rubles to the yen
+12:29:01.002 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - You will get 142.85714285714286 yens
+12:29:01.003 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 300.0
+12:47:29.813 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:47:29.815 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:47:29.815 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:47:29.827 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:47:29.827 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:47:29.828 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:47:32.578 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of fgfd
+12:47:32.579 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:47:34.758 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 9999
+12:47:34.759 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:47:37.425 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 4000000.0
+12:47:37.425 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:47:44.856 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 89
+12:47:44.859 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:47:45.902 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 34.0
+12:47:45.903 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+12:47:47.652 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 4
+12:47:47.707 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=9999, Credit card balance=4000000.0, Credit card number=365}
+12:47:47.707 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 2000000.0
+12:47:47.707 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 2000000.0
+12:47:47.708 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+12:47:54.244 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 1000.0 with the commission}
+12:47:54.249 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in -9000.0
+12:47:54.249 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 3989000.0
+12:53:42.250 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:53:42.252 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:53:42.252 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:53:42.263 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:53:42.263 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:53:42.264 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:53:55.382 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of frfwef
+12:53:55.383 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:53:57.527 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+12:53:57.529 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:54:01.615 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 9.0E8
+12:54:01.616 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:54:04.939 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 3
+12:54:04.942 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:54:06.758 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 3.0
+12:54:06.759 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+12:54:07.622 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 3
+12:54:07.679 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=9.0E8, Credit card number=1257}
+12:54:07.679 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 4.5E8
+12:54:07.679 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 4.5E8
+12:54:07.680 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+12:54:11.180 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 1000.0 with the commission}
+12:54:11.189 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 990.0
+12:54:11.189 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 8.9999899E8
+12:55:00.211 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:55:00.213 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:55:00.213 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:55:00.224 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:55:00.224 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:55:00.225 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:55:05.632 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of dfg\
+12:55:05.633 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:55:09.554 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 44
+12:55:09.554 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:55:12.983 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 3.0E7
+12:55:12.984 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:55:17.233 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 32
+12:55:17.236 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:55:25.320 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 23.0
+12:55:25.321 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+12:55:26.245 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 23
+12:55:26.299 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=44, Credit card balance=3.0E7, Credit card number=7545}
+12:55:26.299 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1.5E7
+12:55:26.299 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1.5E7
+12:55:26.300 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+12:55:34.061 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 1000.0 with the commission}
+12:55:34.072 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in -9000.0
+12:55:34.073 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 2.9989E7
+12:56:23.344 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+12:56:23.346 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+12:56:23.346 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+12:56:23.358 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+12:56:23.358 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+12:56:23.359 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+12:56:26.106 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+12:56:26.107 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+12:56:27.145 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 23
+12:56:27.146 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+12:56:29.781 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 400000.0
+12:56:29.782 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+12:56:30.975 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 23
+12:56:30.978 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+12:56:31.957 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 23.0
+12:56:31.958 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+12:56:33.070 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 13
+12:56:33.126 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=23, Credit card balance=400000.0, Credit card number=3066}
+12:56:33.126 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 200000.0
+12:56:33.126 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 200000.0
+12:56:33.127 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+12:56:36.820 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 1000.0 with the commission}
+12:56:36.829 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 980.0
+12:56:36.829 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 398980.0
+13:07:16.113 [main] INFO  com.solvd.bankProject.enums.Currency - You may get 385285.2380952381 of Yen
+15:33:26.827 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:33:26.830 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:33:26.830 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:33:26.842 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:33:26.842 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:33:26.842 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:33:30.671 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of dfgdfg
+15:33:30.671 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:33:32.378 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 4353
+15:33:32.379 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:33:33.578 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234.0
+15:33:33.579 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:33:35.586 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 456
+15:33:35.589 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:33:36.597 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 52.0
+15:33:36.598 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+15:33:37.810 [main] ERROR com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - The year of foundation is not appropriate
+15:33:37.862 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=4353, Credit card balance=234.0, Credit card number=6981}
+15:33:37.863 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117.0
+15:33:37.863 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117.0
+15:33:37.863 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+15:33:40.649 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 33.0 with the commission}
+15:33:40.663 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 32.339999999999996
+15:33:40.664 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 200.34
+15:33:40.670 [main] INFO  com.solvd.bankProject.enums.Currency - You may get 385285.2380952381 of Yen
+15:34:28.569 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:34:28.571 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:34:28.571 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:34:28.582 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:34:28.583 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:34:28.583 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:34:39.607 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfs
+15:34:39.607 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:34:41.996 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 2345
+15:34:41.996 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:34:52.895 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 5657.0
+15:34:52.895 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:34:54.042 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 23
+15:34:54.044 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:34:55.566 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 34.0
+15:34:55.567 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+15:35:04.134 [main] ERROR com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - The year of foundation is not appropriate
+15:35:04.185 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=2345, Credit card balance=5657.0, Credit card number=3640}
+15:35:04.185 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 2828.5
+15:35:04.186 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 2828.5
+15:35:04.186 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+15:35:06.227 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 23.0 with the commission}
+15:35:06.239 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 22.54
+15:35:06.239 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 5633.54
+15:35:06.244 [main] INFO  com.solvd.bankProject.enums.Currency - You may get 385285.2380952381 of Yen
+15:35:46.980 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:35:46.981 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:35:46.982 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:35:46.992 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:35:46.992 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:35:46.993 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:35:50.139 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of dfhdf
+15:35:50.140 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:35:51.061 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+15:35:51.061 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:35:51.936 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 346.0
+15:35:51.938 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:35:52.987 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 346
+15:35:52.990 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:35:55.075 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 346.0
+15:35:55.076 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+15:35:59.566 [main] ERROR com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - The year of foundation is not appropriate
+15:35:59.621 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=345, Credit card balance=346.0, Credit card number=1867}
+15:35:59.621 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 173.0
+15:35:59.622 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 173.0
+15:35:59.622 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+15:36:01.314 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 345.0 with the commission}
+15:36:01.324 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 338.09999999999997
+15:36:01.325 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is -5.900000000000034
+15:36:01.328 [main] INFO  com.solvd.bankProject.enums.Currency - You may get 385285.2380952381 of Yen
+15:36:54.319 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:36:54.321 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:36:54.321 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:36:54.333 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:36:54.333 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:36:54.333 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:36:57.950 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sgfg
+15:36:57.950 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:36:59.093 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+15:36:59.093 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:37:00.443 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 567.0
+15:37:00.444 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:37:01.660 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345
+15:37:01.662 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:37:02.775 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 3546.0
+15:37:02.776 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+15:37:04.110 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 456
+15:37:04.167 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=345, Credit card balance=567.0, Credit card number=9354}
+15:37:04.168 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 283.5
+15:37:04.168 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 283.5
+15:37:04.168 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+15:37:06.803 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 234.0 with the commission}
+15:37:06.812 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 229.32
+15:37:06.813 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 328.32
+15:37:06.817 [main] INFO  com.solvd.bankProject.enums.Currency - You may get 385285.2380952381 of Yen
+15:52:55.710 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:52:55.712 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:52:55.712 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:52:55.721 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:52:55.722 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:52:55.722 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:52:58.973 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfgsdf
+15:52:58.974 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:53:03.641 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 3443434
+15:53:03.643 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:53:05.394 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 2342.0
+15:53:05.394 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:53:09.671 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 789234
+15:53:09.674 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:53:13.586 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+15:53:13.586 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+15:53:18.838 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 2022
+15:53:18.898 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=3443434, Credit card balance=2342.0, Credit card number=3270}
+15:53:18.898 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1171.0
+15:53:18.898 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1171.0
+15:53:18.898 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+15:53:23.471 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 2342.0 with the commission}
+15:53:23.485 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 2295.16
+15:53:23.486 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is -46.840000000000146
+15:53:23.538 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following Companies{Name='sdfgsdf', Account ID Number=3443434, Total Account Balance=-46.840000000000146, Credit Delays=789234, Amount Of Monthly Income=234.0, Year Of Foundation=2022}
+16:03:39.284 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+16:03:39.286 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+16:03:39.286 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+16:03:39.296 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+16:03:39.297 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+16:03:39.297 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+16:03:58.350 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+16:03:58.351 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+16:03:58.351 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+16:03:58.361 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+16:03:58.362 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+16:03:58.362 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+16:04:01.363 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+16:04:01.364 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+16:04:02.598 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 123
+16:04:02.599 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+16:04:04.571 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 123123.0
+16:04:04.572 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+16:04:07.113 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 3455
+16:04:07.116 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+16:04:09.449 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+16:04:09.450 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+16:04:11.470 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 536
+16:04:11.528 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=123, Credit card balance=123123.0, Credit card number=2739}
+16:04:11.529 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 61561.5
+16:04:11.529 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 61561.5
+16:04:11.529 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+16:04:13.539 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 234.0 with the commission}
+16:04:13.550 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 229.32
+16:04:13.550 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 122884.32
+16:04:13.599 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following Companies{Name='sdfsd', Account ID Number=123, Total Account Balance=122884.32, Credit Delays=3455, Amount Of Monthly Income=234.0, Year Of Foundation=536}
+16:06:29.099 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+16:06:29.101 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+16:06:29.101 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+16:06:29.112 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+16:06:29.112 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+16:06:29.112 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+16:06:31.304 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+16:06:31.304 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+16:06:32.163 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+16:06:32.165 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+16:06:32.948 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234.0
+16:06:32.948 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+16:06:33.911 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+16:06:33.914 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+16:06:37.255 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 534.0
+16:06:37.256 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+16:06:39.636 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 345
+16:06:39.690 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=234.0, Credit card number=2694}
+16:06:39.691 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117.0
+16:06:39.691 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117.0
+16:06:39.691 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+16:06:42.517 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 345.0 with the commission}
+16:06:42.529 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - This operation can not be performed - not enough money in your account
+16:06:42.582 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following Companies{Name='sdfsd', Account ID Number=234, Total Account Balance=234.0, Credit Delays=234, Amount Of Monthly Income=534.0, Year Of Foundation=345}
+16:09:43.355 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+16:09:43.356 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+16:09:43.357 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+16:09:43.367 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+16:09:43.367 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+16:09:43.368 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+16:09:46.454 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sfdsd
+16:09:46.455 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+16:09:47.345 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+16:09:47.345 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+16:09:48.602 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 345365.0
+16:09:48.603 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+16:09:49.778 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 2342
+16:09:49.781 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+16:09:50.901 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+16:09:50.902 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+16:09:51.925 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 345
+16:09:51.978 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=345365.0, Credit card number=847}
+16:09:51.979 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 172682.5
+16:09:51.979 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 172682.5
+16:09:51.979 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Enter the amount of money to transfer to the client of the other bank
+16:09:53.907 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Transfer money in the amount of 11.0 with the commission}
+16:09:53.916 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 10.78
+16:09:53.917 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 345353.78
+16:09:53.919 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is decreased in 172676.89
+16:09:53.920 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 172676.89
+16:09:53.920 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - All data of the client was reset to default values
+16:09:53.965 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following Companies{Name='Unknown', Account ID Number=0, Total Account Balance=0.0, Credit Delays=0, Amount Of Monthly Income=0.0, Year Of Foundation=0}
+16:22:21.359 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+16:22:21.361 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+16:22:21.361 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+16:22:21.372 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+16:22:21.373 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+16:22:21.373 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+16:22:24.111 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfgdf
+16:22:24.112 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+16:22:29.191 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 34345
+16:22:29.192 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+16:22:30.808 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 23423.0
+16:22:30.809 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+16:22:32.555 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345354
+16:22:32.557 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+16:22:36.648 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+16:22:36.649 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the year of foundation od the company
+16:22:41.642 [main] INFO  com.solvd.bankProject.clientsOfTheBank.Companies - Year of foundation got a value of 234
+16:22:41.705 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=34345, Credit card balance=23423.0, Credit card number=3023}
+16:22:41.706 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 11711.5
+16:22:41.706 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 11711.5
+16:22:41.708 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Confirm the amount of money to withdraw from the balance
+16:22:43.671 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Withdraw cash from bank account in the amount of 234.0
+16:22:43.671 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 234.0
+16:22:43.684 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 23189.0
+16:22:43.734 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following Companies{Name='sdfgdf', Account ID Number=34345, Total Account Balance=23189.0, Credit Delays=345354, Amount Of Monthly Income=234.0, Year Of Foundation=234}
+17:10:44.990 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:10:44.993 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:10:44.993 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:10:45.005 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:10:45.005 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:10:45.007 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:10:47.630 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sadfs
+17:10:47.630 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:10:48.960 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:10:48.960 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:10:50.293 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 654.0
+17:10:50.294 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:10:51.483 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 2342
+17:10:51.486 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:10:52.660 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 45234.0
+17:10:52.661 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:10:53.665 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 425
+17:10:53.722 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=654.0, Credit card number=4246}
+17:10:53.723 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 327.0
+17:10:53.723 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 327.0
+17:10:53.724 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:10:53.724 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:10:53.724 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:10:53.725 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:10:53.725 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:10:53.725 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sadfs
+17:10:53.726 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 425
+17:10:53.726 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 2342
+17:10:53.726 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 45234.0
+17:10:53.726 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:10:53.726 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 654.0
+17:10:53.746 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='sadfs', Account ID Number=234, Total Account Balance=654.0, Credit Delays=2342, Amount Of Monthly Income=45234.0, Age=425}
+17:11:46.950 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:11:46.952 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:11:46.952 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:11:46.963 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:11:46.963 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:11:46.965 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:11:49.462 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of fdsg
+17:11:49.463 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:11:56.861 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+17:11:56.862 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:11:58.156 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 568.0
+17:11:58.156 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:12:01.654 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34534
+17:12:01.657 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:12:03.195 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 3452.0
+17:12:03.196 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:12:04.485 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 678
+17:12:04.538 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=345, Credit card balance=568.0, Credit card number=547}
+17:12:04.539 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 284.0
+17:12:04.539 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 284.0
+17:12:04.540 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:12:04.540 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:12:04.541 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:12:04.541 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:12:04.541 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:12:04.542 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of fdsg
+17:12:04.542 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 678
+17:12:04.543 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 34534
+17:12:04.543 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 3452.0
+17:12:04.543 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+17:12:04.543 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 568.0
+17:12:04.561 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='fdsg', Account ID Number=345, Total Account Balance=568.0, Credit Delays=34534, Amount Of Monthly Income=3452.0, Age=678}
+17:27:48.174 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:27:48.176 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:27:48.176 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:27:48.189 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:27:48.189 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:27:48.192 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:27:51.795 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+17:27:51.796 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:27:53.868 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:27:53.869 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:27:55.561 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 14.0
+17:27:55.562 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:27:56.478 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+17:27:56.481 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:28:02.754 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+17:28:02.755 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:28:04.268 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 234
+17:28:04.325 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=14.0, Credit card number=1081}
+17:28:04.326 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 7.0
+17:28:04.326 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 7.0
+17:28:04.326 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:28:04.327 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:28:04.327 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:28:04.327 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:28:04.327 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:28:04.328 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+17:28:08.562 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:28:08.564 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:28:08.564 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:28:08.564 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:28:08.564 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:28:08.566 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+17:28:08.567 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 234
+17:28:08.568 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+17:28:08.568 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+17:28:08.569 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:28:08.569 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 14.0
+17:28:08.621 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='sdfsd', Account ID Number=234, Total Account Balance=14.0, Credit Delays=234, Amount Of Monthly Income=234.0, Age=234}
+17:29:12.535 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:29:12.537 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:29:12.537 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:29:12.550 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:29:12.550 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:29:12.553 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:29:14.220 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of dfgdf
+17:29:14.220 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:29:15.101 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 2234
+17:29:15.101 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:29:16.070 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 2355.0
+17:29:16.071 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:29:17.228 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 2355
+17:29:17.229 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:29:19.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 1345.0
+17:29:19.009 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:29:20.147 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 234
+17:29:20.205 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=2234, Credit card balance=2355.0, Credit card number=4442}
+17:29:20.205 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 1177.5
+17:29:20.206 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 1177.5
+17:29:20.206 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+17:29:38.097 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:29:38.098 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:29:38.099 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:29:38.110 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:29:38.110 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:29:38.112 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:29:41.545 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+17:29:41.546 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:29:42.817 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:29:42.817 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:29:44.891 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 18348.0
+17:29:44.891 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:29:46.696 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 78932
+17:29:46.699 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:29:48.781 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 78423.0
+17:29:48.782 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:29:50.160 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 78
+17:29:50.213 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=18348.0, Credit card number=2649}
+17:29:50.214 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 9174.0
+17:29:50.214 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 9174.0
+17:29:50.214 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+17:29:57.009 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:29:57.010 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:29:57.010 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:29:57.011 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:29:57.012 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:29:57.012 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+17:29:57.013 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 78
+17:29:57.014 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 78932
+17:29:57.014 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 78423.0
+17:29:57.014 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+17:29:57.015 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 18348.0
+17:29:57.064 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='sdf', Account ID Number=234, Total Account Balance=18348.0, Credit Delays=78932, Amount Of Monthly Income=78423.0, Age=78}
+17:30:20.949 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:30:20.951 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:30:20.951 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:30:20.963 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:30:20.963 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:30:20.966 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+17:30:27.378 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of ansdfj
+17:30:27.379 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+17:30:29.160 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 324
+17:30:29.162 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+17:30:29.922 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234.0
+17:30:29.922 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+17:30:30.712 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+17:30:30.715 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+17:30:31.542 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+17:30:31.543 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+17:30:32.617 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 423
+17:30:32.675 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=324, Credit card balance=234.0, Credit card number=6327}
+17:30:32.675 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117.0
+17:30:32.675 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117.0
+17:30:32.675 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+17:30:34.624 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+17:30:34.624 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+17:30:34.625 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+17:30:34.625 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+17:30:34.626 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+17:30:34.626 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of ansdfj
+17:30:34.678 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='ansdfj', Account ID Number=1, Total Account Balance=0.0, Credit Delays=0, Amount Of Monthly Income=0.0, Age=1}
+19:39:42.237 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+19:39:42.239 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+19:39:42.239 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+19:39:42.251 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+19:39:42.251 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+19:39:42.254 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+19:39:44.563 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of gsdfgds
+19:39:44.563 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+19:39:45.770 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+19:39:45.770 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+19:39:46.600 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 345.0
+19:39:46.600 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+19:39:47.475 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345
+19:39:47.478 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+19:39:48.965 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+19:39:48.965 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+19:39:49.897 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 657
+19:39:49.950 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=345, Credit card balance=345.0, Credit card number=2087}
+19:39:49.951 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 172.5
+19:39:49.951 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 172.5
+19:39:49.952 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+19:39:54.845 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of gsdfgds
+19:39:54.846 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 657
+19:39:54.846 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345
+19:39:54.847 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+19:39:54.848 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 345
+19:39:54.848 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 345.0
+19:42:12.218 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+19:42:12.220 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+19:42:12.220 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+19:42:12.230 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+19:42:12.230 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+19:42:12.233 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+19:42:14.257 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of fdgdf
+19:42:14.258 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+19:42:15.271 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 4534
+19:42:15.272 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+19:42:16.177 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 46357.0
+19:42:16.178 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+19:42:16.947 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345
+19:42:16.949 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+19:42:17.724 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 345.0
+19:42:17.725 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+19:42:18.868 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 234
+19:42:18.922 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=4534, Credit card balance=46357.0, Credit card number=2331}
+19:42:18.923 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 23178.5
+19:42:18.923 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 23178.5
+19:42:18.923 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+19:43:31.306 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+19:43:31.308 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+19:43:31.308 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+19:43:31.319 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+19:43:31.320 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+19:43:31.321 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+19:43:33.882 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+19:43:33.883 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+19:43:34.595 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+19:43:34.596 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+19:43:35.309 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234.0
+19:43:35.309 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+19:43:35.991 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 456
+19:43:35.994 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+19:43:36.741 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+19:43:36.742 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+19:43:37.496 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 5768
+19:43:37.551 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=234.0, Credit card number=5100}
+19:43:37.551 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117.0
+19:43:37.552 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117.0
+19:43:37.552 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+19:43:41.004 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+19:43:41.004 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+19:43:41.004 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+19:43:41.005 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+19:43:41.006 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+19:43:41.007 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+19:43:41.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 5768
+19:43:41.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 456
+19:43:41.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+19:43:41.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+19:43:41.008 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234.0
+19:43:41.054 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Full information about the client is the following ClientsIndividuals{Name='Unknown', Account ID Number=234, Total Account Balance=234.0, Credit Delays=456, Amount Of Monthly Income=234.0, Age=5768}
+00:53:24.758 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+00:53:24.760 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+00:53:24.760 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+00:53:24.772 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+00:53:24.772 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+00:53:24.774 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+00:53:30.949 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+00:53:30.950 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+00:53:31.992 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+00:53:31.994 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+00:53:32.806 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 235.0
+00:53:32.807 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+00:53:33.571 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 235
+00:53:33.574 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+00:53:34.520 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 523.0
+00:53:34.521 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+00:53:36.352 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 23
+00:53:36.406 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=234, Credit card balance=235.0, Credit card number=2299}
+00:53:36.407 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117.5
+00:53:36.407 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117.5
+00:53:36.407 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+00:53:41.338 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+00:53:41.339 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+00:53:41.340 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+00:53:41.341 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+00:53:41.343 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+00:53:41.343 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdf
+00:53:41.344 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 23
+00:53:41.344 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 235
+00:53:41.344 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 523.0
+00:53:41.345 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 234
+00:53:41.345 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 235.0
+00:53:41.345 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Confirm the amount of money to withdraw from the balance
+00:53:45.297 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Withdraw cash from bank account in the amount of 89.0
+00:53:45.298 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 89.0
+00:53:45.304 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 146.0
+03:39:08.739 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+03:39:08.741 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+03:39:08.741 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+03:39:08.754 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+03:39:08.754 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+03:39:08.758 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+03:39:22.618 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+03:39:22.618 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+03:39:23.984 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 25
+03:39:23.985 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+03:39:25.341 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 465.0
+03:39:25.341 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+03:39:26.445 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+03:39:26.448 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+03:39:27.347 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+03:39:27.349 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+03:39:28.994 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 23
+03:39:29.051 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=25, Credit card balance=465.0, Credit card number=9477}
+03:39:29.051 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 232.5
+03:39:29.052 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 232.5
+03:39:29.052 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+03:39:32.941 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+03:39:32.942 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+03:39:32.942 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+03:39:32.942 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+03:39:32.943 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+03:39:32.944 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+03:39:32.946 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 23
+03:39:32.946 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+03:39:32.946 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234.0
+03:39:32.947 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 25
+03:39:32.948 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 465.0
+03:39:32.948 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Confirm the amount of money to withdraw from the balance
+03:39:36.335 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Withdraw cash from bank account in the amount of 50.0
+03:39:36.336 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 50.0
+03:39:36.342 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 415.0
+03:39:36.363 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - { Operations{nameOfTheOperation='Withdraw cash', amountOfMoney=50.0} }
+04:54:05.904 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+04:54:05.906 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+04:54:05.906 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+04:54:05.919 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+04:54:05.919 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+04:54:05.922 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+04:54:09.546 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+04:54:09.547 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+04:54:10.501 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 4234
+04:54:10.501 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+04:54:11.460 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234234.0
+04:54:11.461 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+04:54:12.537 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+04:54:12.540 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+04:54:13.655 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234234.0
+04:54:13.656 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+04:54:14.828 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 2
+04:54:14.865 [main] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=4234, Credit card balance=234234.0, Credit card number=7259}
+04:54:14.865 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 117117.0
+04:54:14.865 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 117117.0
+04:54:14.866 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Enter what you want to copy from this client
+04:54:19.033 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+04:54:19.034 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+04:54:19.034 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+04:54:19.034 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+04:54:19.034 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+04:54:19.034 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of sdfsd
+04:54:19.034 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 2
+04:54:19.035 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 234
+04:54:19.035 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 234234.0
+04:54:19.035 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 4234
+04:54:19.035 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 234234.0
+04:54:19.036 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Confirm the amount of money to withdraw from the balance
+04:54:22.373 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Withdraw cash from bank account in the amount of 90.0
+04:54:22.374 [main] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is decreased in 90.0
+04:54:22.380 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Your current balance is 234144.0
+04:54:22.402 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - { Operations{nameOfTheOperation='Withdraw cash', amountOfMoney=90.0} }
+04:54:22.402 [main] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Try to ask for a credit
+04:54:22.406 [main] INFO  com.solvd.bankProject.structureOfTheBank.CreditDepartment - Credit department is checking the client's data
+04:54:22.407 [main] INFO  com.solvd.bankProject.structureOfTheBank.CreditDepartment - Credit for a client individual can't be approved!
+04:54:22.422 [main] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - { CreditRequestsHistory{Status='failed', Serial Number=7141} }

@@ -1,21 +1,42 @@
 package com.solvd.bankProject.clientsOfTheBank;
 
 import com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank;
-import com.solvd.bankProject.clientsPropertyAndHistory.OperationsWithMoneyHistory;
 import com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole;
-import com.solvd.bankProject.exceptions.AgeException;
+import com.solvd.bankProject.exceptions.*;
+import com.solvd.bankProject.interfaces.Reorganizable;
+import com.solvd.bankProject.interfaces.Copying;
 import com.solvd.bankProject.structureOfTheBank.CreditDepartment;
 import com.solvd.bankProject.structureOfTheBank.ManagementDepartment;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
 
+import java.time.Year;
+import java.util.Locale;
 import java.util.Objects;
 
 @Getter
 @Log4j2
-public class ClientsIndividuals extends BaseClient {
+public class ClientsIndividuals extends BaseClient implements Reorganizable {
 
     private int age;
+
+    Copying<ClientsIndividuals> copyAll = () -> {
+        ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
+        clientsIndividuals.setName(this.name);
+        clientsIndividuals.setAge(this.age);
+        clientsIndividuals.setCreditDelays(this.getCreditDelays());
+        clientsIndividuals.setAmountOfMonthlyIncome(this.getAmountOfMonthlyIncome());
+        clientsIndividuals.setAccountIdNumber(this.accountIdNumber);
+        clientsIndividuals.setTotalAccountBalance(this.totalAccountBalance);
+        clientsIndividuals.setCreditCardData(this.getCreditCard().getIdNumber(), this.getCreditCard().getCreditCardBalance());
+        return clientsIndividuals;
+    };
+
+    Copying<ClientsIndividuals> copyName = () -> {
+        ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
+        clientsIndividuals.setName(this.name);
+        return clientsIndividuals;
+    };
 
     public ClientsIndividuals() {
         super();
@@ -62,12 +83,10 @@ public class ClientsIndividuals extends BaseClient {
         log.info("Enter the amount of money to top up the balance");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
-        totalAccountBalance += amountOfMoneyForOperation;
+        increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
-        getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance() + amountOfMoneyForOperation);
-        OperationsWithMoneyHistory operations = new OperationsWithMoneyHistory("Top up balance in the amount of ",
-                amountOfMoneyForOperation);
-        clientsOperations.addToTheEndOfTheList(operations);
+        addToListOfOperations.addInstance("Top up balance", amountOfMoneyForOperation);
+        increaseFinancialFlows.apply(amountOfMoneyForOperation);
         log.info("Your current balance is {}", totalAccountBalance);
     }
 
@@ -79,8 +98,33 @@ public class ClientsIndividuals extends BaseClient {
     }
 
     @Override
-    public void resetToDefaultValues() {
-        super.resetToDefaultValues();
-        this.age = 0;
+    public Companies reorganizeIntoAnotherForm() throws AccountIdNumberException, YearOfFoundationException,
+            CreditDelaysException, AmountOfMonthlyIncomeException, TotalAccountBalanceException, AgeException {
+        Companies companies = new Companies();
+        companies.setName(this.getName());
+        companies.setAccountIdNumber(this.getAccountIdNumber());
+        companies.setYearOfFoundation(Year.now().getValue());
+        companies.setCreditDelays(this.getCreditDelays());
+        companies.setCreditCardData(this.getCreditCard().getIdNumber(), this.getCreditCard().getCreditCardBalance());
+        companies.setAmountOfMonthlyIncome(this.getAmountOfMonthlyIncome());
+        companies.setTotalAccountBalance(this.getTotalAccountBalance());
+        return companies;
+    }
+
+
+    public ClientsIndividuals copyThisClient() throws TotalAccountBalanceException, AgeException,
+            AmountOfMonthlyIncomeException, CreditDelaysException, AccountIdNumberException {
+        ClientsIndividuals clientsIndividuals = null;
+        log.info("Enter what you want to copy from this client");
+        String word = CreationObjectsFromConsole.scanner.next().toLowerCase(Locale.ROOT);
+        switch (word) {
+            case "all" -> {
+                clientsIndividuals = copyAll.copyValues();
+            }
+            case "name" -> {
+                clientsIndividuals = copyName.copyValues();
+            }
+        }
+        return clientsIndividuals;
     }
 }

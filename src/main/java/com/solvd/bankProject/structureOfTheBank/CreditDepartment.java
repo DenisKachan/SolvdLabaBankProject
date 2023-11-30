@@ -1,8 +1,10 @@
 package com.solvd.bankProject.structureOfTheBank;
 
+import com.solvd.bankProject.clientsOfTheBank.BaseClient;
 import com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals;
 import com.solvd.bankProject.clientsOfTheBank.Companies;
 import com.solvd.bankProject.clientsPropertyAndHistory.CreditRequestsHistory;
+import com.solvd.bankProject.interfaces.Adding;
 import lombok.extern.log4j.Log4j2;
 
 import java.time.Year;
@@ -12,6 +14,12 @@ import java.util.Random;
 public class CreditDepartment {
 
     private int abilityOfCreditDepartmentToProvideACredit;
+
+    Adding<BaseClient> addToTheCreditHistory = (String result, BaseClient baseClient) -> {
+        CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
+        creditRequestsHistory.setStatus(result);
+        baseClient.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+    };
 
 
     public int getAbilityOfCreditDepartmentToProvideACredit() {
@@ -31,15 +39,11 @@ public class CreditDepartment {
         if (clientsIndividuals.getAge() <= 25 || clientsIndividuals.getCreditDelays() >= 2
                 || clientsIndividuals.getAmountOfMonthlyIncome() <= 1000
                 || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
-            CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
-            creditRequestsHistory.setStatus("failed");
-            clientsIndividuals.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+            addToTheCreditHistory.addInstance("failed", clientsIndividuals);
             log.info("Credit for a client individual can't be approved!");
         } else {
             log.info("Credit for the client individual is approved!");
-            CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
-            creditRequestsHistory.setStatus("approved");
-            clientsIndividuals.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+            addToTheCreditHistory.addInstance("failed", clientsIndividuals);
         }
     }
 
@@ -49,14 +53,11 @@ public class CreditDepartment {
                 || companies.getCreditDelays() > 0 || companies.getAmountOfMonthlyIncome() <= 5000
                 || getAbilityOfCreditDepartmentToProvideACredit() < 50) {
             log.info("Credit for a company can't be approved!");
-            CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
-            creditRequestsHistory.setStatus("failed");
-            companies.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+            addToTheCreditHistory.addInstance("failed", companies);
         } else {
             log.info("Credit for a company is approved!");
             CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
-            creditRequestsHistory.setStatus("approved");
-            companies.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+            addToTheCreditHistory.addInstance("approved", companies);
         }
     }
 }

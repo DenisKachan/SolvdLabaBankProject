@@ -1,9 +1,9 @@
 package com.solvd.bankProject.clientsOfTheBank;
 
 import com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank;
-import com.solvd.bankProject.clientsPropertyAndHistory.OperationsWithMoneyHistory;
 import com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole;
-import com.solvd.bankProject.exceptions.YearOfFoundationException;
+import com.solvd.bankProject.exceptions.*;
+import com.solvd.bankProject.interfaces.Reorganizable;
 import com.solvd.bankProject.structureOfTheBank.CreditDepartment;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
@@ -13,7 +13,7 @@ import java.util.Objects;
 
 @Getter
 @Log4j2
-public class Companies extends BaseClient {
+public class Companies extends BaseClient implements Reorganizable {
 
     private int yearOfFoundation;
 
@@ -61,12 +61,10 @@ public class Companies extends BaseClient {
         log.info("Enter the amount of money to top the balance of the company");
         double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
         log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
-        totalAccountBalance += amountOfMoneyForOperation;
+        increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
         CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
-        getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance() + amountOfMoneyForOperation);
-        OperationsWithMoneyHistory operations = new OperationsWithMoneyHistory("Top up balance in the amount of ",
-                amountOfMoneyForOperation);
-        clientsOperations.addToTheEndOfTheList(operations);
+        addToListOfOperations.addInstance("Top up money", amountOfMoneyForOperation);
+        increaseFinancialFlows.apply(amountOfMoneyForOperation);
         log.info("Your current balance is {}", totalAccountBalance);
     }
 
@@ -78,8 +76,16 @@ public class Companies extends BaseClient {
     }
 
     @Override
-    public void resetToDefaultValues() {
-        super.resetToDefaultValues();
-        this.yearOfFoundation = 0;
+    public ClientsIndividuals reorganizeIntoAnotherForm() throws AccountIdNumberException, YearOfFoundationException,
+            CreditDelaysException, AmountOfMonthlyIncomeException, TotalAccountBalanceException, AgeException {
+        ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
+        clientsIndividuals.setName(this.getName());
+        clientsIndividuals.setAccountIdNumber(this.getAccountIdNumber());
+        clientsIndividuals.setCreditDelays(this.getCreditDelays());
+        clientsIndividuals.setCreditCardData(this.getCreditCard().getIdNumber(), this.getCreditCard().getCreditCardBalance());
+        clientsIndividuals.setAmountOfMonthlyIncome(this.getAmountOfMonthlyIncome());
+        clientsIndividuals.setTotalAccountBalance(this.getTotalAccountBalance());
+        clientsIndividuals.setAge(Year.now().getValue() - this.getYearOfFoundation());
+        return clientsIndividuals;
     }
 }

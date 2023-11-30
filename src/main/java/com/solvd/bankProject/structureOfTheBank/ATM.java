@@ -3,7 +3,6 @@ package com.solvd.bankProject.structureOfTheBank;
 import com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank;
 import com.solvd.bankProject.exceptions.TotalAccountBalanceException;
 import com.solvd.bankProject.interfaces.Countable;
-import com.solvd.bankProject.interfaces.Resettable;
 import com.solvd.bankProject.interfaces.Showing;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
@@ -14,7 +13,7 @@ import java.util.Set;
 
 @Getter
 @Log4j2
-public class ATM implements Showing, Resettable, Countable {
+public class ATM implements Showing, Countable {
 
     private String address;
     private double currentBalance;
@@ -97,13 +96,6 @@ public class ATM implements Showing, Resettable, Countable {
     @Override
     public void showFullInformation() {
         log.info("Full information about the ATM is the following {}", this);
-    }
-
-    @Override
-    public void resetToDefaultValues() {
-        this.address = "Unknown";
-        this.currentBalance = 0;
-        log.info("All data of the ATM was reset to default values");
     }
 
     public boolean checkTheAbilityToWithdrawMoney(double moneyForOperation) {

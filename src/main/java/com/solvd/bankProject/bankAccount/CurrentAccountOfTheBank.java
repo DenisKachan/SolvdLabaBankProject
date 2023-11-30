@@ -1,11 +1,11 @@
 package com.solvd.bankProject.bankAccount;
 
 
-import com.solvd.bankProject.interfaces.IStartBalance;
+import com.solvd.bankProject.enums.StartBalance;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
-public final class CurrentAccountOfTheBank implements IStartBalance {
+public final class CurrentAccountOfTheBank {
 
     private static double currentCashBalance;
     private static double currentNonCashBalance;
@@ -15,12 +15,15 @@ public final class CurrentAccountOfTheBank implements IStartBalance {
         currentNonCashBalance = nonCash;
     }
 
+    static {
+        currentCashBalance = StartBalance.START_CASH_BALANCE.getCurrentValue();
+        currentNonCashBalance = StartBalance.START_NON_CASH_BALANCE.getCurrentValue();
+    }
+
     private static CurrentAccountOfTheBank instance;
 
     public static CurrentAccountOfTheBank getInstance() {
         if (instance == null) {
-            currentCashBalance = START_CASH_BALANCE;
-            currentNonCashBalance = START_NON_CASH_BALANCE;
             instance = new CurrentAccountOfTheBank(currentCashBalance, currentNonCashBalance);
         }
         return instance;

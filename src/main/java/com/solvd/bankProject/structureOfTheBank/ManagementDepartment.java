@@ -6,16 +6,16 @@ import com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals;
 import com.solvd.bankProject.clientsPropertyAndHistory.CreditCard;
 import com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole;
 import com.solvd.bankProject.customLinkedList.LinkedListForEntities;
+import com.solvd.bankProject.enums.Currency;
+import com.solvd.bankProject.enums.StartBalance;
 import com.solvd.bankProject.interfaces.Countable;
-import com.solvd.bankProject.interfaces.ICurrency;
-import com.solvd.bankProject.interfaces.IStartBalance;
 import com.solvd.bankProject.interfaces.Showing;
 import lombok.extern.log4j.Log4j2;
 
 import java.util.*;
 
 @Log4j2
-public class ManagementDepartment implements IStartBalance, Countable, ICurrency, Showing {
+public class ManagementDepartment implements Showing, Countable {
 
     private static boolean riskOfBankruptcyOfTheBank;
 
@@ -38,7 +38,8 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
         log.info("The management department is checking the risk of bankruptcy of the bank");
         CurrentAccountOfTheBank.getInstance();
         if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance()
-                <= (START_CASH_BALANCE + START_NON_CASH_BALANCE) / 2) {
+                <= (StartBalance.START_CASH_BALANCE.getCurrentValue()
+                + StartBalance.START_NON_CASH_BALANCE.getCurrentValue()) / 2) {
             log.info("There is a risk of bankruptcy - the current bank funds are less than they should be!");
             riskOfBankruptcyOfTheBank = true;
             return true;
@@ -56,14 +57,18 @@ public class ManagementDepartment implements IStartBalance, Countable, ICurrency
 
     @Override
     public void amountOfFinancialFlows() {
-        System.out.println(BaseClient.getFinancialFlows());
+        log.info(BaseClient.getFinancialFlows());
     }
 
     public static void showCurrentBalanceInDifferentCurrency() {
         log.info("The current balance in dollars is {}",
-                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / DOLLAR_CURRENCY);
-        log.info("The current balance in euro is {}",
-                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / EURO_CURRENCY);
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / Currency.DOLLAR.getCurrentValue());
+        log.info("The current balance in euros is {}",
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / Currency.EURO.getCurrentValue());
+        log.info("The current balance in yens is {}",
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / Currency.YEN.getCurrentValue());
+        log.info("The current balance in pounds is {}",
+                CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() / Currency.POUND.getCurrentValue());
     }
 
     @Override
