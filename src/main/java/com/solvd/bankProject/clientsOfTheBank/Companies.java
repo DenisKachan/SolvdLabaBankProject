@@ -3,7 +3,6 @@ package com.solvd.bankProject.clientsOfTheBank;
 import com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank;
 import com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole;
 import com.solvd.bankProject.exceptions.*;
-import com.solvd.bankProject.interfaces.Reorganizable;
 import com.solvd.bankProject.structureOfTheBank.CreditDepartment;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
@@ -13,7 +12,7 @@ import java.util.Objects;
 
 @Getter
 @Log4j2
-public class Companies extends BaseClient implements Reorganizable {
+public class Companies extends BaseClient {
 
     private int yearOfFoundation;
 
@@ -73,19 +72,5 @@ public class Companies extends BaseClient implements Reorganizable {
         log.info("Try to ask for a credit");
         CreditDepartment creditDepartment = new CreditDepartment();
         creditDepartment.toApproveCredit(this);
-    }
-
-    @Override
-    public ClientsIndividuals reorganizeIntoAnotherForm() throws AccountIdNumberException, YearOfFoundationException,
-            CreditDelaysException, AmountOfMonthlyIncomeException, TotalAccountBalanceException, AgeException {
-        ClientsIndividuals clientsIndividuals = new ClientsIndividuals();
-        clientsIndividuals.setName(this.getName());
-        clientsIndividuals.setAccountIdNumber(this.getAccountIdNumber());
-        clientsIndividuals.setCreditDelays(this.getCreditDelays());
-        clientsIndividuals.setCreditCardData(this.getCreditCard().getIdNumber(), this.getCreditCard().getCreditCardBalance());
-        clientsIndividuals.setAmountOfMonthlyIncome(this.getAmountOfMonthlyIncome());
-        clientsIndividuals.setTotalAccountBalance(this.getTotalAccountBalance());
-        clientsIndividuals.setAge(Year.now().getValue() - this.getYearOfFoundation());
-        return clientsIndividuals;
     }
 }
