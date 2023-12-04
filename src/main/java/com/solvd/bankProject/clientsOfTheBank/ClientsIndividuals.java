@@ -14,7 +14,7 @@ import java.util.Objects;
 
 @Getter
 @Log4j2
-public class ClientsIndividuals extends BaseClient{
+public class ClientsIndividuals extends BaseClient {
 
     private int age;
 

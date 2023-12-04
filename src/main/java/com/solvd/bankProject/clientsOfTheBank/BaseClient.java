@@ -5,7 +5,6 @@ import com.solvd.bankProject.clientsPropertyAndHistory.CreditCard;
 import com.solvd.bankProject.clientsPropertyAndHistory.CreditRequestsHistory;
 import com.solvd.bankProject.clientsPropertyAndHistory.OperationsWithMoneyHistory;
 import com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole;
-import com.solvd.bankProject.customLinkedList.LinkedListForEntities;
 import com.solvd.bankProject.enums.Commission;
 import com.solvd.bankProject.enums.Currency;
 import com.solvd.bankProject.exceptions.AccountIdNumberException;
@@ -20,11 +19,13 @@ import com.solvd.bankProject.structureOfTheBank.ManagementDepartment;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
 
+import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
+import java.util.stream.Stream;
 
 @Log4j2
 public abstract class BaseClient implements Showing {
@@ -44,9 +45,9 @@ public abstract class BaseClient implements Showing {
     @Getter
     private static double financialFlows;
 
-    public LinkedListForEntities<OperationsWithMoneyHistory> clientsOperations = new LinkedListForEntities<>();
+    public LinkedList<OperationsWithMoneyHistory> clientsOperations = new LinkedList<>();
 
-    public LinkedListForEntities<CreditRequestsHistory> creditRequestsHistories = new LinkedListForEntities<>();
+    public LinkedList<CreditRequestsHistory> creditRequestsHistories = new LinkedList<>();
 
 
     @Getter
@@ -55,7 +56,7 @@ public abstract class BaseClient implements Showing {
     Adding<Double> addToListOfOperations = (String nameOfTheOperation, Double amountOfMoney) -> {
         OperationsWithMoneyHistory operationsWithMoneyHistory = new OperationsWithMoneyHistory(nameOfTheOperation,
                 amountOfMoney);
-        clientsOperations.addToTheEndOfTheList(operationsWithMoneyHistory);
+        clientsOperations.add(operationsWithMoneyHistory);
     };
 
     AmountChangeable<Double> increaseBalanceAfterAction = (Double amountOfMoney) -> {
@@ -306,11 +307,21 @@ public abstract class BaseClient implements Showing {
         }
     }
 
-    public void showOperationsHistory() {
-        log.info(clientsOperations);
+    public void findAllOperationsByItsName() {
+        log.info("Enter the name of the operation");
+        String nameOfTheOperation = CreationObjectsFromConsole.scanner.next();
+        Stream<OperationsWithMoneyHistory> operations = clientsOperations
+                .stream()
+                .filter(p -> p.getNameOfTheOperation().equalsIgnoreCase(nameOfTheOperation));
+        clientsOperations.forEach(x -> log.info("The client has done such operation in the amount of {}", x.getAmountOfMoney()));
     }
 
-    public void showCreditRequestsHistory() {
-        log.info(creditRequestsHistories);
+    public void findAStatusOfCreditRequestByItsNumber() {
+        log.info("Enter the ID number of credit request");
+        int number = CreationObjectsFromConsole.scanner.nextInt();
+        Stream<CreditRequestsHistory> creditRequestsHistoryStream = creditRequestsHistories
+                .stream()
+                .filter(p -> p.getSerialNumber() == number);
+        creditRequestsHistoryStream.forEach(x -> log.info("The status for this credit request is {}", x.getStatus()));
     }
 }

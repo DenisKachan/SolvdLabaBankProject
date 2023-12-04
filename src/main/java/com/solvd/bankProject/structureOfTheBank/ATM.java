@@ -17,7 +17,6 @@ public class ATM implements Showing, Countable {
 
     private String address;
     private double currentBalance;
-    @Getter
     private static int amountOfCreatedATMs;
     private double financialFlowsThroughTheATM;
 
@@ -116,9 +115,5 @@ public class ATM implements Showing, Countable {
     @Override
     public void amountOfFinancialFlows() {
         log.info("Total amount of financial flows for this ATM is {}", financialFlowsThroughTheATM);
-    }
-
-    public void showAllATMsOfTheBank() {
-        log.info("The set of ATMs is the following - {}", atms);
     }
 }
