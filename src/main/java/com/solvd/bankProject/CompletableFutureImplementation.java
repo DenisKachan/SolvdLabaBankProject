@@ -13,7 +13,7 @@ public class CompletableFutureImplementation {
     ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
     List<CompletableFuture<Void>> futures = new CopyOnWriteArrayList<>();
 
-    public void limitFutures() {
+    public void runLimitFutures() {
         for (int i = 0; i < maxSize; i++) {
             final int finalI = i;
          CompletableFuture<Void> completableFuture =   CompletableFuture
