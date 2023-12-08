@@ -1,37 +1,79 @@
 package com.solvd.bankProject;
 
-import com.solvd.bankProject.clientsOfTheBank.BaseClient;
-import com.solvd.bankProject.clientsPropertyAndHistory.CreditCard;
 import com.solvd.bankProject.structureOfTheBank.ManagementDepartment;
+import lombok.extern.log4j.Log4j2;
 
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutionException;
 
+@Log4j2
 public class CompletableFutureImplementation {
 
     private int maxSize = 5;
-    ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
-    List<CompletableFuture<Void>> futures = new CopyOnWriteArrayList<>();
 
-    public void runLimitFutures() {
-        for (int i = 0; i < maxSize; i++) {
-            final int finalI = i;
-         CompletableFuture<Void> completableFuture =   CompletableFuture
-                    .supplyAsync(() -> doSomething((ConcurrentHashMap<CreditCard, BaseClient>)
-                            ManagementDepartment.cardClientsIndividuals, finalI))
-                    .thenAccept(str -> map.put(finalI, (String) str));
-            futures.set(i,completableFuture);
+    private static int activeFutures = 0;
+    static List<CompletableFuture<Void>> futures = new CopyOnWriteArrayList<>();
 
-        }
-        CompletableFuture.allOf((CompletableFuture<?>) futures);
+    List<CompletableFuture<Void>> activeFuturesList = new CopyOnWriteArrayList<>();
+
+
+    public synchronized boolean isFull() {
+        return ((futures.isEmpty()) && (activeFutures >= maxSize));
     }
 
-    private String doSomething(ConcurrentHashMap<CreditCard, BaseClient> data, int finalI) {
-        String result = null;
-        for (int i = 0; i < data.size(); i++) {
-        result =  data.get(i).getName();
+    public synchronized CompletableFuture<Void> getFuture() throws ExecutionException, InterruptedException {
+        CompletableFuture<Void> completableFuture = null;
+        if (isFull()) {
+            log.info("Pool is full of threads or there is no any threads");
         }
-        return result;
+        completableFuture = getFutureFromPool();
+        completableFuture = makeAvailable(completableFuture);
+        return completableFuture;
+    }
 
+
+    public synchronized void returnFuture(CompletableFuture<Void> completableFuture) {
+        if (!activeFuturesList.remove(completableFuture)) {
+            log.info("The connection is already returned");
+        }
+        futures.add(completableFuture);
+    }
+
+    private CompletableFuture<Void> createNewFutureForPool() throws ExecutionException, InterruptedException {
+        CompletableFuture<Void> completableFuture = createNewFuture();
+        completableFuture.get();
+        activeFutures++;
+        activeFuturesList.add(completableFuture);
+        return completableFuture;
+    }
+
+    private CompletableFuture<Void> createNewFuture() {
+        CompletableFuture<Void> completableFuture =   CompletableFuture
+                .runAsync(()->{
+                    ManagementDepartment managementDepartment = new ManagementDepartment();
+                    managementDepartment.showBalance();
+                });
+        return completableFuture;
+    }
+
+
+    private CompletableFuture<Void> getFutureFromPool() {
+        CompletableFuture<Void> completableFuture = null;
+        if (!futures.isEmpty()) {
+            completableFuture = futures.get(0);
+            activeFuturesList.add(completableFuture);
+        }
+        return completableFuture;
+    }
+
+    private CompletableFuture<Void> makeAvailable(CompletableFuture<Void> completableFuture) throws ExecutionException, InterruptedException {
+        activeFuturesList.remove(completableFuture);
+        activeFutures--;
+        completableFuture = createNewFutureForPool();
+        activeFuturesList.add(completableFuture);
+        activeFutures++;
+        return completableFuture;
     }
 }

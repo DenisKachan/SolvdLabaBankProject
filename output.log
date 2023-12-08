@@ -113,3 +113,7 @@
 03:58:18.232 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
 03:58:18.232 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
 03:58:18.232 [Thread-3] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+02:21:22.235 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+02:22:09.156 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+02:22:43.695 [ForkJoinPool.commonPool-worker-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+02:22:43.695 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
