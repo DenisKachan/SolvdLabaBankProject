@@ -28,11 +28,11 @@ public class ManagementDepartment implements Showing, Countable {
         riskOfBankruptcyOfTheBank = riskOfBankruptcy;
     }
 
-    public static Map<CreditCard, BaseClient> cardClientsIndividuals = new HashMap<>();
+    public volatile static Map<CreditCard, BaseClient> cardClientsIndividuals = new HashMap<>();
 
-    public static List<Double> collectionServiceCalls = new ArrayList<>();
+    public volatile static List<Double> collectionServiceCalls = new ArrayList<>();
 
-    public static LinkedListForEntities<ClientsIndividuals> clientsIndividualsLinkedListForEntities = new LinkedListForEntities<>();
+    public volatile static LinkedListForEntities<ClientsIndividuals> clientsIndividualsLinkedListForEntities = new LinkedListForEntities<>();
 
 
     public static boolean checkTheRiskOfBankruptcyOfTheBank() {

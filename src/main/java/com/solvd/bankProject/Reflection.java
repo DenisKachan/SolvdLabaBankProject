@@ -50,7 +50,7 @@ public class Reflection {
             log.info("The class has the  following fields {}", fields);
             log.info("The class has the following methods {}", methods);
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
     }
 

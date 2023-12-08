@@ -57,14 +57,16 @@ public class Companies extends BaseClient {
 
     @Override
     public void toTopUpBalance() {
-        log.info("Enter the amount of money to top the balance of the company");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
-        increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
-        addToListOfOperations.addInstance("Top up money", amountOfMoneyForOperation);
-        increaseFinancialFlows.apply(amountOfMoneyForOperation);
-        log.info("Your current balance is {}", totalAccountBalance);
+        synchronized (this) {
+            log.info("Enter the amount of money to top the balance of the company");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
+            increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+            CurrentAccountOfTheBank.getInstance().increaseCurrentNonCashBalance(amountOfMoneyForOperation);
+            addToListOfOperations.addInstance("Top up money", amountOfMoneyForOperation);
+            increaseFinancialFlows.apply(amountOfMoneyForOperation);
+            log.info("Your current balance is {}", totalAccountBalance);
+        }
     }
 
     @Override

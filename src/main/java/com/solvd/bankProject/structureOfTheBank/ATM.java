@@ -16,11 +16,11 @@ import java.util.Set;
 public class ATM implements Showing, Countable {
 
     private String address;
-    private double currentBalance;
-    private static int amountOfCreatedATMs;
-    private double financialFlowsThroughTheATM;
+    private volatile double currentBalance;
+    private volatile static int amountOfCreatedATMs;
+    private volatile double financialFlowsThroughTheATM;
 
-    public static Set<ATM> atms = new HashSet<>();
+    public volatile static Set<ATM> atms = new HashSet<>();
 
 
     public ATM() {

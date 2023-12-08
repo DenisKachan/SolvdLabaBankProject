@@ -1,0 +1,115 @@
+12:22:28.114 [main] INFO  com.solvd.bankProject.Reflection - Enter the full name of the class
+12:23:58.812 [main] INFO  com.solvd.bankProject.Reflection - Enter the full name of the class
+12:24:19.802 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - ATM with default values was created
+12:24:19.802 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - Total amount of ATMs was increased by one
+12:24:19.803 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - The set of ATMs got a new entity
+12:24:19.835 [main] INFO  com.solvd.bankProject.Reflection - A new object was created with the help of reflection - ATM{address='Unknown', currentBalance=0.0, financialFlowsThroughTheATM=0.0}
+12:24:19.835 [main] INFO  com.solvd.bankProject.Reflection - Enter the name of the method you want to invoke
+12:24:30.501 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - Full information about the ATM is the following ATM{address='Unknown', currentBalance=0.0, financialFlowsThroughTheATM=0.0}
+15:06:46.958 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:06:46.960 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:06:46.960 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:06:46.987 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:06:46.988 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:06:46.990 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:12:01.271 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:12:01.273 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:12:01.273 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:12:01.303 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:12:01.303 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:12:01.305 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:13:10.692 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:13:10.694 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:13:10.694 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:13:10.708 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:13:10.708 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:13:10.711 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:13:17.104 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Name got a value of jij
+15:13:17.105 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the ID number of the client
+15:13:18.196 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account ID number got a value of 9
+15:13:18.196 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the balance of the client
+15:13:18.942 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Account balance got a value of 345.0
+15:13:18.943 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - How many credit delays are in the history of the client?
+15:13:19.683 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Number of credit delays got a value of 345
+15:13:19.686 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the amount of monthly income of the client
+15:13:20.515 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Amount of monthly income got a value of 345.0
+15:13:20.516 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the age of the client
+15:13:21.486 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.ClientsIndividuals - Age got a value of 345
+15:13:21.521 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Client got a credit card - CreditCard{ID Number=9, Credit card balance=345.0, Credit card number=4103}
+15:13:21.521 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 172.5
+15:13:21.521 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 172.5
+15:13:21.521 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Confirm the amount of money to withdraw from the balance
+15:13:23.010 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Withdraw cash from bank account in the amount of 546.0
+15:13:23.011 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - This operation can not be performed - not enough money in your account
+15:22:23.487 [main] INFO  com.solvd.bankProject.Reflection - Enter the full name of the class
+15:22:51.702 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - ATM with default values was created
+15:22:51.703 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - Total amount of ATMs was increased by one
+15:22:51.703 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - The set of ATMs got a new entity
+15:22:51.740 [main] INFO  com.solvd.bankProject.Reflection - A new object was created with the help of reflection - ATM{address='Unknown', currentBalance=0.0, financialFlowsThroughTheATM=0.0}
+15:22:51.741 [main] INFO  com.solvd.bankProject.Reflection - Enter the name of the method you want to invoke
+15:22:59.812 [main] INFO  com.solvd.bankProject.structureOfTheBank.ATM - Full information about the ATM is the following ATM{address='Unknown', currentBalance=0.0, financialFlowsThroughTheATM=0.0}
+15:24:25.528 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client with default values was created
+15:24:25.530 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Total amount of clients was increased by one
+15:24:25.530 [Thread-0] INFO  com.solvd.bankProject.clientsOfTheBank.BaseClient - Client got a new credit card
+15:24:25.558 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Non cash balance is increased in 0.0
+15:24:25.559 [Thread-0] INFO  com.solvd.bankProject.bankAccount.CurrentAccountOfTheBank - Cash balance is increased in 0.0
+15:24:25.562 [Thread-0] INFO  com.solvd.bankProject.consoleScanner.CreationObjectsFromConsole - Enter the name of the client
+15:26:16.086 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+16:24:02.927 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:26:11.461 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:28:44.916 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:45:13.396 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - 0.0
+17:45:13.408 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total amount of financial flows of the bank is 0.0
+17:45:13.408 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:45:13.408 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:58:52.095 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+17:59:38.464 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+18:01:48.493 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:04:37.937 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - 0.0
+19:04:37.947 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total amount of financial flows of the bank is 0.0
+19:04:37.947 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:04:37.947 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:06:05.778 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - 0.0
+19:06:05.790 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total amount of financial flows of the bank is 0.0
+19:06:05.790 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:06:05.790 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:06:33.169 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - 0.0
+19:06:33.178 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total amount of financial flows of the bank is 0.0
+19:06:33.178 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:06:33.178 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:07:02.525 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - 0.0
+19:07:02.534 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total amount of financial flows of the bank is 0.0
+19:07:02.534 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+19:07:02.534 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+23:50:56.231 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+23:51:14.845 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:56:49.054 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:56:49.054 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-4] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-3] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-2] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:35.317 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.895 [main] INFO  com.solvd.bankProject.ConnectionPool - Pool is full of threads
+03:57:50.908 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-4] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-6] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-3] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:57:50.908 [Thread-2] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.217 [main] INFO  com.solvd.bankProject.ConnectionPool - Pool is full of threads
+03:58:18.221 [main] INFO  com.solvd.bankProject.ConnectionPool - Pool is full of threads
+03:58:18.222 [main] INFO  com.solvd.bankProject.ConnectionPool - Pool is full of threads
+03:58:18.222 [main] INFO  com.solvd.bankProject.ConnectionPool - Pool is full of threads
+03:58:18.232 [Thread-6] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-9] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-2] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-8] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-5] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.233 [Thread-0] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-4] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-1] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-7] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0
+03:58:18.232 [Thread-3] INFO  com.solvd.bankProject.structureOfTheBank.ManagementDepartment - Total bank balance is 100100.0

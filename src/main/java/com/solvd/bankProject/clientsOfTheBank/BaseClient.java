@@ -35,19 +35,19 @@ public abstract class BaseClient implements Showing {
     @Getter
     protected int accountIdNumber;
     @Getter
-    protected double totalAccountBalance;
+    protected volatile double totalAccountBalance;
     @Getter
     private int creditDelays;
     @Getter
-    private double amountOfMonthlyIncome;
+    private volatile double amountOfMonthlyIncome;
     @Getter
-    private static int amountOfClients;
+    private volatile static int amountOfClients;
     @Getter
-    private static double financialFlows;
+    private volatile static double financialFlows;
 
-    public LinkedList<OperationsWithMoneyHistory> clientsOperations = new LinkedList<>();
+    public volatile LinkedList<OperationsWithMoneyHistory> clientsOperations = new LinkedList<>();
 
-    public LinkedList<CreditRequestsHistory> creditRequestsHistories = new LinkedList<>();
+    public volatile LinkedList<CreditRequestsHistory> creditRequestsHistories = new LinkedList<>();
 
 
     @Getter
@@ -173,137 +173,149 @@ public abstract class BaseClient implements Showing {
     }
 
     public void withdrawCash() {
-        log.info("Confirm the amount of money to withdraw from the balance");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Withdraw cash from bank account in the amount of {}", amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance();
-        if (amountOfMoneyForOperation <= CurrentAccountOfTheBank.getInstance().getCurrentCashBalance()
-                && isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
-            decreaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+        synchronized (this) {
+            log.info("Confirm the amount of money to withdraw from the balance");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Withdraw cash from bank account in the amount of {}", amountOfMoneyForOperation);
             CurrentAccountOfTheBank.getInstance();
-            CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoneyForOperation);
-            increaseFinancialFlows.apply(amountOfMoneyForOperation);
-            addToListOfOperations.addInstance("Withdraw cash", amountOfMoneyForOperation);
-            log.info("Your current balance is {}", totalAccountBalance);
-        } else {
-            if (amountOfMoneyForOperation > totalAccountBalance) {
-                log.info("This operation can not be performed - not enough money in your account");
+            if (amountOfMoneyForOperation <= CurrentAccountOfTheBank.getInstance().getCurrentCashBalance()
+                    && isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
+                decreaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+                CurrentAccountOfTheBank.getInstance();
+                CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoneyForOperation);
+                increaseFinancialFlows.apply(amountOfMoneyForOperation);
+                addToListOfOperations.addInstance("Withdraw cash", amountOfMoneyForOperation);
+                log.info("Your current balance is {}", totalAccountBalance);
             } else {
-                log.info("This operation can not be performed");
+                if (amountOfMoneyForOperation > totalAccountBalance) {
+                    log.info("This operation can not be performed - not enough money in your account");
+                } else {
+                    log.info("This operation can not be performed");
+                }
             }
         }
     }
 
     public void withdrawCash(ATM atm) throws TotalAccountBalanceException {
-        log.info("Enter the amount of money to withdraw from the balance in the ATM");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Try to withdraw cash from the ATM");
-        if (atm.checkTheAbilityToWithdrawMoney(amountOfMoneyForOperation)) {
-            withdrawCash();
-            atm.setCurrentBalance(atm.getCurrentBalance() - amountOfMoneyForOperation);
-            increaseFinancialFlows.apply(amountOfMoneyForOperation);
-        } else {
-            log.info("This operation can not be performed, please wait for the collection service");
-            atm.callTheCollectionService(amountOfMoneyForOperation);
+        synchronized (this) {
+            log.info("Enter the amount of money to withdraw from the balance in the ATM");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Try to withdraw cash from the ATM");
+            if (atm.checkTheAbilityToWithdrawMoney(amountOfMoneyForOperation)) {
+                withdrawCash();
+                atm.setCurrentBalance(atm.getCurrentBalance() - amountOfMoneyForOperation);
+                increaseFinancialFlows.apply(amountOfMoneyForOperation);
+            } else {
+                log.info("This operation can not be performed, please wait for the collection service");
+                atm.callTheCollectionService(amountOfMoneyForOperation);
+            }
         }
     }
 
     public void transferMoney(BaseClient newClient) throws TotalAccountBalanceException {
-        log.info("Enter the amount of money to transfer to the other client of the bank");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Transfer money in the amount of {} to the {}", amountOfMoneyForOperation, newClient);
-        if (isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
-            decreaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
-            newClient.setTotalAccountBalance(newClient.getTotalAccountBalance() + amountOfMoneyForOperation);
-            increaseFinancialFlows.apply(amountOfMoneyForOperation);
-            addToListOfOperations.addInstance("Transfer money to the other client of the bank", amountOfMoneyForOperation);
-            log.info("Successful! Your current balance is {}", totalAccountBalance);
-        } else {
-            log.info("This operation can not be performed");
-        }
-    }
-
-    public void transferMoney() {
-        log.info("Enter the amount of money to transfer to the client of the other bank");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Transfer money in the amount of {} with the commission}", amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance();
-        Commission commissionFee;
-        if (this.getClass().equals(ClientsIndividuals.class)) {
-            commissionFee = Commission.COMMISSION_FOR_CLIENTS_INDIVIDUALS;
-        } else {
-            commissionFee = Commission.COMMISSION_FOR_COMPANIES;
-        }
-        if (amountOfMoneyForOperation <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()
-                && isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
-            totalAccountBalance = totalAccountBalance - amountOfMoneyForOperation * (1 + commissionFee.getAmountOfCommission());
-            CurrentAccountOfTheBank.getInstance();
-            CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(amountOfMoneyForOperation
-                    * (1 - commissionFee.getAmountOfCommission()));
-            log.info("Your current balance is {}", totalAccountBalance);
-            getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance() - amountOfMoneyForOperation);
-            increaseFinancialFlows.apply(amountOfMoneyForOperation);
-            addToListOfOperations.addInstance("Transfer money to the client of the other bank", amountOfMoneyForOperation);
-        } else {
-            if (amountOfMoneyForOperation > totalAccountBalance) {
-                log.info("This operation can not be performed - not enough money in your account");
+        synchronized (this) {
+            log.info("Enter the amount of money to transfer to the other client of the bank");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Transfer money in the amount of {} to the {}", amountOfMoneyForOperation, newClient);
+            if (isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
+                decreaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+                newClient.setTotalAccountBalance(newClient.getTotalAccountBalance() + amountOfMoneyForOperation);
+                increaseFinancialFlows.apply(amountOfMoneyForOperation);
+                addToListOfOperations.addInstance("Transfer money to the other client of the bank", amountOfMoneyForOperation);
+                log.info("Successful! Your current balance is {}", totalAccountBalance);
             } else {
                 log.info("This operation can not be performed");
             }
         }
     }
 
+    public void transferMoney() {
+        synchronized (this) {
+            log.info("Enter the amount of money to transfer to the client of the other bank");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Transfer money in the amount of {} with the commission}", amountOfMoneyForOperation);
+            CurrentAccountOfTheBank.getInstance();
+            Commission commissionFee;
+            if (this.getClass().equals(ClientsIndividuals.class)) {
+                commissionFee = Commission.COMMISSION_FOR_CLIENTS_INDIVIDUALS;
+            } else {
+                commissionFee = Commission.COMMISSION_FOR_COMPANIES;
+            }
+            if (amountOfMoneyForOperation <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()
+                    && isEnoughMoneyOnAccount.test(amountOfMoneyForOperation)) {
+                totalAccountBalance = totalAccountBalance - amountOfMoneyForOperation * (1 + commissionFee.getAmountOfCommission());
+                CurrentAccountOfTheBank.getInstance();
+                CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(amountOfMoneyForOperation
+                        * (1 - commissionFee.getAmountOfCommission()));
+                log.info("Your current balance is {}", totalAccountBalance);
+                getCreditCard().setCreditCardBalance(getCreditCard().getCreditCardBalance() - amountOfMoneyForOperation);
+                increaseFinancialFlows.apply(amountOfMoneyForOperation);
+                addToListOfOperations.addInstance("Transfer money to the client of the other bank", amountOfMoneyForOperation);
+            } else {
+                if (amountOfMoneyForOperation > totalAccountBalance) {
+                    log.info("This operation can not be performed - not enough money in your account");
+                } else {
+                    log.info("This operation can not be performed");
+                }
+            }
+        }
+    }
+
     public void toTopUpBalanceThroughATM(ATM atm) throws TotalAccountBalanceException {
-        log.info("Enter the amount of money to top up through ATM");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Top up the balance of the client in the amount of {} through the ATM - {}",
-                amountOfMoneyForOperation, atm);
-        increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance();
-        CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
-        atm.setCurrentBalance(atm.getCurrentBalance() + amountOfMoneyForOperation);
-        increaseFinancialFlows.apply(amountOfMoneyForOperation);
-        addToListOfOperations.addInstance("Top up money through the ATM", amountOfMoneyForOperation);
-        log.info("Your current balance is {}", totalAccountBalance);
+        synchronized (this) {
+            log.info("Enter the amount of money to top up through ATM");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Top up the balance of the client in the amount of {} through the ATM - {}",
+                    amountOfMoneyForOperation, atm);
+            increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+            CurrentAccountOfTheBank.getInstance();
+            CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
+            atm.setCurrentBalance(atm.getCurrentBalance() + amountOfMoneyForOperation);
+            increaseFinancialFlows.apply(amountOfMoneyForOperation);
+            addToListOfOperations.addInstance("Top up money through the ATM", amountOfMoneyForOperation);
+            log.info("Your current balance is {}", totalAccountBalance);
+        }
     }
 
     public void exchangeMoney() {
-        log.info("Enter the amount of rubles you want to exchange");
-        double amountOfMoney = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Enter the name of the currency you want to get");
-        String currency = CreationObjectsFromConsole.scanner.next();
-        Currency wantedCurrency = Currency.valueOf(currency.toUpperCase(Locale.ROOT));
-        log.info("Try to exchange {} rubles to the {}", amountOfMoney, currency);
-        double foreignCurrency;
-        if (isEnoughMoneyOnAccount.test(amountOfMoney)) {
-            switch (wantedCurrency) {
-                case EURO -> {
-                    foreignCurrency = divide.apply(amountOfMoney, Currency.EURO.getCurrentValue());
-                    log.info("You will get {} euro", foreignCurrency);
-                    decreaseBalanceAfterAction.changeAmount(amountOfMoney);
-                    CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
+        synchronized (this) {
+            log.info("Enter the amount of rubles you want to exchange");
+            double amountOfMoney = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Enter the name of the currency you want to get");
+            String currency = CreationObjectsFromConsole.scanner.next();
+            Currency wantedCurrency = Currency.valueOf(currency.toUpperCase(Locale.ROOT));
+            log.info("Try to exchange {} rubles to the {}", amountOfMoney, currency);
+            double foreignCurrency;
+            if (isEnoughMoneyOnAccount.test(amountOfMoney)) {
+                switch (wantedCurrency) {
+                    case EURO -> {
+                        foreignCurrency = divide.apply(amountOfMoney, Currency.EURO.getCurrentValue());
+                        log.info("You will get {} euro", foreignCurrency);
+                        decreaseBalanceAfterAction.changeAmount(amountOfMoney);
+                        CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
+                    }
+                    case DOLLAR -> {
+                        foreignCurrency = divide.apply(amountOfMoney, Currency.DOLLAR.getCurrentValue());
+                        log.info("You will get {} dollars", foreignCurrency);
+                        decreaseBalanceAfterAction.changeAmount(amountOfMoney);
+                        CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
+                    }
+                    case YEN -> {
+                        foreignCurrency = divide.apply(amountOfMoney, Currency.YEN.getCurrentValue());
+                        log.info("You will get {} yens", foreignCurrency);
+                        decreaseBalanceAfterAction.changeAmount(amountOfMoney);
+                        CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
+                    }
+                    case POUND -> {
+                        foreignCurrency = divide.apply(amountOfMoney, Currency.POUND.getCurrentValue());
+                        log.info("You will get {} pounds", foreignCurrency);
+                        decreaseBalanceAfterAction.changeAmount(amountOfMoney);
+                        CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
+                    }
                 }
-                case DOLLAR -> {
-                    foreignCurrency = divide.apply(amountOfMoney, Currency.DOLLAR.getCurrentValue());
-                    log.info("You will get {} dollars", foreignCurrency);
-                    decreaseBalanceAfterAction.changeAmount(amountOfMoney);
-                    CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
-                }
-                case YEN -> {
-                    foreignCurrency = divide.apply(amountOfMoney, Currency.YEN.getCurrentValue());
-                    log.info("You will get {} yens", foreignCurrency);
-                    decreaseBalanceAfterAction.changeAmount(amountOfMoney);
-                    CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
-                }
-                case POUND -> {
-                    foreignCurrency = divide.apply(amountOfMoney, Currency.POUND.getCurrentValue());
-                    log.info("You will get {} pounds", foreignCurrency);
-                    decreaseBalanceAfterAction.changeAmount(amountOfMoney);
-                    CurrentAccountOfTheBank.getInstance().decreaseCurrentCashBalance(amountOfMoney);
-                }
+            } else {
+                log.info("You have no so much money in your account");
             }
-        } else {
-            log.info("You have no so much money in your account");
         }
     }
 

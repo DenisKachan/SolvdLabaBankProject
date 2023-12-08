@@ -9,7 +9,7 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class CollectionService {
 
-    private double amountOfTheTransportedCash;
+    private volatile double amountOfTheTransportedCash;
 
     public CollectionService(double amountOfTheTransportedCash) {
         this.amountOfTheTransportedCash = amountOfTheTransportedCash;
@@ -23,22 +23,24 @@ public class CollectionService {
     }
 
     public double convertMoney(double neededAmountOfMoney) {
-        log.info("The collection service is trying to convert non cash into cash");
-        if (neededAmountOfMoney <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()) {
-            CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(neededAmountOfMoney);
-            if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() == 0) {
-                try {
-                    throw new LackOfNonCashAfterConvertingException("The amount of non cash is critically low");
-                } catch (LackOfNonCashAfterConvertingException e) {
-                    log.error(e.getMessage());
+        synchronized (this) {
+            log.info("The collection service is trying to convert non cash into cash");
+            if (neededAmountOfMoney <= CurrentAccountOfTheBank.getInstance().getCurrentNonCashBalance()) {
+                CurrentAccountOfTheBank.getInstance().decreaseCurrentNonCashBalance(neededAmountOfMoney);
+                if (CurrentAccountOfTheBank.getInstance().getCurrentBankBalance() == 0) {
+                    try {
+                        throw new LackOfNonCashAfterConvertingException("The amount of non cash is critically low");
+                    } catch (LackOfNonCashAfterConvertingException e) {
+                        log.error(e.getMessage());
+                    }
                 }
+                CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(neededAmountOfMoney);
+                amountOfTheTransportedCash = neededAmountOfMoney;
+                log.info("The balance of the ATM will be increased soon. Try again!");
+            } else {
+                log.info("The amount of money is to large to withdraw");
             }
-            CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(neededAmountOfMoney);
-            amountOfTheTransportedCash = neededAmountOfMoney;
-            log.info("The balance of the ATM will be increased soon. Try again!");
-        } else {
-            log.info("The amount of money is to large to withdraw");
+            return 0;
         }
-        return 0;
     }
 }
