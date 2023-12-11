@@ -13,6 +13,7 @@ import com.solvd.bankProject.interfaces.Showing;
 import lombok.extern.log4j.Log4j2;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 @Log4j2
 public class ManagementDepartment implements Showing, Countable {
@@ -27,11 +28,11 @@ public class ManagementDepartment implements Showing, Countable {
         riskOfBankruptcyOfTheBank = riskOfBankruptcy;
     }
 
-    public static Map<CreditCard, BaseClient> cardClientsIndividuals = new HashMap<>();
+    public volatile static Map<CreditCard, BaseClient> cardClientsIndividuals = new HashMap<>();
 
-    public static List<Double> collectionServiceCalls = new ArrayList<>();
+    public volatile static List<Double> collectionServiceCalls = new ArrayList<>();
 
-    public static LinkedListForEntities<ClientsIndividuals> clientsIndividualsLinkedListForEntities = new LinkedListForEntities<>();
+    public volatile static LinkedListForEntities<ClientsIndividuals> clientsIndividualsLinkedListForEntities = new LinkedListForEntities<>();
 
 
     public static boolean checkTheRiskOfBankruptcyOfTheBank() {
@@ -84,23 +85,28 @@ public class ManagementDepartment implements Showing, Countable {
     public void findAHolderOfACard() {
         log.info("Enter the Credit card number");
         int cardNumber = CreationObjectsFromConsole.scanner.nextInt();
-        for (Map.Entry<CreditCard, BaseClient> entry : cardClientsIndividuals.entrySet()) {
-            CreditCard key = entry.getKey();
-            BaseClient value = entry.getValue();
-            if (key.getCreditCardNumber() == cardNumber) {
-                log.info("The holder of the card is - {}", value);
-                break;
-            } else {
-                log.info("There is no client with this card number");
-            }
-        }
+        Set<Map.Entry<CreditCard, BaseClient>> entries = cardClientsIndividuals.entrySet();
+        Stream<Map.Entry<CreditCard, BaseClient>> entriesStream = entries.stream();
+        entriesStream.filter(s -> cardNumber == s.getKey().getCreditCardNumber())
+                .forEach(s -> log.info("Credit card with such number belongs to the following client {}", s.getValue()));
     }
 
     public void showAverageAmountOfTransportedCash() {
-        double a = 0;
-        for (Double collectionServiceCall : collectionServiceCalls) {
-            a += collectionServiceCall;
-        }
-        log.info("Average amount of transported cash is - {}", a / collectionServiceCalls.size());
+        double averageAmount = collectionServiceCalls
+                .stream()
+                .mapToDouble(a -> a)
+                .average()
+                .getAsDouble();
+        log.info("Average amount of transported cash is {}", averageAmount);
+    }
+
+    public void showBalanceOfATMByItsAddress() {
+        log.info("Enter the address of the ATM");
+        String address = CreationObjectsFromConsole.scanner.next();
+        Stream<ATM> balance = ATM.atms
+                .stream()
+                .filter(p -> p.getAddress().equalsIgnoreCase(address));
+        balance.forEach(x -> log.info(x.getCurrentBalance()));
     }
 }
+

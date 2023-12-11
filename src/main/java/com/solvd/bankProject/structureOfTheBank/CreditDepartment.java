@@ -18,7 +18,8 @@ public class CreditDepartment {
     Adding<BaseClient> addToTheCreditHistory = (String result, BaseClient baseClient) -> {
         CreditRequestsHistory creditRequestsHistory = new CreditRequestsHistory();
         creditRequestsHistory.setStatus(result);
-        baseClient.creditRequestsHistories.addToTheEndOfTheList(creditRequestsHistory);
+        baseClient.creditRequestsHistories.add(creditRequestsHistory);
+        log.info("The id number of credit request is {}", creditRequestsHistory.getSerialNumber());
     };
 
 

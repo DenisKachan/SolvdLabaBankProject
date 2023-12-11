@@ -7,8 +7,8 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public final class CurrentAccountOfTheBank {
 
-    private static double currentCashBalance;
-    private static double currentNonCashBalance;
+    private volatile static double currentCashBalance;
+    private volatile static double currentNonCashBalance;
 
     private CurrentAccountOfTheBank(double cash, double nonCash) {
         currentCashBalance = cash;
@@ -20,9 +20,9 @@ public final class CurrentAccountOfTheBank {
         currentNonCashBalance = StartBalance.START_NON_CASH_BALANCE.getCurrentValue();
     }
 
-    private static CurrentAccountOfTheBank instance;
+    private volatile static CurrentAccountOfTheBank instance;
 
-    public static CurrentAccountOfTheBank getInstance() {
+    public synchronized static CurrentAccountOfTheBank getInstance() {
         if (instance == null) {
             instance = new CurrentAccountOfTheBank(currentCashBalance, currentNonCashBalance);
         }

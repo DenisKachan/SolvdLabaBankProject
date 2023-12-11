@@ -9,7 +9,7 @@ public class OperationsWithMoneyHistory {
 
     private String nameOfTheOperation;
 
-    private double amountOfMoney;
+    private volatile double amountOfMoney;
 
     public OperationsWithMoneyHistory(String nameOfTheOperation, double amountOfMoney) {
         this.nameOfTheOperation = nameOfTheOperation;

@@ -16,12 +16,11 @@ import java.util.Set;
 public class ATM implements Showing, Countable {
 
     private String address;
-    private double currentBalance;
-    @Getter
-    private static int amountOfCreatedATMs;
-    private double financialFlowsThroughTheATM;
+    private volatile double currentBalance;
+    private volatile static int amountOfCreatedATMs;
+    private volatile double financialFlowsThroughTheATM;
 
-    public static Set<ATM> atms = new HashSet<>();
+    public volatile static Set<ATM> atms = new HashSet<>();
 
 
     public ATM() {
@@ -116,9 +115,5 @@ public class ATM implements Showing, Countable {
     @Override
     public void amountOfFinancialFlows() {
         log.info("Total amount of financial flows for this ATM is {}", financialFlowsThroughTheATM);
-    }
-
-    public void showAllATMsOfTheBank() {
-        log.info("The set of ATMs is the following - {}", atms);
     }
 }

@@ -14,7 +14,7 @@ import java.util.Objects;
 
 @Getter
 @Log4j2
-public class ClientsIndividuals extends BaseClient{
+public class ClientsIndividuals extends BaseClient {
 
     private int age;
 
@@ -78,14 +78,16 @@ public class ClientsIndividuals extends BaseClient{
 
     @Override
     public void toTopUpBalance() {
-        log.info("Enter the amount of money to top up the balance");
-        double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
-        log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
-        increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
-        CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
-        addToListOfOperations.addInstance("Top up balance", amountOfMoneyForOperation);
-        increaseFinancialFlows.apply(amountOfMoneyForOperation);
-        log.info("Your current balance is {}", totalAccountBalance);
+        synchronized (this) {
+            log.info("Enter the amount of money to top up the balance");
+            double amountOfMoneyForOperation = CreationObjectsFromConsole.scanner.nextDouble();
+            log.info("Try to top up balance in the amount of {}", amountOfMoneyForOperation);
+            increaseBalanceAfterAction.changeAmount(amountOfMoneyForOperation);
+            CurrentAccountOfTheBank.getInstance().increaseCurrentCashBalance(amountOfMoneyForOperation);
+            addToListOfOperations.addInstance("Top up balance", amountOfMoneyForOperation);
+            increaseFinancialFlows.apply(amountOfMoneyForOperation);
+            log.info("Your current balance is {}", totalAccountBalance);
+        }
     }
 
     @Override

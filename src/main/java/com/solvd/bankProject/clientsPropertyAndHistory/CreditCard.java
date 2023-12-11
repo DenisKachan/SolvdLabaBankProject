@@ -10,7 +10,7 @@ public class CreditCard {
 
     private int idNumber;
 
-    private double creditCardBalance;
+    private volatile double creditCardBalance;
 
     private int creditCardNumber;
 
